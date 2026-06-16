@@ -18,7 +18,7 @@
 		{"id":"7ae54054e1c471c5","type":"text","text":"Kerberoastable","x":1174,"y":75,"width":163,"height":50},
 		{"id":"97db7864e46b2c19","type":"text","text":"Password Policy","x":1174,"y":215,"width":175,"height":50},
 		{"id":"f9bad5f2c913d0c3","type":"text","text":"LDIF Output","x":651,"y":34,"width":156,"height":50},
-		{"id":"903e2e146645142b","type":"text","text":"LDAP","x":146,"y":25,"width":103,"height":50},
+		{"id":"903e2e146645142b","type":"text","text":"[[LDAP]]","x":146,"y":25,"width":103,"height":50},
 		{"id":"fcee8c0198f16833","type":"text","text":"**ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA**","x":-600,"y":-9,"width":250,"height":110,"color":"4"},
 		{"id":"8d84f8af8e0bfbb3","type":"text","text":"Linux","x":-920,"y":21,"width":100,"height":50,"color":"2"},
 		{"id":"368c8df9e308204d","type":"text","text":"Login Password","x":57,"y":320,"width":163,"height":50},

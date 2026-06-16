@@ -4,24 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8e2ef29bb1e31001",
+        "id": "c9282e7a295dcf30",
         "type": "tabs",
         "children": [
           {
-            "id": "e22397a1809387ed",
+            "id": "b946a0831cea7281",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
-                "viewState": {
-                  "x": 60.25254039485042,
-                  "y": -13.392706614587365,
-                  "zoom": -0.5687147242551049
-                }
+                "file": "SMB.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA"
+              "icon": "lucide-file",
+              "title": "SMB"
             }
           }
         ]
@@ -97,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
+                "file": "Null Session.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA"
+              "title": "Backlinks for Null Session"
             }
           },
           {
@@ -116,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
+                "file": "Null Session.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA"
+              "title": "Outgoing links from Null Session"
             }
           },
           {
@@ -159,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
+                "file": "Null Session.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA"
+              "title": "Outline of Null Session"
             }
           }
         ]
@@ -183,26 +180,24 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-git:Open Git source control": false
+      "bases:Create new base": false
     }
   },
-  "active": "e22397a1809387ed",
+  "active": "b946a0831cea7281",
   "lastOpenFiles": [
     "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
+    "LDAP.md",
     "Windows.md",
-    "Linux.md",
     "WinRM.md",
     "Port Scanning.md",
-    "README.md",
-    "Authenticated Session.md",
-    "SMB.md",
-    "LDAP.md",
+    "OSCP.md",
     "Null Session.md",
+    "Authenticated Session.md",
+    "Linux.md",
+    "README.md",
+    "SMB.md",
     "Bismillahhirrahmanirrahim.canvas",
     "HTTP.md",
-    "OSCP.md",
     "Technique",
     "Untitled 1.canvas",
     "Directory.md",
