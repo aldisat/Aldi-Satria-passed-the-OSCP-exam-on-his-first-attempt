@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SMB.md",
+                "file": "Hash.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SMB"
+              "title": "Hash"
             }
           }
         ]
@@ -94,9 +94,9 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Null Session.md",
-                "collapseAll": false,
-                "extraContext": false,
+                "file": "Hash.md",
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Null Session"
+              "title": "Backlinks for Hash"
             }
           },
           {
@@ -156,21 +156,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Null Session.md",
+                "file": "Hash.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Null Session"
+              "title": "Outline of Hash"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,17 +185,26 @@
   },
   "active": "b946a0831cea7281",
   "lastOpenFiles": [
-    "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
+    "Kerberos.md",
     "LDAP.md",
-    "Windows.md",
-    "WinRM.md",
-    "Port Scanning.md",
-    "OSCP.md",
-    "Null Session.md",
+    "Kerberoastable.md",
+    "Attachments/Pasted image 20260616133752.png",
+    "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
     "Authenticated Session.md",
+    "Hash.md",
+    "Attachments/Pasted image 20260616133245.png",
+    "Attachments/Pasted image 20260616130343.png",
+    "Null Session.md",
+    "OSCP.md",
+    "SMB.md",
+    "Port Scanning.md",
+    "Windows.md",
+    "Attachments/Pasted image 20260616092929.png",
+    "Attachments",
+    "Attachments/Pasted image 20260616094624.png",
+    "WinRM.md",
     "Linux.md",
     "README.md",
-    "SMB.md",
     "Bismillahhirrahmanirrahim.canvas",
     "HTTP.md",
     "Technique",
