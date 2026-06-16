@@ -15,9 +15,9 @@
               "state": {
                 "file": "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
                 "viewState": {
-                  "x": 1779.0790547879772,
-                  "y": 371.2613389887695,
-                  "zoom": -0.5110467975923971
+                  "x": 1366.7018533025046,
+                  "y": 451.3957110368709,
+                  "zoom": -0.7382929841050254
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -190,9 +190,12 @@
   "lastOpenFiles": [
     "Kerberos.md",
     "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
-    "Hash.md",
     "LDAP.md",
+    "Attachments/Pasted image 20260616204625.png",
+    "NTP.md",
+    "Attachments/Pasted image 20260616184912.png",
     "Kerberoastable.md",
+    "Hash.md",
     "Attachments/Pasted image 20260616133752.png",
     "Authenticated Session.md",
     "Attachments/Pasted image 20260616133245.png",
