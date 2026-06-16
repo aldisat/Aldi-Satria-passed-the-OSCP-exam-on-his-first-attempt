@@ -1,0 +1,3 @@
+ [[Null Session]]
+ [[Authenticated Session]]
+ 
