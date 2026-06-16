@@ -11,7 +11,7 @@ hashid -m
 hashcat --identify
 ```
 
-
+## Kerberoast Hash
 ![](Pasted%20image%2020260616094624.png)
 
 | Angka | Nama                 | Algoritma | Hashcat Mode |

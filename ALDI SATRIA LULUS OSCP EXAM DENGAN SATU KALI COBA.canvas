@@ -13,9 +13,7 @@
 		{"id":"4118ff135a822cea","type":"text","text":"Policy","x":744,"y":-392,"width":125,"height":55},
 		{"id":"d86472e9f9efc321","type":"text","text":"Group.XML","x":1074,"y":-202,"width":250,"height":60},
 		{"id":"8f8559426b88e5e6","type":"text","text":"AS-REP Roastable","x":1410,"y":5,"width":180,"height":50},
-		{"id":"c6a18176ad7dc75a","type":"text","text":"Password in description File","x":1410,"y":145,"width":242,"height":50},
 		{"id":"7ae54054e1c471c5","type":"text","text":"[[Kerberoastable]]","x":1410,"y":75,"width":163,"height":50},
-		{"id":"97db7864e46b2c19","type":"text","text":"Password Policy","x":1410,"y":215,"width":175,"height":50},
 		{"id":"f9bad5f2c913d0c3","type":"text","text":"LDIF Output","x":929,"y":34,"width":156,"height":50},
 		{"id":"fcee8c0198f16833","type":"text","text":"**ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA**","x":-700,"y":0,"width":250,"height":110,"color":"4"},
 		{"id":"8d84f8af8e0bfbb3","type":"text","text":"Linux","x":-1020,"y":30,"width":100,"height":50,"color":"2"},
@@ -44,7 +42,10 @@
 		{"id":"bd8c8b965d7d0ee5","type":"text","text":"try another hash","x":3240,"y":0,"width":200,"height":50},
 		{"id":"6d820babe3527b42","type":"text","text":"FAIL","x":3300,"y":-90,"width":80,"height":50,"color":"1"},
 		{"id":"b47d670ae4d93cbe","type":"text","text":"FAIL","x":3220,"y":215,"width":80,"height":50,"color":"1"},
-		{"id":"4abbd8afa998b5f9","type":"text","text":"Kerberoasting","x":570,"y":440,"width":174,"height":60}
+		{"id":"4abbd8afa998b5f9","type":"text","text":"[Kerberoasting Attack](Kerberos.md#Kerberoasting%20Attack)","x":570,"y":440,"width":174,"height":60},
+		{"id":"97db7864e46b2c19","type":"text","text":"Password Policy","x":1415,"y":-172,"width":175,"height":50},
+		{"id":"c6a18176ad7dc75a","type":"text","text":"Password in description File","x":1415,"y":-84,"width":242,"height":50},
+		{"id":"23e3dd7a1093db64","x":1402,"y":154,"width":171,"height":60,"type":"text","text":"pre2k attack"}
 	],
 	"edges":[
 		{"id":"174f7b4134ebae35","fromNode":"fcee8c0198f16833","fromSide":"left","toNode":"8d84f8af8e0bfbb3","toSide":"right"},
@@ -98,6 +99,7 @@
 		{"id":"e3964a878f56b4a5","fromNode":"17593f702ce932d6","fromSide":"right","toNode":"168e91b5e1ef7e98","toSide":"top"},
 		{"id":"6dcead6ba5b7355f","fromNode":"bd8c8b965d7d0ee5","fromSide":"bottom","toNode":"168e91b5e1ef7e98","toSide":"top"},
 		{"id":"2d7f6ae2c5ade7ea","fromNode":"bc32f510b6f44449","fromSide":"right","toNode":"4abbd8afa998b5f9","toSide":"left"},
-		{"id":"7140e96e4ebfbc3c","fromNode":"b47d670ae4d93cbe","fromSide":"left","toNode":"4abbd8afa998b5f9","toSide":"top"}
+		{"id":"7140e96e4ebfbc3c","fromNode":"b47d670ae4d93cbe","fromSide":"left","toNode":"4abbd8afa998b5f9","toSide":"top"},
+		{"id":"cd13158daccfd945","fromNode":"f9bad5f2c913d0c3","fromSide":"right","toNode":"23e3dd7a1093db64","toSide":"left"}
 	]
 }
