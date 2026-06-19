@@ -1,7 +1,7 @@
 # Identify
 ## Online
 - [Hash Type Identifier - Identify unknown hashes](https://hashes.com/en/tools/hash_identifier) 
-![](Pasted%20image%2020260616130343.png)
+![](Attachments/Pasted%20image%2020260616130343.png)
 - [example_hashes [hashcat wiki]](https://hashcat.net/wiki/doku.php?id=example_hashes) 
 
 ## Tools
@@ -12,7 +12,7 @@ hashcat --identify
 ```
 
 ## Kerberoast Hash
-![](Pasted%20image%2020260616094624.png)
+![](Attachments/Pasted%20image%2020260616094624.png)
 
 | Angka | Nama                 | Algoritma | Hashcat Mode |
 | ----- | -------------------- | --------- | ------------ |
@@ -28,4 +28,4 @@ hashcat -m 13100 kerberoasting_a.white_adm.txt /usr/share/wordlists/rockyou.txt 
 ```
 ## Cracks successed
 ## Cracks Failed
-![](Pasted%20image%2020260616133245.png)
+![](Attachments/Pasted%20image%2020260616133245.png)
