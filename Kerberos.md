@@ -12,7 +12,7 @@ export TGT
 export KRB5CCNAME=MS01\$.ccache 
 ```
 ## klist
-get TGT and validation with klist
+get TGT and validation with klist 
 ![](Attachments/Pasted%20image%2020260616204625.png)
 # Kerberoasting Attack
 ```shell
