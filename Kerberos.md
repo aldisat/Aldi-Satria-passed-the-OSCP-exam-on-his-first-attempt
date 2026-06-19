@@ -20,4 +20,4 @@ mpacket-GetUserSPNs pirate.htb/'pentest':'p3nt3st2025!&' -dc-ip 10.129.244.95 -r
 ```
 ![](Pasted%20image%2020260616133752.png)
 
-![](Pasted%20image%2020260619104608.png)
+![](Attachments/Pasted%20image%2020260619104837.png)

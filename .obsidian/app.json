@@ -3,5 +3,6 @@
   "alwaysUpdateLinks": true,
   "spellcheck": false,
   "useMarkdownLinks": true,
-  "attachmentFolderPath": "Attachments"
+  "attachmentFolderPath": "Attachments",
+  "newLinkFormat": "absolute"
 }
