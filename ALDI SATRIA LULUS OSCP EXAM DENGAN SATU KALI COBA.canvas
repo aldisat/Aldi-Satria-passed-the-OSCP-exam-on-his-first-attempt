@@ -50,11 +50,11 @@
 		{"id":"368c8df9e308204d","type":"text","text":"Login Password","x":86,"y":902,"width":163,"height":50},
 		{"id":"e791b28672c7c227","type":"file","file":"WinRM.md","x":-123,"y":770,"width":178,"height":97,"color":"3"},
 		{"id":"58ee5958f600e35a","type":"text","text":"Ada credential?","x":520,"y":416,"width":177,"height":50},
-		{"id":"1d4299a7b8a0b35e","x":773,"y":360,"width":119,"height":56,"color":"1","type":"text","text":"tidak ada"},
-		{"id":"b079722aa3639978","x":773,"y":445,"width":81,"height":50,"type":"text","text":"ada"},
-		{"id":"b3e53e13b8d86e4a","x":983,"y":369,"width":157,"height":50,"type":"text","text":"AS-REP Roasting Attack"},
+		{"id":"1d4299a7b8a0b35e","type":"text","text":"tidak ada","x":773,"y":360,"width":119,"height":56,"color":"1"},
+		{"id":"b079722aa3639978","type":"text","text":"ada","x":773,"y":445,"width":81,"height":50},
+		{"id":"b3e53e13b8d86e4a","type":"text","text":"AS-REP Roasting Attack","x":983,"y":369,"width":157,"height":50},
 		{"id":"4abbd8afa998b5f9","type":"text","text":"[Kerberoasting Attack](Kerberos.md#Kerberoasting%20Attack)","x":983,"y":489,"width":174,"height":50},
-		{"id":"4341b7e90a9bf136","x":1157,"y":1280,"width":317,"height":240,"type":"file","file":"Bloodhound.md"}
+		{"id":"4341b7e90a9bf136","type":"file","file":"Bloodhound.md","x":1157,"y":1280,"width":317,"height":240,"color":"3"}
 	],
 	"edges":[
 		{"id":"174f7b4134ebae35","fromNode":"fcee8c0198f16833","fromSide":"left","toNode":"8d84f8af8e0bfbb3","toSide":"right"},

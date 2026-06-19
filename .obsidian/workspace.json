@@ -11,17 +11,14 @@
             "id": "b946a0831cea7281",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
-                "viewState": {
-                  "x": 1874.6475537302456,
-                  "y": 536.9366333343029,
-                  "zoom": -2.0021215950550633
-                }
+                "file": "Kerberos.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA"
+              "icon": "lucide-file",
+              "title": "Kerberos"
             }
           }
         ]
@@ -97,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bloodhound.md",
+                "file": "Kerberos.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -107,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Bloodhound"
+              "title": "Backlinks for Kerberos"
             }
           },
           {
@@ -116,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Null Session.md",
+                "file": "Kerberos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Null Session"
+              "title": "Outgoing links from Kerberos"
             }
           },
           {
@@ -159,22 +156,31 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bloodhound.md",
+                "file": "Kerberos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Bloodhound"
+              "title": "Outline of Kerberos"
+            }
+          },
+          {
+            "id": "99540ed7024d5c66",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,16 +190,21 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b946a0831cea7281",
+  "active": "c7501ffb8c883037",
   "lastOpenFiles": [
-    "Bloodhound.md",
-    "Kerberos.md",
-    "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
     "WinRM.md",
+    "Kerberos.md",
+    "Attachments/Pasted image 20260619104204.png",
+    "Hash.md",
+    "Bloodhound.md",
+    "Attachments/Pasted image 20260619104108.png",
+    "Attachments/Pasted image 20260619104049.png",
     "LDAP.md",
+    "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
     "Attachments/Pasted image 20260618192519.png",
     "Attachments/Pasted image 20260618190850.png",
     "Attachments/Pasted image 20260617205211.png",
@@ -202,17 +213,13 @@
     "NTP.md",
     "Attachments/Pasted image 20260616184912.png",
     "Kerberoastable.md",
-    "Hash.md",
     "Attachments/Pasted image 20260616133752.png",
     "Authenticated Session.md",
-    "Attachments/Pasted image 20260616133245.png",
-    "Attachments/Pasted image 20260616130343.png",
     "Null Session.md",
     "OSCP.md",
     "SMB.md",
     "Port Scanning.md",
     "Windows.md",
-    "Attachments/Pasted image 20260616092929.png",
     "Attachments",
     "Linux.md",
     "README.md",
