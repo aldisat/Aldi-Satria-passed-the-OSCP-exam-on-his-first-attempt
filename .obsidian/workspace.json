@@ -15,16 +15,48 @@
               "state": {
                 "file": "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
                 "viewState": {
-                  "x": 2488.1242571086177,
-                  "y": -197.17965071218487,
-                  "zoom": -1.4193493342445105
+                  "x": 843.8120690637255,
+                  "y": 761.0620925274621,
+                  "zoom": -1.0082959898770583
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA"
+            }
+          },
+          {
+            "id": "62d42b2567f5eef6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Windows Shell.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Windows Shell"
+            }
+          },
+          {
+            "id": "b36f69653281f2f3",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
+                "viewState": {
+                  "x": 1754.7596441486348,
+                  "y": 107.03190883192516,
+                  "zoom": -1.064527435163653
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -197,27 +229,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b946a0831cea7281",
+  "active": "b36f69653281f2f3",
   "lastOpenFiles": [
-    "Bloodhound.md",
-    "LDAP.md",
-    "Attachments/Pasted image 20260622134301.png",
-    "Attachments/Pasted image 20260622145414.png",
-    "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
-    "Kerberos.md",
-    "Kerberoastable.md",
-    "OSCP.md",
-    "Port Scanning.md",
-    "SMB.md",
-    "Windows.md",
     "Windows Shell.md",
-    "WinRM.md",
     "Hackthebox.md",
+    "Attachments/Pasted image 20260622145414.png",
+    "Attachments/Pasted image 20260622134301.png",
+    "WinRM.md",
+    "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
+    "LDAP.md",
+    "Kerberos.md",
     "Attachments/Pasted image 20260621170242.png",
     "Attachments/Pasted image 20260618192519.png",
     "Attachments/Pasted image 20260621170150.png",
     "Language.md",
+    "Port Scanning.md",
+    "SMB.md",
+    "Bloodhound.md",
     "Hash.md",
+    "Windows.md",
+    "OSCP.md",
     "NTP.md",
     "Linux.md",
     "HTTP.md",
@@ -226,6 +257,7 @@
     "Attachments/Pasted image 20260619104108.png",
     "Attachments/Pasted image 20260619104204.png",
     "Attachments/Pasted image 20260619104049.png",
+    "Kerberoastable.md",
     "Authenticated Session.md",
     "Null Session.md",
     "Attachments",

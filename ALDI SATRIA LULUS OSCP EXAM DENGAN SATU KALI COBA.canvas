@@ -60,12 +60,13 @@
 		{"id":"4341b7e90a9bf136","type":"file","file":"Bloodhound.md","x":1438,"y":-680,"width":304,"height":270,"color":"3"},
 		{"id":"2faa6c913a97099d","type":"text","text":"```shell\nsudo nmap -n -sV --script 'ldap* and not brute' 10.10.11.42 -o nmap_ldap.txt\n```","x":1453,"y":-340,"width":529,"height":103},
 		{"id":"56f0be7321afe820","type":"text","text":"```shell\nsudo vim /etc/hosts\n```","x":2061,"y":-323,"width":375,"height":70},
-		{"id":"a5d38a6f565ef19b","type":"text","text":"nxc ldap bloodhound","x":2140,"y":-580,"width":202,"height":50},
-		{"id":"821cc8a727e8fec4","type":"text","text":"bloodhound-python","x":2171,"y":-690,"width":129,"height":50},
-		{"id":"38dc81dada4f76aa","type":"text","text":"bloodyad","x":2171,"y":-490,"width":138,"height":52},
-		{"id":"9b27f0029d6dd64b","type":"text","text":"Bllodhound CE","x":2442,"y":-585,"width":148,"height":55},
-		{"id":"1947d8f6f216fa44","type":"text","text":"[Colect data](Bloodhound.md#Colect%20data)","x":1811,"y":-570,"width":133,"height":50},
-		{"id":"9b7a88522c3fd0c6","x":2636,"y":-587,"width":250,"height":60,"type":"text","text":"mark owned all user u've got"}
+		{"id":"a5d38a6f565ef19b","type":"text","text":"nxc ldap bloodhound","x":2120,"y":-680,"width":202,"height":50},
+		{"id":"821cc8a727e8fec4","type":"text","text":"bloodhound-python","x":2157,"y":-770,"width":129,"height":50},
+		{"id":"38dc81dada4f76aa","type":"text","text":"bloodyad","x":2152,"y":-590,"width":138,"height":52},
+		{"id":"9b27f0029d6dd64b","type":"text","text":"Bllodhound CE","x":2442,"y":-616,"width":148,"height":55},
+		{"id":"1947d8f6f216fa44","type":"text","text":"[Colect data](Bloodhound.md#Colect%20data)","x":1811,"y":-614,"width":133,"height":50},
+		{"id":"9b7a88522c3fd0c6","type":"text","text":"mark owned all user u've got","x":2636,"y":-619,"width":250,"height":60},
+		{"id":"768a71c622f035de","x":1826,"y":-475,"width":250,"height":60,"type":"text","text":"bloodyAD"}
 	],
 	"edges":[
 		{"id":"174f7b4134ebae35","fromNode":"fcee8c0198f16833","fromSide":"left","toNode":"8d84f8af8e0bfbb3","toSide":"right"},
@@ -143,6 +144,7 @@
 		{"id":"fa802e738fdd100f","fromNode":"1947d8f6f216fa44","fromSide":"right","toNode":"38dc81dada4f76aa","toSide":"left"},
 		{"id":"4144e7007b6ea0d9","fromNode":"38dc81dada4f76aa","fromSide":"right","toNode":"9b27f0029d6dd64b","toSide":"left"},
 		{"id":"8af0207034e0cab0","fromNode":"4341b7e90a9bf136","fromSide":"right","toNode":"1947d8f6f216fa44","toSide":"left"},
-		{"id":"bd0bae989817f371","fromNode":"9b27f0029d6dd64b","fromSide":"right","toNode":"9b7a88522c3fd0c6","toSide":"left"}
+		{"id":"bd0bae989817f371","fromNode":"9b27f0029d6dd64b","fromSide":"right","toNode":"9b7a88522c3fd0c6","toSide":"left"},
+		{"id":"9192e5ccd81e9b99","fromNode":"4341b7e90a9bf136","fromSide":"right","toNode":"768a71c622f035de","toSide":"left"}
 	]
 }
