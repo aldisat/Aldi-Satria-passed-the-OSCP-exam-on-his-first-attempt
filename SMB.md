@@ -20,6 +20,9 @@ cari sensitif file yang extensionnnya .config atau exe, cari terbuat dari apa la
 
 kalau SYSVOL dan NETLOGON pada SMB, dipastikan mesin tersebut adalah Domain Controller, cek share itu dulu.
 ```shell
+# Otomatis semua share
+nxc smb 10.129.9.129 -u 'alex.turner' -p 'Checkpoint2024!' -M spider_plus
+
 #untuk null session
 smbclient //10.129.244.81/<share> -N
 
