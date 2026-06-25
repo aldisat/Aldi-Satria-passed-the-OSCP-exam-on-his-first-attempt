@@ -34,6 +34,12 @@ net user
 net localgroup administrator
 ```
 ![](Attachments/Pasted%20image%2020260625054311.png)
+
+# Pivoting
+## Ligolo-ng
+## Chisel
+
+
 # Schedule Task
 ```powershell
 # Versi CMD  

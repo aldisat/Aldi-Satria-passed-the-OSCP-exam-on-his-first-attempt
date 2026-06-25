@@ -80,8 +80,12 @@
 		{"id":"eea0f9facd7374d4","type":"text","text":"Who run it?","x":1886,"y":998,"width":160,"height":50},
 		{"id":"26cce4aa86283c5b","type":"text","text":"What's running?","x":1885,"y":1103,"width":161,"height":60},
 		{"id":"12b5e2713e70f48c","type":"text","text":"enum saya?","x":1280,"y":1200,"width":141,"height":50},
-		{"id":"736609445e0cfedf","x":1507,"y":1146,"width":250,"height":60,"type":"text","text":"siapa saya"},
-		{"id":"76de597e3cd9dbe1","x":1518,"y":1246,"width":250,"height":60,"type":"text","text":"dimana saya?"}
+		{"id":"736609445e0cfedf","type":"text","text":"siapa saya","x":1507,"y":1146,"width":250,"height":60},
+		{"id":"76de597e3cd9dbe1","type":"text","text":"dimana saya?","x":1518,"y":1246,"width":250,"height":60},
+		{"id":"b90c42450bae1ead","x":1490,"y":1331,"width":250,"height":60,"type":"text","text":"siapa saja usernya?"},
+		{"id":"cef80b9177176a4b","x":1841,"y":1245,"width":125,"height":61,"type":"text","text":"pivoting"},
+		{"id":"d3c14aa0f1ff003f","x":2045,"y":1216,"width":250,"height":60,"type":"text","text":"ligolo-ng"},
+		{"id":"e20571149c7b4483","x":2047,"y":1298,"width":250,"height":60,"type":"text","text":"chishell"}
 	],
 	"edges":[
 		{"id":"174f7b4134ebae35","fromNode":"fcee8c0198f16833","fromSide":"left","toNode":"8d84f8af8e0bfbb3","toSide":"right"},
@@ -176,6 +180,10 @@
 		{"id":"64f67f283e50ac73","fromNode":"b06159f02c881998","fromSide":"right","toNode":"ecc350359a72982b","toSide":"left"},
 		{"id":"85e953c367c30417","fromNode":"b06159f02c881998","fromSide":"right","toNode":"5ad34a5ea0cc25c8","toSide":"left"},
 		{"id":"0171200c2353a63a","fromNode":"12b5e2713e70f48c","fromSide":"right","toNode":"736609445e0cfedf","toSide":"left"},
-		{"id":"691ff76a4ac0c82b","fromNode":"12b5e2713e70f48c","fromSide":"right","toNode":"76de597e3cd9dbe1","toSide":"left"}
+		{"id":"691ff76a4ac0c82b","fromNode":"12b5e2713e70f48c","fromSide":"right","toNode":"76de597e3cd9dbe1","toSide":"left"},
+		{"id":"c5b874a7ccd97436","fromNode":"12b5e2713e70f48c","fromSide":"right","toNode":"b90c42450bae1ead","toSide":"left"},
+		{"id":"bab8359efc02d4b0","fromNode":"76de597e3cd9dbe1","fromSide":"right","toNode":"cef80b9177176a4b","toSide":"left"},
+		{"id":"6742d50cc5af7222","fromNode":"cef80b9177176a4b","fromSide":"right","toNode":"d3c14aa0f1ff003f","toSide":"left"},
+		{"id":"730a8e3cfe6a2f74","fromNode":"cef80b9177176a4b","fromSide":"right","toNode":"e20571149c7b4483","toSide":"left"}
 	]
 }

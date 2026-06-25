@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kerberos.md",
+                "file": "Windows Shell.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Kerberos"
+              "title": "Backlinks for Windows Shell"
             }
           },
           {
@@ -145,12 +145,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kerberos.md",
+                "file": "Windows Shell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Kerberos"
+              "title": "Outgoing links from Windows Shell"
             }
           },
           {
@@ -188,13 +188,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kerberos.md",
+                "file": "Windows Shell.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Kerberos"
+              "title": "Outline of Windows Shell"
             }
           },
           {
@@ -208,7 +208,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -226,12 +226,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b36f69653281f2f3",
+  "active": "2afd73fe7adf0873",
   "lastOpenFiles": [
-    "Attachments/Pasted image 20260625094620.png",
-    "Attachments/Pasted image 20260625054311.png",
     "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
     "Windows Shell.md",
+    "Attachments/Pasted image 20260625094620.png",
+    "Attachments/Pasted image 20260625054311.png",
     "Attachments/Pasted image 20260625053943.png",
     "Attachments/Pasted image 20260625053212.png",
     "Kerberos.md",
@@ -245,7 +245,6 @@
     "Attachments/Pasted image 20260622145414.png",
     "Attachments/Pasted image 20260622134301.png",
     "LDAP.md",
-    "Attachments/Pasted image 20260621170242.png",
     "Language.md",
     "Port Scanning.md",
     "SMB.md",
