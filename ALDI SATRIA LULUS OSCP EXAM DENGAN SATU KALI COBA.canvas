@@ -48,12 +48,7 @@
 		{"id":"90d434f1181ea4ad","type":"file","file":"Windows Shell.md","x":639,"y":852,"width":268,"height":50,"color":"3"},
 		{"id":"2eef12d7b6609e15","type":"text","text":"List Computers","x":1422,"y":-13,"width":162,"height":50},
 		{"id":"7ed039cdde993868","type":"text","text":" extract [TGT](Kerberos.md#TGT) ","x":1870,"y":250,"width":148,"height":50},
-		{"id":"12b5e2713e70f48c","type":"text","text":"ipconfig","x":1290,"y":1200,"width":110,"height":53},
 		{"id":"9ecca47b8d76633a","type":"text","text":"Search another directory\n- Document","x":1290,"y":1037,"width":220,"height":76},
-		{"id":"cb64906f3e8c8d4c","type":"text","text":"Schedule Task","x":1638,"y":1075,"width":169,"height":55},
-		{"id":"26cce4aa86283c5b","type":"text","text":"What's running?","x":1937,"y":1162,"width":161,"height":60},
-		{"id":"eea0f9facd7374d4","type":"text","text":"Who run it?","x":1938,"y":1088,"width":160,"height":50},
-		{"id":"b95cc63b65f72db8","type":"text","text":"cari user.txt di directory lain","x":1306,"y":928,"width":250,"height":60},
 		{"id":"4341b7e90a9bf136","type":"file","file":"Bloodhound.md","x":1438,"y":-680,"width":304,"height":270,"color":"3"},
 		{"id":"a5d38a6f565ef19b","type":"text","text":"nxc ldap bloodhound","x":2140,"y":-580,"width":202,"height":50},
 		{"id":"821cc8a727e8fec4","type":"text","text":"bloodhound-python","x":2171,"y":-690,"width":129,"height":50},
@@ -79,7 +74,14 @@
 		{"id":"cf694215bbfa372e","type":"text","text":"Test Login","x":1422,"y":-1268,"width":140,"height":50},
 		{"id":"ecc350359a72982b","type":"text","text":"READ","x":760,"y":-1171,"width":154,"height":50},
 		{"id":"b06159f02c881998","type":"text","text":"Explore","x":542,"y":-976,"width":98,"height":50},
-		{"id":"5ad34a5ea0cc25c8","type":"text","text":"READ, WRITE\n\nVS Code extensions share for approved .vsix packages compatible with VS Code engine 1.118.0","x":740,"y":-934,"width":280,"height":174,"color":"1"}
+		{"id":"5ad34a5ea0cc25c8","type":"text","text":"READ, WRITE\n\nVS Code extensions share for approved .vsix packages compatible with VS Code engine 1.118.0","x":740,"y":-934,"width":280,"height":174,"color":"1"},
+		{"id":"b95cc63b65f72db8","type":"text","text":"cari user.txt manual","x":1289,"y":938,"width":197,"height":50},
+		{"id":"cb64906f3e8c8d4c","type":"text","text":"Schedule Task","x":1600,"y":1048,"width":169,"height":55},
+		{"id":"eea0f9facd7374d4","type":"text","text":"Who run it?","x":1886,"y":998,"width":160,"height":50},
+		{"id":"26cce4aa86283c5b","type":"text","text":"What's running?","x":1885,"y":1103,"width":161,"height":60},
+		{"id":"12b5e2713e70f48c","type":"text","text":"enum saya?","x":1280,"y":1200,"width":141,"height":50},
+		{"id":"736609445e0cfedf","x":1507,"y":1146,"width":250,"height":60,"type":"text","text":"siapa saya"},
+		{"id":"76de597e3cd9dbe1","x":1518,"y":1246,"width":250,"height":60,"type":"text","text":"dimana saya?"}
 	],
 	"edges":[
 		{"id":"174f7b4134ebae35","fromNode":"fcee8c0198f16833","fromSide":"left","toNode":"8d84f8af8e0bfbb3","toSide":"right"},
@@ -145,7 +147,6 @@
 		{"id":"1a61e140dc7d3719","fromNode":"90d434f1181ea4ad","fromSide":"right","toNode":"22962363b5b9e96d","toSide":"left"},
 		{"id":"f9901e36d1f14511","fromNode":"f9bad5f2c913d0c3","fromSide":"right","toNode":"2eef12d7b6609e15","toSide":"left"},
 		{"id":"b7ff3124f5b4c138","fromNode":"22962363b5b9e96d","fromSide":"right","toNode":"12b5e2713e70f48c","toSide":"left"},
-		{"id":"467acf8e83fdbfa1","fromNode":"22962363b5b9e96d","fromSide":"right","toNode":"b95cc63b65f72db8","toSide":"left"},
 		{"id":"e5cff4dddcbf1fac","fromNode":"f9bad5f2c913d0c3","fromSide":"right","toNode":"2faa6c913a97099d","toSide":"left"},
 		{"id":"49d06f81cdaa03e5","fromNode":"2faa6c913a97099d","fromSide":"right","toNode":"56f0be7321afe820","toSide":"left"},
 		{"id":"761a34aed7f697ba","fromNode":"1947d8f6f216fa44","fromSide":"right","toNode":"821cc8a727e8fec4","toSide":"left"},
@@ -155,6 +156,7 @@
 		{"id":"fa802e738fdd100f","fromNode":"1947d8f6f216fa44","fromSide":"right","toNode":"38dc81dada4f76aa","toSide":"left"},
 		{"id":"4144e7007b6ea0d9","fromNode":"38dc81dada4f76aa","fromSide":"right","toNode":"9b27f0029d6dd64b","toSide":"left"},
 		{"id":"8af0207034e0cab0","fromNode":"4341b7e90a9bf136","fromSide":"right","toNode":"1947d8f6f216fa44","toSide":"left"},
+		{"id":"467acf8e83fdbfa1","fromNode":"22962363b5b9e96d","fromSide":"right","toNode":"b95cc63b65f72db8","toSide":"left"},
 		{"id":"7d28644d5cbc662f","fromNode":"9b27f0029d6dd64b","fromSide":"right","toNode":"a73007cc38ae71bd","toSide":"left"},
 		{"id":"4988d4dc7ca61c99","fromNode":"9b27f0029d6dd64b","fromSide":"right","toNode":"cb369c7cc3b10cf2","toSide":"left"},
 		{"id":"c3795e2c1e2d04ba","fromNode":"cb369c7cc3b10cf2","fromSide":"right","toNode":"3a2261164f85bfb1","toSide":"left"},
@@ -172,6 +174,8 @@
 		{"id":"b44df18d34a8834a","fromNode":"5cc8ed15e49b14e0","fromSide":"right","toNode":"b06159f02c881998","toSide":"left"},
 		{"id":"bed9f623aacdcd48","fromNode":"d4f594804f377e75","fromSide":"right","toNode":"b06159f02c881998","toSide":"left"},
 		{"id":"64f67f283e50ac73","fromNode":"b06159f02c881998","fromSide":"right","toNode":"ecc350359a72982b","toSide":"left"},
-		{"id":"85e953c367c30417","fromNode":"b06159f02c881998","fromSide":"right","toNode":"5ad34a5ea0cc25c8","toSide":"left"}
+		{"id":"85e953c367c30417","fromNode":"b06159f02c881998","fromSide":"right","toNode":"5ad34a5ea0cc25c8","toSide":"left"},
+		{"id":"0171200c2353a63a","fromNode":"12b5e2713e70f48c","fromSide":"right","toNode":"736609445e0cfedf","toSide":"left"},
+		{"id":"691ff76a4ac0c82b","fromNode":"12b5e2713e70f48c","fromSide":"right","toNode":"76de597e3cd9dbe1","toSide":"left"}
 	]
 }
