@@ -37,6 +37,9 @@ net localgroup administrator
 
 # Pivoting
 ## Ligolo-ng
+download ligolo agent
+[Releases · nicocha30/ligolo-ng](https://github.com/nicocha30/ligolo-ng/releases) 
+
 ## Chisel
 
 
