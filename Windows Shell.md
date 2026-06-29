@@ -11,10 +11,14 @@ dir C:\Users\ /s /b 2>nul | findstr /i "user.txt\|local.txt\|proof.txt"
 ### siapa saya?
 ```powershell
 whoami
-whoami /priv
+whoami /priv #dahulukan ini
 whoami /group
+systeminfo
 ```
 ![](Attachments/Pasted%20image%2020260625053212.png)
+
+cek windows version use `systeminfo` command
+![](Attachments/Pasted%20image%2020260629103715.png)
 ### dimana saya?
 ```powershell
 hostname #cek komputer apa

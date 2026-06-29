@@ -1,4 +1,4 @@
-
+SMB itu seperti **"Google Drive versi LAN"** — kamu bisa akses file di komputer lain seolah-olah ada di lokal.
 
 # Null Session
 ```shell

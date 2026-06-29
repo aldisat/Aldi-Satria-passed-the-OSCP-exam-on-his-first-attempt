@@ -73,14 +73,17 @@
             "id": "42f36cd23e0734df",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Shell.md",
-                "mode": "source",
-                "source": false
+                "file": "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
+                "viewState": {
+                  "x": 2130.3080113016495,
+                  "y": 1327.7708133041197,
+                  "zoom": -1.051183016621572
+                }
               },
-              "icon": "lucide-file",
-              "title": "Shell"
+              "icon": "lucide-layout-dashboard",
+              "title": "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA"
             }
           }
         ],
@@ -219,13 +222,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Shell.md",
+                "file": "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Shell"
+              "title": "Outline of ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA"
             }
           },
           {
@@ -239,7 +242,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -257,13 +260,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "42f36cd23e0734df",
+  "active": "99540ed7024d5c66",
   "lastOpenFiles": [
-    "SMB.md",
+    "Windows Priviledge Escalation.md",
     "Windows Shell.md",
-    "Malicious Vsix Files.md",
-    "Shell.md",
     "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
+    "WinRM.md",
+    "Attachments/Pasted image 20260629103715.png",
+    "SMB.md",
+    "Backdoor Shell.md",
+    "Attachments/Pasted image 20260629092222.png",
+    "Malicious Vsix Files.md",
     "bloodyAD.md",
     "Attachments/Pasted image 20260625094620.png",
     "Attachments/Pasted image 20260625054311.png",
@@ -274,10 +281,7 @@
     "Attachments/Pasted image 20260623103908.png",
     "Attachments/Pasted image 20260623102521.png",
     "Attachments/Pasted image 20260623102457.png",
-    "WinRM.md",
     "Hackthebox.md",
-    "Attachments/Pasted image 20260622145414.png",
-    "Attachments/Pasted image 20260622134301.png",
     "LDAP.md",
     "Language.md",
     "Port Scanning.md",
