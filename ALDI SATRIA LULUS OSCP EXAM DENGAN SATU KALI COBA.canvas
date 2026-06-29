@@ -1,12 +1,9 @@
 {
 	"nodes":[
-		{"id":"8b52f583d1ee41f0","type":"text","text":"Sensitive File","x":1264,"y":-1126,"width":157,"height":50},
 		{"id":"5cc8ed15e49b14e0","type":"text","text":"[Null Session](SMB.md#Null%20Session)","x":480,"y":-1000,"width":160,"height":50},
-		{"id":"95e910e1097e2883","type":"text","text":"GetTmpl.inf","x":1594,"y":-1165,"width":140,"height":50},
 		{"id":"8d60b79e637eda62","type":"text","text":"[Authenticated Session](LDAP.md#Authenticated%20Session)","x":600,"y":86,"width":215,"height":50},
 		{"id":"8272b09eeb5320a0","type":"text","text":"[Null Session](LDAP.md#Null%20Session)\n","x":600,"y":-59,"width":148,"height":50},
 		{"id":"4118ff135a822cea","type":"text","text":"Policy","x":1264,"y":-1192,"width":125,"height":55},
-		{"id":"d86472e9f9efc321","type":"text","text":"Group.XML","x":1594,"y":-1082,"width":140,"height":50},
 		{"id":"8f8559426b88e5e6","type":"text","text":"AS-REP Roastable","x":1400,"y":80,"width":180,"height":50},
 		{"id":"7ae54054e1c471c5","type":"text","text":"[Kerberoasting](LDAP.md#Kerberoasting)","x":1400,"y":150,"width":163,"height":50},
 		{"id":"f9bad5f2c913d0c3","type":"text","text":"LDIF Output","x":929,"y":34,"width":156,"height":50},
@@ -91,8 +88,11 @@
 		{"id":"cb64906f3e8c8d4c","type":"text","text":"Schedule Task","x":1690,"y":945,"width":169,"height":55},
 		{"id":"26cce4aa86283c5b","type":"text","text":"What's running?","x":2009,"y":1000,"width":161,"height":60},
 		{"id":"eea0f9facd7374d4","type":"text","text":"Who run it?","x":2010,"y":895,"width":160,"height":50},
-		{"id":"4670e964acce3a6e","x":2007,"y":1257,"width":250,"height":60,"type":"text","text":"Server 2025 Build 26100"},
-		{"id":"6655bcc4e385681c","x":2316,"y":1257,"width":250,"height":60,"type":"text","text":"BadSucessor Attack\n"}
+		{"id":"4670e964acce3a6e","type":"text","text":"Server 2025 Build 26100","x":2007,"y":1257,"width":250,"height":60},
+		{"id":"6655bcc4e385681c","type":"text","text":"BadSucessor Attack\n","x":2316,"y":1257,"width":204,"height":58,"color":"4"},
+		{"id":"8b52f583d1ee41f0","type":"text","text":"Sensitive File","x":1264,"y":-1107,"width":157,"height":50},
+		{"id":"d86472e9f9efc321","type":"text","text":"Group.XML","x":1594,"y":-1063,"width":140,"height":50},
+		{"id":"95e910e1097e2883","type":"text","text":"GetTmpl.inf","x":1594,"y":-1146,"width":140,"height":50}
 	],
 	"edges":[
 		{"id":"174f7b4134ebae35","fromNode":"fcee8c0198f16833","fromSide":"left","toNode":"8d84f8af8e0bfbb3","toSide":"right"},
@@ -106,7 +106,6 @@
 		{"id":"e4d02c438d92d14c","fromNode":"ecc350359a72982b","fromSide":"right","toNode":"8b52f583d1ee41f0","toSide":"left"},
 		{"id":"098ce54f9364e4b8","fromNode":"8b52f583d1ee41f0","fromSide":"right","toNode":"95e910e1097e2883","toSide":"left"},
 		{"id":"79732c309baaea65","fromNode":"8d60b79e637eda62","fromSide":"right","toNode":"f9bad5f2c913d0c3","toSide":"left"},
-		{"id":"17775eb64e966b7b","fromNode":"8b52f583d1ee41f0","fromSide":"right","toNode":"d86472e9f9efc321","toSide":"left"},
 		{"id":"2930fd186ddd016a","fromNode":"8272b09eeb5320a0","fromSide":"right","toNode":"f9bad5f2c913d0c3","toSide":"left"},
 		{"id":"c8caa3f44bd68e2a","fromNode":"7ae54054e1c471c5","fromSide":"right","toNode":"12da0caffb0a317f","toSide":"left"},
 		{"id":"e36dccc95c186f16","fromNode":"22962363b5b9e96d","fromSide":"right","toNode":"9ecca47b8d76633a","toSide":"left"},
@@ -201,6 +200,7 @@
 		{"id":"d4714e53ef0de6eb","fromNode":"736609445e0cfedf","fromSide":"right","toNode":"ba9db084544ef3fa","toSide":"left"},
 		{"id":"735730530cd6453f","fromNode":"736609445e0cfedf","fromSide":"right","toNode":"ea2bf26f3381c530","toSide":"left"},
 		{"id":"742420a5772f829e","fromNode":"ba9db084544ef3fa","fromSide":"right","toNode":"4670e964acce3a6e","toSide":"left"},
-		{"id":"a67ee22d887d6fd0","fromNode":"4670e964acce3a6e","fromSide":"right","toNode":"6655bcc4e385681c","toSide":"left"}
+		{"id":"a67ee22d887d6fd0","fromNode":"4670e964acce3a6e","fromSide":"right","toNode":"6655bcc4e385681c","toSide":"left"},
+		{"id":"17775eb64e966b7b","fromNode":"8b52f583d1ee41f0","fromSide":"right","toNode":"d86472e9f9efc321","toSide":"left"}
 	]
 }

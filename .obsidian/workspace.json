@@ -77,9 +77,9 @@
               "state": {
                 "file": "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
                 "viewState": {
-                  "x": 2130.3080113016495,
-                  "y": 1327.7708133041197,
-                  "zoom": -1.051183016621572
+                  "x": 2409.081308747043,
+                  "y": 1246.23295292123,
+                  "zoom": -1.295300402465962
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -260,11 +260,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "99540ed7024d5c66",
+  "active": "42f36cd23e0734df",
   "lastOpenFiles": [
     "Windows Priviledge Escalation.md",
-    "Windows Shell.md",
     "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
+    "Windows Shell.md",
     "WinRM.md",
     "Attachments/Pasted image 20260629103715.png",
     "SMB.md",
