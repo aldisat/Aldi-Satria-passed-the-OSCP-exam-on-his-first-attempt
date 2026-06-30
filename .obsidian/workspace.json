@@ -11,14 +11,12 @@
             "id": "42f36cd23e0734df",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Windows Priviledge Escalation.md",
-                "mode": "source",
-                "source": false
+                "file": "Attachments/Pasted image 20260630152826.png"
               },
-              "icon": "lucide-file",
-              "title": "Windows Priviledge Escalation"
+              "icon": "lucide-image",
+              "title": "Pasted image 20260630152826"
             }
           }
         ]
@@ -156,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows Priviledge Escalation.md",
+                "file": "Attachments/Pasted image 20260630152826.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Windows Priviledge Escalation"
+              "title": "Outline of Pasted image 20260630152826"
             }
           },
           {
@@ -198,6 +196,7 @@
   "active": "42f36cd23e0734df",
   "lastOpenFiles": [
     "Attachments/Pasted image 20260630160131.png",
+    "Windows Priviledge Escalation.md",
     "Attachments/Pasted image 20260630154008.png",
     "Attachments/Pasted image 20260630152826.png",
     "Attachments/Pasted image 20260630144806.png",
@@ -207,7 +206,6 @@
     "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
     "Windows Shell.md",
     "Windows.md",
-    "Windows Priviledge Escalation.md",
     "Attachments/Pasted image 20260630104602.png",
     "Attachments/Pasted image 20260630104010.png",
     "bloodyAD.md",
@@ -215,7 +213,6 @@
     "Attachments/Pasted image 20260629103715.png",
     "SMB.md",
     "Backdoor Shell.md",
-    "Attachments/Pasted image 20260629092222.png",
     "Malicious Vsix Files.md",
     "Kerberos.md",
     "Hackthebox.md",
