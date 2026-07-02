@@ -1,3 +1,4 @@
+https://medium.com/@zeroDaykt/mastering-oscp-in-2025-26-the-updated-exam-my-fails-wins-how-you-can-do-it-c44534bfcf54 
 # Recording
 ```shell
 # Start
