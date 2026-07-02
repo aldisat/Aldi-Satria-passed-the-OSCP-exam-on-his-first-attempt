@@ -105,7 +105,9 @@
 		{"id":"d226cd8f5d8a097a","type":"text","text":"kalu filenya besar","x":1469,"y":-1380,"width":183,"height":50,"color":"1"},
 		{"id":"d99b6036ad46b9ce","type":"text","text":"`VMBackups`","x":2486,"y":1839,"width":154,"height":59},
 		{"id":"b870c0a0edbe945f","type":"text","text":"cek `.vmem`\ncek `.vmsn`","x":2726,"y":1839,"width":154,"height":59},
-		{"id":"acd1b6089427ebda","x":2960,"y":1807,"width":260,"height":123,"type":"text","text":"upload ke windows shell dan dump pake `volatility3`\n\natau `vmkatz`"}
+		{"id":"acd1b6089427ebda","type":"text","text":"upload ke windows shell dan dump pake `volatility3` -> ternyata kalau pake ini windowsnya harus connect internet\n\natau `vmkatz` -> windowsnya tidak perlu connect internet","x":2960,"y":1784,"width":300,"height":169},
+		{"id":"3341386072b39c71","x":3401,"y":1839,"width":119,"height":58,"color":"4","type":"text","text":"Nt Hash"},
+		{"id":"6f59f5992a6eb635","x":3640,"y":1826,"width":228,"height":85,"color":"4","type":"text","text":"cari user.txt atau root.txt di semua user desktop"}
 	],
 	"edges":[
 		{"id":"174f7b4134ebae35","fromNode":"fcee8c0198f16833","fromSide":"left","toNode":"8d84f8af8e0bfbb3","toSide":"right"},
@@ -230,6 +232,8 @@
 		{"id":"9de172c0533be53c","fromNode":"d226cd8f5d8a097a","fromSide":"right","toNode":"acd1b6089427ebda","toSide":"top","color":"3"},
 		{"id":"58cd6f9b42de6e68","fromNode":"14735d13f3ee89dd","fromSide":"right","toNode":"d99b6036ad46b9ce","toSide":"left"},
 		{"id":"4f0e4c406433b731","fromNode":"d99b6036ad46b9ce","fromSide":"right","toNode":"b870c0a0edbe945f","toSide":"left"},
-		{"id":"7e3e50507d7fcfee","fromNode":"b870c0a0edbe945f","fromSide":"right","toNode":"acd1b6089427ebda","toSide":"left"}
+		{"id":"7e3e50507d7fcfee","fromNode":"b870c0a0edbe945f","fromSide":"right","toNode":"acd1b6089427ebda","toSide":"left"},
+		{"id":"8a4855e9e8b0e864","fromNode":"acd1b6089427ebda","fromSide":"right","toNode":"3341386072b39c71","toSide":"left"},
+		{"id":"fc08ad63388aa5b7","fromNode":"3341386072b39c71","fromSide":"right","toNode":"6f59f5992a6eb635","toSide":"left"}
 	]
 }

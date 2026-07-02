@@ -66,9 +66,12 @@ PS C:\Share> $s = New-Object -ComObject "Schedule.Service"; $s.Connect(); $s.Get
 
 # Upload
 ```powershell
-upload /home/kali/forensic-tools/volatility3-win-exes-2.28.0/vol.exe vol.exe
-```
+upload '/home/kali/forensic-tools/volatility3-win-exes-2.28.0/vol.exe' 'C:\Windows\Temp\vol.exe'
 
+# Verify
+ls C:\Windows\Temp\vol.exe
+```
+dari web server
 ```shell
 # Attacker machine
 python3 -m http.server 8088

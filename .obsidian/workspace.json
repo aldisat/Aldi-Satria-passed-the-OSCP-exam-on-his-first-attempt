@@ -25,14 +25,17 @@
             "id": "ff13c82fdead8ca8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Forensics.md",
-                "mode": "source",
-                "source": false
+                "file": "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
+                "viewState": {
+                  "x": 1996.9045880499446,
+                  "y": -329.2521814981586,
+                  "zoom": -1.2339008547102437
+                }
               },
-              "icon": "lucide-file",
-              "title": "Forensics"
+              "icon": "lucide-layout-dashboard",
+              "title": "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA"
             }
           }
         ],
@@ -171,13 +174,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Forensics.md",
+                "file": "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Forensics"
+              "title": "Outline of ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA"
             }
           },
           {
@@ -212,10 +215,13 @@
   },
   "active": "ff13c82fdead8ca8",
   "lastOpenFiles": [
-    "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
     "Forensics.md",
-    "Windows Priviledge Escalation.md",
+    "Attachments/Pasted image 20260702094933.png",
+    "Attachments/Pasted image 20260702094715.png",
+    "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
     "Windows Shell.md",
+    "WinRM.md",
+    "Windows Priviledge Escalation.md",
     "SMB.md",
     "Attachments/Pasted image 20260630152826.png",
     "Attachments/Pasted image 20260630160131.png",
@@ -226,10 +232,7 @@
     "Attachments/Pasted image 20260630141850.png",
     "Windows.md",
     "Attachments/Pasted image 20260630104602.png",
-    "Attachments/Pasted image 20260630104010.png",
     "bloodyAD.md",
-    "WinRM.md",
-    "Attachments/Pasted image 20260629103715.png",
     "Backdoor Shell.md",
     "Malicious Vsix Files.md",
     "Kerberos.md",
