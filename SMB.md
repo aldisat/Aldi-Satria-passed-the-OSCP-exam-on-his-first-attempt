@@ -20,8 +20,9 @@ cari sensitif file yang extensionnnya .config atau exe, cari terbuat dari apa la
 
 kalau SYSVOL dan NETLOGON pada SMB, dipastikan mesin tersebut adalah Domain Controller, cek share itu dulu.
 ```shell
-# Otomatis semua share
+# Show semua file dalam masing2 share
 nxc smb 10.129.9.129 -u 'alex.turner' -p 'Checkpoint2024!' -M spider_plus
+smbmap -H 10.129.245.130 -u 'wallace.everette' -p 'Welcome2026@' -r | tee smbmap.txt #lebih lengkap
 
 #untuk null session
 smbclient //10.129.244.81/<share> -N
@@ -36,8 +37,10 @@ smb: \> prompt OFF
 smb: \> mget *
 
 #alternative kalau smblient tidak bisa
-smbmap -H 10.129.245.130 -u 'wallace.everette' -p 'Welcome2026@' -r | tee smbmap.txt
 smbmap -H 10.129.245.130 -u wallace.everette -p Welcome2026@ --download './Logs/IdentitySync_Trace_20260219.log'
+
+# Downloda semuanyanya
+smbmap -H 10.129.245.130 -u 'wallace.everette' -p 'Welcome2026@' -r -A '.*'
 ```
 
 # List User
