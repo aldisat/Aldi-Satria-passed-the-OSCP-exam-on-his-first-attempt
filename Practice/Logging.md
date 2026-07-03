@@ -9,6 +9,9 @@ SMB
 ```
 svc_recovery 
 Em3rg3ncyPa$$2025
+Em3rg3ncyPa$$2026
+
+valid using kerberos
 ```
 - WSUStemp -> ???
 

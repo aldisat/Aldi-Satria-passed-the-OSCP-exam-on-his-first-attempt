@@ -4,7 +4,7 @@ Kapan mulai pake bloodhound?
 
 dahulukan credential plaintext untuk generate bloodhound
 
-# Mapping Serangan
+# 1. Mapping Serangan
 ## Colect data
 dahulukan credential plaintext untuk generate bloodhound
 ```shell

@@ -8,62 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "42f36cd23e0734df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Windows Shell.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Windows Shell"
-            }
-          },
-          {
-            "id": "ff13c82fdead8ca8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTTP.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "HTTP"
-            }
-          },
-          {
-            "id": "480edf1cb73d9e01",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Practice/Fries.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Fries"
-            }
-          },
-          {
             "id": "e054498b65934920",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
-                "viewState": {
-                  "x": -56.14037277437171,
-                  "y": 34.36557200444245,
-                  "zoom": -1.8528058589924281
-                }
+                "file": "Practice/Logging.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA"
+              "icon": "lucide-file",
+              "title": "Logging"
             }
           },
           {
@@ -72,16 +27,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Labs.md",
+                "file": "Kerberos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Labs"
+              "title": "Kerberos"
+            }
+          },
+          {
+            "id": "7d97bb2509af2c04",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kerberos.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Kerberos"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Vsix",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -216,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
+                "file": "Practice/Logging.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA"
+              "title": "Outline of Logging"
             }
           },
           {
@@ -257,13 +225,19 @@
   },
   "active": "e054498b65934920",
   "lastOpenFiles": [
-    "Kerberos.md",
-    "LDAP.md",
     "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
+    "Kerberos.md",
+    "bloodyAD.md",
+    "Attachments/Pasted image 20260703150450.png",
+    "Attachments/Pasted image 20260703150447.png",
     "Practice/Logging.md",
-    "Attachments/Pasted image 20260703095409.png",
     "SMB.md",
+    "NXC.md",
+    "Attachments/Pasted image 20260703141136.png",
     "Labs.md",
+    "Bloodhound.md",
+    "LDAP.md",
+    "Attachments/Pasted image 20260703095409.png",
     "Practice/Fries.md",
     "Port Scanning.md",
     "Untitled.canvas",
@@ -283,18 +257,12 @@
     "Attachments/Pasted image 20260630160131.png",
     "Attachments/Pasted image 20260630154008.png",
     "Attachments/Pasted image 20260630144806.png",
-    "Attachments/Pasted image 20260630143834.png",
-    "Attachments/Pasted image 20260630142927.png",
-    "Attachments/Pasted image 20260630141850.png",
     "Windows.md",
-    "bloodyAD.md",
     "Malicious Vsix Files.md",
     "Hackthebox.md",
     "Language.md",
-    "Bloodhound.md",
     "NTP.md",
     "Linux.md",
-    "Kerberoastable.md",
     "Attachments",
     "Bismillahhirrahmanirrahim.canvas",
     "Technique",
