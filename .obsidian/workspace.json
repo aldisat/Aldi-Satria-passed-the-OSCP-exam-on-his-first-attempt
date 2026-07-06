@@ -8,45 +8,45 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e054498b65934920",
+            "id": "9250cc6ff9b9b656",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Practice/Logging.md",
+                "file": "DLL Hijacking.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Logging"
+              "title": "DLL Hijacking"
             }
           },
           {
-            "id": "29ed353567ee814c",
+            "id": "7f4672427b8582c0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kerberos.md",
+                "file": "Hash.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kerberos"
+              "title": "Hash"
             }
           },
           {
-            "id": "7d97bb2509af2c04",
+            "id": "230fa9dd2030c293",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kerberos.md",
+                "file": "Windows Shell.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kerberos"
+              "title": "Windows Shell"
             }
           }
         ]
@@ -184,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Practice/Logging.md",
+                "file": "DLL Hijacking.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Logging"
+              "title": "Outline of DLL Hijacking"
             }
           },
           {
@@ -223,21 +223,35 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e054498b65934920",
+  "active": "9250cc6ff9b9b656",
   "lastOpenFiles": [
+    "Windows Shell.md",
+    "DLL Hijacking.md",
+    "Attachments/Pasted image 20260706135131.png",
+    "Hash.md",
+    "Zip.md",
+    "Attachments/Pasted image 20260706134245.png",
+    "MSFVENOM.md",
+    "Reverse.md",
     "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
+    "Attachments/Pasted image 20260705130225.png",
+    "Attachments/Pasted image 20260704110800.png",
+    "Attachments/Pasted image 20260704110707.png",
     "Kerberos.md",
+    "Windows Active Directory.md",
+    "WinRM.md",
     "bloodyAD.md",
+    "Labs.md",
+    "Bloodhound.md",
+    "Attachments/Pasted image 20260703184105.png",
+    "Attachments/Pasted image 20260703183605.png",
+    "Practice/Logging.md",
     "Attachments/Pasted image 20260703150450.png",
     "Attachments/Pasted image 20260703150447.png",
-    "Practice/Logging.md",
     "SMB.md",
     "NXC.md",
     "Attachments/Pasted image 20260703141136.png",
-    "Labs.md",
-    "Bloodhound.md",
     "LDAP.md",
-    "Attachments/Pasted image 20260703095409.png",
     "Practice/Fries.md",
     "Port Scanning.md",
     "Untitled.canvas",
@@ -246,23 +260,9 @@
     "CVE.md",
     "Practice",
     "HTTP.md",
-    "Hash.md",
     "Forensics.md",
-    "Attachments/Pasted image 20260702094933.png",
-    "Attachments/Pasted image 20260702094715.png",
-    "Windows Shell.md",
-    "WinRM.md",
     "Windows Priviledge Escalation.md",
-    "Attachments/Pasted image 20260630152826.png",
-    "Attachments/Pasted image 20260630160131.png",
-    "Attachments/Pasted image 20260630154008.png",
-    "Attachments/Pasted image 20260630144806.png",
-    "Windows.md",
     "Malicious Vsix Files.md",
-    "Hackthebox.md",
-    "Language.md",
-    "NTP.md",
-    "Linux.md",
     "Attachments",
     "Bismillahhirrahmanirrahim.canvas",
     "Technique",

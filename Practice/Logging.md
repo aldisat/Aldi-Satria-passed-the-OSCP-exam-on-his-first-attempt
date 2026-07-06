@@ -15,4 +15,5 @@ valid using kerberos
 ```
 - WSUStemp -> ???
 
-LDAP
+Bloodhound
+- svc_recovery -> generic write ->

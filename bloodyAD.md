@@ -1,6 +1,10 @@
 # Apa yang dapat kita modifikasi
 ```shell
+# Dengan password
 bloodyad --host 10.129.9.129 -d checkpoint.htb  -u alex.turner -p 'Checkpoint2024!' get writable
+
+# Dengan NT hash
+bloodyad --host 10.129.245.130 -d logging.htb -u 'msa_health$' -p:603fc24ee01a9409f83c9d1d701485c5 get writable
 ```
 ![](Attachments/Pasted%20image%2020260623102457.png)
 cek yang ACL nya "WRITE"
