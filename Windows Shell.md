@@ -34,7 +34,7 @@ pada gambar dibawah ada another network
 ![](Attachments/Pasted%20image%2020260625094620.png)
 ### Siapa saja usernya?
 ```powershell
-net user
+net usern
 net localgroup administrator
 ```
 ![](Attachments/Pasted%20image%2020260625054311.png)

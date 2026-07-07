@@ -25,14 +25,17 @@
             "id": "7f4672427b8582c0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Hash.md",
-                "mode": "source",
-                "source": false
+                "file": "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
+                "viewState": {
+                  "x": 1211.5814246023817,
+                  "y": 103.1373671027768,
+                  "zoom": -1.5706999854246781
+                }
               },
-              "icon": "lucide-file",
-              "title": "Hash"
+              "icon": "lucide-layout-dashboard",
+              "title": "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA"
             }
           },
           {
@@ -49,7 +52,8 @@
               "title": "Windows Shell"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -184,13 +188,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DLL Hijacking.md",
+                "file": "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of DLL Hijacking"
+              "title": "Outline of ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA"
             }
           },
           {
@@ -202,9 +206,19 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "00d1056522940c28",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -223,21 +237,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9250cc6ff9b9b656",
+  "active": "00d1056522940c28",
   "lastOpenFiles": [
+    "Kerberos.md",
+    "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
     "Windows Shell.md",
-    "DLL Hijacking.md",
-    "Attachments/Pasted image 20260706135131.png",
     "Hash.md",
+    "DLL Hijacking.md",
+    "Attachments/Pasted image 20260706144538.png",
+    "Attachments/Pasted image 20260706135131.png",
     "Zip.md",
     "Attachments/Pasted image 20260706134245.png",
     "MSFVENOM.md",
     "Reverse.md",
-    "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
     "Attachments/Pasted image 20260705130225.png",
     "Attachments/Pasted image 20260704110800.png",
     "Attachments/Pasted image 20260704110707.png",
-    "Kerberos.md",
     "Windows Active Directory.md",
     "WinRM.md",
     "bloodyAD.md",
@@ -250,7 +265,6 @@
     "Attachments/Pasted image 20260703150447.png",
     "SMB.md",
     "NXC.md",
-    "Attachments/Pasted image 20260703141136.png",
     "LDAP.md",
     "Practice/Fries.md",
     "Port Scanning.md",
