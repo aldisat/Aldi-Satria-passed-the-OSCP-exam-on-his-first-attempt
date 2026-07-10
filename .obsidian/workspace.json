@@ -11,17 +11,14 @@
             "id": "7f4672427b8582c0",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
-                "viewState": {
-                  "x": 1762.7424923148108,
-                  "y": 1756.5537881428804,
-                  "zoom": -3.2747981303529667
-                }
+                "file": "Extract.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA"
+              "icon": "lucide-file",
+              "title": "Extract"
             }
           }
         ]
@@ -159,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
+                "file": "Extract.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA"
+              "title": "Outline of Extract"
             }
           },
           {
@@ -189,7 +186,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -208,28 +205,28 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "99540ed7024d5c66",
+  "active": "7f4672427b8582c0",
   "lastOpenFiles": [
+    "WinRM.md",
     "Windows Shell.md",
+    "Reverse.md",
     "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
+    "SMB.md",
     "Windows Priviledge Escalation.md",
     "Kerberos.md",
     "LDAP.md",
     "NXC.md",
-    "SMB.md",
     "DLL Hijacking.md",
     "MSFVENOM.md",
     "Hash.md",
     "Attachments/Pasted image 20260706144538.png",
     "Attachments/Pasted image 20260706135131.png",
-    "Zip.md",
+    "Extract.md",
     "Attachments/Pasted image 20260706134245.png",
-    "Reverse.md",
     "Attachments/Pasted image 20260705130225.png",
     "Attachments/Pasted image 20260704110800.png",
     "Attachments/Pasted image 20260704110707.png",
     "Windows Active Directory.md",
-    "WinRM.md",
     "bloodyAD.md",
     "Labs.md",
     "Bloodhound.md",
