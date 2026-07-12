@@ -11,14 +11,17 @@
             "id": "7f4672427b8582c0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Extract.md",
-                "mode": "source",
-                "source": false
+                "file": "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
+                "viewState": {
+                  "x": 296.05759849680703,
+                  "y": 738.6312639990037,
+                  "zoom": -1.1736134416876296
+                }
               },
-              "icon": "lucide-file",
-              "title": "Extract"
+              "icon": "lucide-layout-dashboard",
+              "title": "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA"
             }
           }
         ]
@@ -156,13 +159,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Extract.md",
+                "file": "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Extract"
+              "title": "Outline of ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA"
             }
           },
           {
@@ -207,10 +210,15 @@
   },
   "active": "7f4672427b8582c0",
   "lastOpenFiles": [
+    "Practice/Logging.md",
+    "WSUS.md",
+    "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
+    "Backdoor Shell.md",
+    "Untitled.canvas",
+    "Extract.md",
     "WinRM.md",
     "Windows Shell.md",
     "Reverse.md",
-    "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
     "SMB.md",
     "Windows Priviledge Escalation.md",
     "Kerberos.md",
@@ -221,7 +229,6 @@
     "Hash.md",
     "Attachments/Pasted image 20260706144538.png",
     "Attachments/Pasted image 20260706135131.png",
-    "Extract.md",
     "Attachments/Pasted image 20260706134245.png",
     "Attachments/Pasted image 20260705130225.png",
     "Attachments/Pasted image 20260704110800.png",
@@ -232,19 +239,15 @@
     "Bloodhound.md",
     "Attachments/Pasted image 20260703184105.png",
     "Attachments/Pasted image 20260703183605.png",
-    "Practice/Logging.md",
     "Attachments/Pasted image 20260703150450.png",
     "Attachments/Pasted image 20260703150447.png",
     "Practice/Fries.md",
     "Port Scanning.md",
-    "Untitled.canvas",
-    "Backdoor Shell.md",
     "OSCP.md",
     "CVE.md",
     "Practice",
     "HTTP.md",
     "Forensics.md",
-    "Malicious Vsix Files.md",
     "Attachments",
     "Bismillahhirrahmanirrahim.canvas",
     "Technique",
