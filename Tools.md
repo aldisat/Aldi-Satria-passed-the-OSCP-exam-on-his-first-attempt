@@ -1,8 +1,0 @@
-
-
-| Tools    |     |
-| -------- | --- |
-| nxc      |     |
-| impacket |     |
-| certipy  |     |
-

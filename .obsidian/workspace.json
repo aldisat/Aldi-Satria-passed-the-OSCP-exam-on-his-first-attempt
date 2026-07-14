@@ -8,16 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7f4672427b8582c0",
+            "id": "0d35e29b1b92bac0",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
                 "viewState": {
-                  "x": -325.1641472345434,
-                  "y": 2568.140852500392,
-                  "zoom": -2.5482197330643745
+                  "x": 7521.445388242007,
+                  "y": 5964.366948416466,
+                  "zoom": -0.41660810314185365
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -25,31 +25,31 @@
             }
           },
           {
-            "id": "0d35e29b1b92bac0",
+            "id": "fd919ec8ec73688c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bloodhound.md",
+                "file": "Windows Active Directory.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bloodhound"
+              "title": "Windows Active Directory"
             }
           },
           {
-            "id": "cb895f087343e86f",
+            "id": "87974a63e5759f5f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTTP.md",
+                "file": "Tools - Certipy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HTTP"
+              "title": "Tools - Certipy"
             }
           }
         ],
@@ -110,7 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 256.5
   },
   "right": {
     "id": "2ee57ad732a310ba",
@@ -188,13 +188,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTTP.md",
+                "file": "Tools - Certipy.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of HTTP"
+              "title": "Outline of Tools - Certipy"
             }
           },
           {
@@ -237,47 +237,47 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "cb895f087343e86f",
+  "active": "87974a63e5759f5f",
   "lastOpenFiles": [
+    "Attachments/Pasted image 20260714212420.png",
+    "ADCS.md",
+    "Attachments/Pasted image 20260714212403.png",
     "Windows Active Directory.md",
-    "Tools.md",
-    "Shadow Credential Attack.md",
-    "Bloodhound.md",
+    "Tools - Impacket.md",
     "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
-    "Practice/Logging.md",
-    "WSUS.md",
-    "Backdoor Shell.md",
-    "Untitled.canvas",
-    "Extract.md",
-    "WinRM.md",
-    "Windows Shell.md",
-    "Reverse.md",
-    "SMB.md",
-    "Windows Priviledge Escalation.md",
-    "Kerberos.md",
-    "LDAP.md",
-    "NXC.md",
-    "DLL Hijacking.md",
-    "MSFVENOM.md",
+    "Tools - Bloodhound.md",
+    "Tools - NXC.md",
+    "Tools - MSFVENOM.md",
+    "Attack - Malicious Vsix Files.md",
+    "Attack - DLL Hijacking.md",
+    "Attack - Shadow Credential.md",
+    "80,443 - HTTP.md",
+    "Tools.md",
+    "Tools - bloodyAD.md",
+    "Tools - Certipy.md",
+    "Language.md",
+    "Hackthebox.md",
     "Hash.md",
+    "Labs.md",
+    "Port Scanning.md",
+    "8530,8531 - WSUS.md",
+    "123 - NTP.md",
+    "5985,5986 - WinRM.md",
+    "88 - Kerberos.md",
+    "139,445 - SMB.md",
+    "389,636 - LDAP.md",
+    "Practice/Logging.md",
+    "Untitled.canvas",
     "Attachments/Pasted image 20260706144538.png",
     "Attachments/Pasted image 20260706135131.png",
     "Attachments/Pasted image 20260706134245.png",
     "Attachments/Pasted image 20260705130225.png",
     "Attachments/Pasted image 20260704110800.png",
     "Attachments/Pasted image 20260704110707.png",
-    "bloodyAD.md",
-    "Labs.md",
     "Attachments/Pasted image 20260703184105.png",
     "Attachments/Pasted image 20260703183605.png",
     "Attachments/Pasted image 20260703150450.png",
-    "Attachments/Pasted image 20260703150447.png",
-    "Practice/Fries.md",
-    "Port Scanning.md",
-    "OSCP.md",
-    "CVE.md",
     "Practice",
-    "HTTP.md",
     "Attachments",
     "Bismillahhirrahmanirrahim.canvas",
     "Technique",
