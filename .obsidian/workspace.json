@@ -4,28 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c9282e7a295dcf30",
+        "id": "18331bdd67b8041e",
         "type": "tabs",
         "children": [
           {
-            "id": "0d35e29b1b92bac0",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
-                "viewState": {
-                  "x": 7521.445388242007,
-                  "y": 5964.366948416466,
-                  "zoom": -0.41660810314185365
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA"
-            }
-          },
-          {
-            "id": "fd919ec8ec73688c",
+            "id": "b15664af093215a2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -37,23 +20,8 @@
               "icon": "lucide-file",
               "title": "Windows Active Directory"
             }
-          },
-          {
-            "id": "87974a63e5759f5f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tools - Certipy.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tools - Certipy"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -85,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "shadow",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -188,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools - Certipy.md",
+                "file": "Windows Active Directory.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Tools - Certipy"
+              "title": "Outline of Windows Active Directory"
             }
           },
           {
@@ -222,7 +190,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -237,46 +206,45 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "87974a63e5759f5f",
+  "active": "b15664af093215a2",
   "lastOpenFiles": [
-    "Attachments/Pasted image 20260714212420.png",
-    "ADCS.md",
-    "Attachments/Pasted image 20260714212403.png",
-    "Windows Active Directory.md",
-    "Tools - Impacket.md",
+    "135 - RPC.md",
     "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
-    "Tools - Bloodhound.md",
-    "Tools - NXC.md",
-    "Tools - MSFVENOM.md",
-    "Attack - Malicious Vsix Files.md",
-    "Attack - DLL Hijacking.md",
-    "Attack - Shadow Credential.md",
-    "80,443 - HTTP.md",
-    "Tools.md",
-    "Tools - bloodyAD.md",
-    "Tools - Certipy.md",
-    "Language.md",
-    "Hackthebox.md",
-    "Hash.md",
-    "Labs.md",
-    "Port Scanning.md",
-    "8530,8531 - WSUS.md",
+    "Attachments/Pasted image 20260719175446.png",
+    "Attachments/Pasted image 20260719175243.png",
     "123 - NTP.md",
-    "5985,5986 - WinRM.md",
+    "Tools - bloodyAD.md",
     "88 - Kerberos.md",
-    "139,445 - SMB.md",
+    "Tools - NXC.md",
+    "3389 - RDP.md",
+    "Attachments/Pasted image 20260717103320.png",
+    "Labs.md",
+    "Attachments/Pasted image 20260717100904.png",
+    "Tools - MSFVENOM.md",
+    "Attachments/Pasted image 20260716171541.png",
+    "Attachments/Pasted image 20260716165733.png",
+    "Tools - Bloodhound.md",
     "389,636 - LDAP.md",
+    "Attachments/Pasted image 20260716105957.png",
+    "139,445 - SMB.md",
     "Practice/Logging.md",
+    "Practice/Fries.md",
+    "Port Scanning.md",
+    "Tools - Certipy.md",
+    "Attachments/Pasted image 20260716101846.png",
+    "Attachments/Pasted image 20260716101512.png",
+    "Attachments/Pasted image 20260716094107.png",
+    "Attack - Shadow Credential.md",
+    "Attack - Bad Sucessor.md",
+    "Windows Shell.md",
+    "Practice/Hackthebox.md",
+    "Forensics.md",
+    "Extract.md",
+    "Windows Priviledge Escalation.md",
+    "Windows Active Directory.md",
+    "ADCS.md",
+    "Tools - Impacket.md",
     "Untitled.canvas",
-    "Attachments/Pasted image 20260706144538.png",
-    "Attachments/Pasted image 20260706135131.png",
-    "Attachments/Pasted image 20260706134245.png",
-    "Attachments/Pasted image 20260705130225.png",
-    "Attachments/Pasted image 20260704110800.png",
-    "Attachments/Pasted image 20260704110707.png",
-    "Attachments/Pasted image 20260703184105.png",
-    "Attachments/Pasted image 20260703183605.png",
-    "Attachments/Pasted image 20260703150450.png",
     "Practice",
     "Attachments",
     "Bismillahhirrahmanirrahim.canvas",

