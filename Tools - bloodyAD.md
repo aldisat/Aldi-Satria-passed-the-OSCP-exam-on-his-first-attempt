@@ -1,7 +1,7 @@
 # Apa object yang dapat kita modifikasi/tulis
 ```shell
 # Dengan password
-bloodyad --host 10.129.244.207 -d checkpoint.htb  -u j.arbuckle -p 'Th1sD4mnC4t!@1978' get writable
+bloodyad --host 10.129.244.207 -d garfield.htb -u j.arbuckle -p 'Th1sD4mnC4t!@1978' get writable
 
 # Dengan NT hash
 bloodyad --host 10.129.245.130 -d logging.htb -u 'msa_health$' -p:603fc24ee01a9409f83c9d1d701485c5 get writable
@@ -9,11 +9,11 @@ bloodyad --host 10.129.245.130 -d logging.htb -u 'msa_health$' -p:603fc24ee01a94
 ![](Attachments/Pasted%20image%2020260623102457.png)
 cek yang ACL nya "WRITE"
 
-| Yang perlu dicek                                                                                 | Reason                    |
-| ------------------------------------------------------------------------------------------------ | ------------------------- |
-| `CN=Domain Admins,CN=Users,DC=logging,DC=htb \| member`                                          | Punya akses k group admin |
-| `CN=DC01,OU=Domain Controllers,... \| msDS-KeyCredentialLink`                                    | Shadow Credential attack  |
-| `distinguishedName: CN=Liz Wilson ADM,CN=Users,DC=garfield,DC=htb<br><br>`permission: WRITE`<br> | suffix ADM                |
+| Yang perlu dicek                                                                            | Reason                    |
+| ------------------------------------------------------------------------------------------- | ------------------------- |
+| `CN=Domain Admins,CN=Users,DC=logging,DC=htb \| member`                                     | Punya akses k group admin |
+| `CN=DC01,OU=Domain Controllers,... \| msDS-KeyCredentialLink`                               | Shadow Credential attack  |
+| `distinguishedName: CN=Liz Wilson ADM,CN=Users,DC=garfield,DC=htb<br><br>`permission: WRITE | suffix ADM                |
 
 # Cek member dari group apa
 ```
@@ -25,7 +25,6 @@ jika ada ini berarti akun kita pernah menghapus akun
 ```plain
 distinguishedName: CN=Mark Davies\0ADEL:2217e877-e2a2-47d7-91d4-99ede36f367e,CN=Deleted Objects,DC=checkpoint,DC=htb
 permission: WRITE
-
 ```
 
 coba restored
