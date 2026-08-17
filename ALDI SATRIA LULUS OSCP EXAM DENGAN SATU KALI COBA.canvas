@@ -1,33 +1,265 @@
 {
 	"nodes":[
 		{"id":"31de66cc1b0c967c","type":"group","x":1180,"y":4240,"width":5238,"height":1364,"color":"#8000ff","label":"Windows Shell"},
-		{"id":"92d76db08770207e","type":"group","x":260,"y":1400,"width":3484,"height":1184,"color":"#0000ff","label":"LDAP"},
+		{"id":"76fb728f7efb8e4a","type":"group","x":260,"y":1260,"width":3524,"height":1425,"color":"#0000ff","label":"LDAP"},
 		{"id":"f5798467625195a4","type":"group","x":924,"y":0,"width":2818,"height":1216,"color":"#0000ff","label":"SMB"},
 		{"id":"a00c4bdf3464d284","type":"group","x":3160,"y":3380,"width":2238,"height":722,"color":"#ff00ff","label":"BloodyAD"},
 		{"id":"a9eb731c4952e872","type":"group","x":260,"y":-1120,"width":1712,"height":858,"color":"#0000ff","label":"Test Credential"},
-		{"id":"273a0d2694a81202","type":"group","x":6660,"y":5240,"width":2060,"height":660,"color":"#ff00ff","label":"Privilege Escalation"},
 		{"id":"c666c7534be7b099","type":"group","x":1400,"y":2780,"width":2916,"height":324,"color":"#8009ff","label":"BloodHound"},
+		{"id":"24ef4935ffbe22b5","type":"group","x":-2960,"y":1440,"width":633,"height":940,"label":"HTTP"},
 		{"id":"75cafdc1ed2ea824","type":"group","x":260,"y":3201,"width":907,"height":462,"color":"#0000ff","label":"Kerberos"},
 		{"id":"2b50f2489d9e1880","type":"group","x":2540,"y":-640,"width":560,"height":360,"color":"#0000ff","label":"RPC"},
 		{"id":"8657842ba7b90209","type":"group","x":260,"y":5120,"width":652,"height":232,"color":"#0000ff","label":"WinRM"},
-		{"id":"24ef4935ffbe22b5","type":"group","x":-2960,"y":1440,"width":633,"height":940,"label":"HTTP"},
-		{"id":"44c70cb7d5dcd388","type":"text","text":"Directory","x":-2932,"y":1700,"width":135,"height":50},
+		{"id":"324aa5db5779ce3f","type":"text","text":"Credential","x":2684,"y":90,"width":125,"height":55,"color":"4"},
+		{"id":"91c4213a4a6f4c5c","type":"text","text":"Upload [Attack - Malicious Vsix Files](Attack%20-%20Malicious%20Vsix%20Files.md)\nset ip attacker","x":2725,"y":1062,"width":260,"height":89},
 		{
-			"id":"45db5d6d78cb78f9",
+			"id":"d00907fd7b3322e1",
 			"type":"text",
-			"text":"# [80,443 - HTTP](80,443%20-%20HTTP.md)",
+			"text":"downloa dan dump pake `volatility3`",
 			"styleAttributes":{"textAlign":"center"},
-			"x":-2797,
-			"y":1460,
-			"width":125,
-			"height":142
+			"x":3526,
+			"y":297,
+			"width":196,
+			"height":101
 		},
-		{"id":"b0b64d36a8f4a222","type":"text","text":"cek branch","x":-2864,"y":2120,"width":174,"height":60},
-		{"id":"29f5ff161daa560c","type":"text","text":"subdomain","x":-2672,"y":1700,"width":163,"height":60},
-		{"id":"6348350cf2447396","type":"text","text":"git website, misalkan gitea","x":-2672,"y":1880,"width":163,"height":70},
-		{"id":"23f6bb0dfee583d9","type":"text","text":"sensitive information","x":-2864,"y":2300,"width":174,"height":60,"color":"4"},
-		{"id":"e8e232ed7ab7f0f9","type":"text","text":"CVE","x":-2460,"y":2120,"width":97,"height":60},
-		{"id":"6223fccd861ff859","type":"text","text":"exploitasi","x":-2484,"y":2300,"width":145,"height":60,"color":"4"},
+		{
+			"id":"ecc350359a72982b",
+			"type":"text",
+			"text":"# [Logs](139,445%20-%20SMB.md#Shares#Logs)",
+			"styleAttributes":{
+				"shape":null,
+				"textAlign":"center"
+			},
+			"x":2351,
+			"y":90,
+			"width":215,
+			"height":60
+		},
+		{"id":"5ad34a5ea0cc25c8","type":"text","text":"READ, WRITE\n\nVS Code extensions share for approved .vsix packages compatible with VS Code engine 1.118.0","x":2322,"y":1020,"width":280,"height":174,"color":"4"},
+		{
+			"id":"0ce2dca5aa0ee42c",
+			"type":"text",
+			"text":"# Permission",
+			"styleAttributes":{"textAlign":"center"},
+			"x":1984,
+			"y":1033,
+			"width":179,
+			"height":147
+		},
+		{"id":"d4f594804f377e75","type":"text","text":"[Null Session](139,445%20-%20SMB.md#Null%20Session)\n","x":1610,"y":921,"width":220,"height":50},
+		{
+			"id":"b06159f02c881998",
+			"type":"text",
+			"text":"Explore",
+			"styleAttributes":{"textAlign":"center"},
+			"x":2024,
+			"y":784,
+			"width":98,
+			"height":97
+		},
+		{
+			"id":"20714524229f4d64",
+			"type":"text",
+			"text":"# [Windows Shell](Windows%20Shell.md)",
+			"styleAttributes":{"shape":"circle","textAlign":"center"},
+			"x":3384,
+			"y":1020,
+			"width":180,
+			"height":174,
+			"color":"3"
+		},
+		{"id":"cc22a17ee8b5403c","type":"text","text":"[Backdoor Shell](Backdoor%20Shell.md)","x":3108,"y":1077,"width":182,"height":60,"color":"4"},
+		{
+			"id":"fe6680fd1ca2d583",
+			"type":"text",
+			"text":"# [Port Scanning](Port%20Scanning.md)\n",
+			"styleAttributes":{
+				"textAlign":"center",
+				"shape":null
+			},
+			"x":-968,
+			"y":591,
+			"width":361,
+			"height":402
+		},
+		{
+			"id":"077ce6d900260434",
+			"type":"text",
+			"text":"Ukuran File?",
+			"styleAttributes":{"shape":"diamond","textAlign":"center"},
+			"x":2908,
+			"y":258,
+			"width":220,
+			"height":179
+		},
+		{
+			"id":"d277a0b438c5f8fd",
+			"type":"text",
+			"text":"script",
+			"styleAttributes":{"textAlign":"center"},
+			"x":2660,
+			"y":740,
+			"width":149,
+			"height":60
+		},
+		{"id":"fd2647bbae1055ce","type":"text","text":"cek `.vmen`\ncek `.vmsn`","x":2653,"y":319,"width":131,"height":57},
+		{
+			"id":"e2db1e9d6c8cfafb",
+			"type":"text",
+			"text":"bisa put",
+			"styleAttributes":{"textAlign":"center"},
+			"x":2860,
+			"y":740,
+			"width":158,
+			"height":60,
+			"color":"4"
+		},
+		{
+			"id":"7537972f10a9dbb0",
+			"type":"text",
+			"text":"# [Test Credential](Tools%20-%20NXC.md#Test%20Credential)",
+			"styleAttributes":{"textAlign":"center","shape":"circle"},
+			"x":2923,
+			"y":18,
+			"width":190,
+			"height":200,
+			"color":"3"
+		},
+		{
+			"id":"00f52ddeb60d8238",
+			"type":"text",
+			"text":"# [SYSVOL](139,445%20-%20SMB.md#2.%20Explore#a.%20Shares#iv.%20SYSVOL)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":2354,
+			"y":740,
+			"width":215,
+			"height":60
+		},
+		{
+			"id":"a50020144f58bd56",
+			"type":"text",
+			"text":"# [VMBackups](139,445%20-%20SMB.md#Shares#VMBackups)",
+			"styleAttributes":{
+				"shape":null,
+				"textAlign":"center"
+			},
+			"x":2354,
+			"y":318,
+			"width":215,
+			"height":60
+		},
+		{
+			"id":"9c3659f2e3e4c362",
+			"type":"text",
+			"text":"# [WSUS](139,445%20-%20SMB.md#Shares#WSUS)",
+			"styleAttributes":{
+				"shape":null,
+				"textAlign":"center"
+			},
+			"x":2354,
+			"y":580,
+			"width":215,
+			"height":60
+		},
+		{
+			"id":"00f276278dc2132e",
+			"type":"text",
+			"text":"# [139,445 - SMB](139,445%20-%20SMB.md)",
+			"styleAttributes":{
+				"shape":null,
+				"textAlign":"center"
+			},
+			"x":940,
+			"y":758,
+			"width":256,
+			"height":150
+		},
+		{
+			"id":"19489b88b1486b80",
+			"type":"text",
+			"text":"[Login kerberos](88%20-%20Kerberos.md#Login%20kerberos)",
+			"styleAttributes":{"shape":"diamond","textAlign":"center"},
+			"x":1709,
+			"y":-1100,
+			"width":216,
+			"height":133
+		},
+		{"id":"81ea46abf12f0a8b","type":"text","text":"Valid credential","x":1172,"y":-1063,"width":168,"height":60,"color":"4"},
+		{
+			"id":"3a9d37f2d28e01b3",
+			"type":"text",
+			"text":"# Shares",
+			"styleAttributes":{"textAlign":"center"},
+			"x":1984,
+			"y":274,
+			"width":179,
+			"height":147
+		},
+		{"id":"e7494d06f0ed8e54","type":"text","text":"Valid tapi accoun restriction","x":1692,"y":-409,"width":250,"height":60,"color":"1"},
+		{
+			"id":"795f7c131ed3d5c9",
+			"type":"text",
+			"text":"[Groups](135%20-%20RPC.md#Groups)",
+			"styleAttributes":{},
+			"x":2940,
+			"y":-360,
+			"width":140,
+			"height":60
+		},
+		{
+			"id":"e7a7b8d8cf5b3478",
+			"type":"text",
+			"text":"# [[135 - RPC]]",
+			"styleAttributes":{"textAlign":"center"},
+			"x":2560,
+			"y":-500,
+			"width":160,
+			"height":151
+		},
+		{
+			"id":"c9ea90d98a555d66",
+			"type":"text",
+			"text":"Ada Credential ?",
+			"styleAttributes":{"shape":"diamond","textAlign":"center"},
+			"x":1304,
+			"y":743,
+			"width":220,
+			"height":179
+		},
+		{"id":"5cc8ed15e49b14e0","type":"text","text":"[Login](139,445%20-%20SMB.md#Login)","x":1610,"y":705,"width":220,"height":60},
+		{
+			"id":"b21ff11f758ddbfc",
+			"type":"text",
+			"text":"kalau ada tahun di passwordnya, coba ganti 2025 ke 2026",
+			"styleAttributes":{"shape":"diamond","textAlign":"center"},
+			"x":1131,
+			"y":-476,
+			"width":250,
+			"height":194
+		},
+		{
+			"id":"9b60f4a77172034c",
+			"type":"text",
+			"text":"Login ?",
+			"styleAttributes":{"shape":"diamond","textAlign":"center"},
+			"x":669,
+			"y":-762,
+			"width":220,
+			"height":179
+		},
+		{
+			"id":"b1932ffdb0d9fc18",
+			"type":"text",
+			"text":"# [Test Credential](Tools%20-%20NXC.md#Test%20Credential)",
+			"styleAttributes":{
+				"textAlign":"center",
+				"shape":null
+			},
+			"x":270,
+			"y":-762,
+			"width":180,
+			"height":175
+		},
 		{
 			"id":"fcee8c0198f16833",
 			"type":"text",
@@ -51,6 +283,342 @@
 			"color":"#ff8000"
 		},
 		{
+			"id":"98280182db83ccc1",
+			"type":"text",
+			"text":"# [Windows Active Directory](Windows%20Active%20Directory.md)\n\n",
+			"styleAttributes":{"textAlign":"center","shape":"document"},
+			"x":-442,
+			"y":-1134,
+			"width":285,
+			"height":273,
+			"color":"#0000ff"
+		},
+		{
+			"id":"6fa8a66d0938ec4c",
+			"type":"text",
+			"text":"Operating System",
+			"styleAttributes":{"shape":"diamond","textAlign":"center"},
+			"x":-890,
+			"y":-1463,
+			"width":205,
+			"height":178
+		},
+		{"id":"531b3f2596f7be9d","type":"text","text":"[Download TGT](88%20-%20Kerberos.md#Download%20TGT)","x":1727,"y":-703,"width":180,"height":62},
+		{
+			"id":"1b7ac69c97c8b048",
+			"type":"text",
+			"text":"[Users](135%20-%20RPC.md#Users)",
+			"styleAttributes":{},
+			"x":2940,
+			"y":-620,
+			"width":140,
+			"height":60
+		},
+		{
+			"id":"7ce152ce2f954fbd",
+			"type":"text",
+			"text":"Ada Credential ?",
+			"styleAttributes":{"shape":"diamond","textAlign":"center"},
+			"x":-409,
+			"y":-761,
+			"width":220,
+			"height":179
+		},
+		{
+			"id":"c6a18176ad7dc75a",
+			"type":"text",
+			"text":"Password in description File",
+			"styleAttributes":{"textAlign":"center"},
+			"x":2084,
+			"y":1667,
+			"width":242,
+			"height":60
+		},
+		{
+			"id":"2eef12d7b6609e15",
+			"type":"text",
+			"text":"List Computers",
+			"styleAttributes":{"textAlign":"center"},
+			"x":2084,
+			"y":1758,
+			"width":242,
+			"height":60
+		},
+		{
+			"id":"b0aa9dab0f4f9474",
+			"type":"text",
+			"text":"Groups",
+			"styleAttributes":{"textAlign":"center"},
+			"x":2084,
+			"y":1840,
+			"width":242,
+			"height":60
+		},
+		{"id":"d846cc263ddfa995","type":"text","text":" Check hash [Type](Hash.md#Type)\n ","x":2451,"y":2144,"width":180,"height":50},
+		{
+			"id":"20563191ac5ed30f",
+			"type":"text",
+			"text":"# [Test Credential](Tools%20-%20NXC.md#Test%20Credential)",
+			"styleAttributes":{"textAlign":"center","shape":"circle"},
+			"x":3579,
+			"y":1960,
+			"width":179,
+			"height":134,
+			"color":"3"
+		},
+		{
+			"id":"785ec7d21f503db6",
+			"type":"text",
+			"text":"[Kerberoasting Attack via Kerberos](88%20-%20Kerberos.md#Kerberoasting%20Attack)",
+			"styleAttributes":{"shape":"circle","textAlign":"center"},
+			"x":3581,
+			"y":2252,
+			"width":174,
+			"height":162,
+			"color":"3"
+		},
+		{
+			"id":"bd8c8b965d7d0ee5",
+			"type":"text",
+			"text":"try another hash type",
+			"styleAttributes":{"shape":"diamond","textAlign":"center"},
+			"x":3313,
+			"y":2269,
+			"width":133,
+			"height":128
+		},
+		{
+			"id":"17593f702ce932d6",
+			"type":"text",
+			"text":"[Cracks](Hash.md#Cracks)",
+			"styleAttributes":{"shape":"diamond","textAlign":"center"},
+			"x":2869,
+			"y":2101,
+			"width":137,
+			"height":136
+		},
+		{"id":"44c70cb7d5dcd388","type":"text","text":"Directory","x":-2932,"y":1700,"width":135,"height":50},
+		{
+			"id":"45db5d6d78cb78f9",
+			"type":"text",
+			"text":"# [80,443 - HTTP](80,443%20-%20HTTP.md)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-2797,
+			"y":1460,
+			"width":125,
+			"height":142
+		},
+		{"id":"29f5ff161daa560c","type":"text","text":"subdomain","x":-2672,"y":1700,"width":163,"height":60},
+		{"id":"b0b64d36a8f4a222","type":"text","text":"cek branch","x":-2864,"y":2120,"width":174,"height":60},
+		{"id":"6348350cf2447396","type":"text","text":"git website, misalkan gitea","x":-2672,"y":1880,"width":163,"height":70},
+		{"id":"213395a3933a9d2b","type":"text","text":"[Hash](Hash.md)\n","x":2080,"y":2133,"width":115,"height":50},
+		{"id":"23f6bb0dfee583d9","type":"text","text":"sensitive information","x":-2864,"y":2300,"width":174,"height":60,"color":"4"},
+		{"id":"e8e232ed7ab7f0f9","type":"text","text":"CVE","x":-2460,"y":2120,"width":97,"height":60},
+		{"id":"6223fccd861ff859","type":"text","text":"exploitasi","x":-2484,"y":2300,"width":145,"height":60,"color":"4"},
+		{
+			"id":"97db7864e46b2c19",
+			"type":"text",
+			"text":"Password Policy",
+			"styleAttributes":{"textAlign":"center"},
+			"x":2084,
+			"y":1579,
+			"width":242,
+			"height":60
+		},
+		{
+			"id":"c3ac6b96de454b38",
+			"type":"text",
+			"text":"# [389,636 - LDAP](389,636%20-%20LDAP.md)",
+			"styleAttributes":{
+				"shape":null,
+				"textAlign":"center"
+			},
+			"x":274,
+			"y":2238,
+			"width":204,
+			"height":152,
+			"color":"3"
+		},
+		{"id":"8272b09eeb5320a0","type":"text","text":"[Null Session](389,636%20-%20LDAP.md#Null%20Session)\n","x":867,"y":2452,"width":215,"height":60},
+		{"id":"168e91b5e1ef7e98","type":"text","text":"credentials","x":3317,"y":1997,"width":125,"height":60,"color":"4"},
+		{
+			"id":"861bef75f752acca",
+			"type":"text",
+			"text":"# [[Privilege Escalation - RBCD]]",
+			"styleAttributes":{"textAlign":"center","shape":"circle"},
+			"x":2809,
+			"y":1784,
+			"width":308,
+			"height":172,
+			"color":"3"
+		},
+		{
+			"id":"83ca3f9ba9f042e2",
+			"type":"text",
+			"text":"RODC (Read-Only Domain Controller)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":2634,
+			"y":1280,
+			"width":172,
+			"height":100,
+			"color":"4"
+		},
+		{"id":"392ea127eef436ae","type":"text","text":"Check online","x":2451,"y":2039,"width":182,"height":60},
+		{
+			"id":"c2a6002f4cd28b8d",
+			"type":"text",
+			"text":"RODC Administrator",
+			"styleAttributes":{"textAlign":"center"},
+			"x":2460,
+			"y":1840,
+			"width":260,
+			"height":60,
+			"color":"4"
+		},
+		{
+			"id":"a1ffc8c58eb75217",
+			"type":"text",
+			"text":"krbtgt_XXXX",
+			"styleAttributes":{},
+			"x":2434,
+			"y":1300,
+			"width":142,
+			"height":60
+		},
+		{"id":"56f0be7321afe820","type":"text","text":"`sudo vim /etc/hosts`","x":2434,"y":1453,"width":227,"height":55,"color":"4"},
+		{"id":"7ae54054e1c471c5","type":"text","text":"[Kerberoasting via LDAP](389,636%20-%20LDAP.md#3.%20Kerberoasting%20via%20LDAP)","x":1740,"y":2121,"width":180,"height":62},
+		{"id":"f9bad5f2c913d0c3","type":"text","text":"LDIF Output","x":1229,"y":2288,"width":156,"height":50},
+		{
+			"id":"3c6a8ce7c6afb3cd",
+			"type":"text",
+			"text":"Users",
+			"styleAttributes":{"textAlign":"center"},
+			"x":2074,
+			"y":1300,
+			"width":252,
+			"height":60
+		},
+		{
+			"id":"dbe4d9014f0fa70b",
+			"type":"text",
+			"text":"Enum",
+			"styleAttributes":{},
+			"x":1746,
+			"y":1530,
+			"width":180,
+			"height":60
+		},
+		{
+			"id":"2faa6c913a97099d",
+			"type":"text",
+			"text":"`sudo nmap -n -sV --script 'ldap* and not brute' 10.10.11.42 -o nmap_ldap.txt`\n",
+			"styleAttributes":{"textAlign":"center"},
+			"x":2074,
+			"y":1410,
+			"width":252,
+			"height":140
+		},
+		{
+			"id":"0de4e5fd6a02beae",
+			"type":"text",
+			"text":"shell",
+			"styleAttributes":{"shape":"circle","textAlign":"center"},
+			"x":3860,
+			"y":2904,
+			"width":104,
+			"height":92,
+			"color":"3"
+		},
+		{
+			"id":"0373520102524e91",
+			"type":"text",
+			"text":"[ForceChangePassword](Tools%20-%20Bloodhound.md#iI.%20ForceChangePassword)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":3197,
+			"y":2910,
+			"width":209,
+			"height":80,
+			"color":"4"
+		},
+		{"id":"31773abf9450d3b7","type":"text","text":"NT hash","x":3811,"y":2807,"width":153,"height":59,"color":"4"},
+		{"id":"4a01cc558fa44dfc","type":"text","text":"Shadow Credential Attack","x":3495,"y":2807,"width":250,"height":60,"color":"4"},
+		{
+			"id":"2fb7e3351670cc20",
+			"type":"text",
+			"text":"Ganti password akun target",
+			"styleAttributes":{},
+			"x":3500,
+			"y":2920,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"cb369c7cc3b10cf2",
+			"type":"text",
+			"text":"[Tools - bloodyAD](Tools%20-%20bloodyAD.md)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":3178,
+			"y":3537,
+			"width":190,
+			"height":162
+		},
+		{"id":"3a2261164f85bfb1","type":"text","text":"[Apa yang dapat kita modifikasi](Tools%20-%20bloodyAD.md#Apa%20yang%20dapat%20kita%20modifikasi)\n\n`get writable`","x":3473,"y":3561,"width":190,"height":110},
+		{"id":"66551e8703dbe198","type":"text","text":"Deleted Object","x":3880,"y":3589,"width":154,"height":55,"color":"4"},
+		{
+			"id":"1adffaad6dd6b710",
+			"type":"text",
+			"text":"Outbound Object Control",
+			"styleAttributes":{"shape":"diamond","textAlign":"center"},
+			"x":2854,
+			"y":2916,
+			"width":206,
+			"height":128
+		},
+		{"id":"3694047f90978559","type":"text","text":"Generic Write","x":3197,"y":2806,"width":190,"height":60,"color":"4"},
+		{"id":"9b27f0029d6dd64b","type":"text","text":"[Mapping Serangan](Tools%20-%20Bloodhound.md#Mapping%20Serangan)","x":2477,"y":2947,"width":218,"height":65},
+		{
+			"id":"f2e48ec594d17b65",
+			"type":"text",
+			"text":"[Tools - Bloodhound](Tools%20-%20Bloodhound.md)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":1412,
+			"y":2915,
+			"width":150,
+			"height":125
+		},
+		{"id":"821cc8a727e8fec4","type":"text","text":"bloodhound-python","x":2035,"y":2840,"width":202,"height":50},
+		{"id":"a5d38a6f565ef19b","type":"text","text":"nxc ldap bloodhound","x":2035,"y":2953,"width":202,"height":50},
+		{
+			"id":"d59d741173b9aa7c",
+			"type":"text",
+			"text":"WInRM",
+			"styleAttributes":{"shape":"circle","textAlign":"center"},
+			"x":2997,
+			"y":2533,
+			"width":154,
+			"height":132,
+			"color":"3"
+		},
+		{"id":"8d60b79e637eda62","type":"text","text":"[Authenticated Session](389,636%20-%20LDAP.md#Authenticated%20Session)","x":867,"y":2152,"width":215,"height":50},
+		{
+			"id":"650646ca2879343a",
+			"type":"text",
+			"text":"Ada Credential ?",
+			"styleAttributes":{"shape":"diamond","textAlign":"center"},
+			"x":580,
+			"y":2224,
+			"width":220,
+			"height":179
+		},
+		{"id":"8732d26246b880bd","type":"text","text":"Check Tools","x":2451,"y":2219,"width":180,"height":50},
+		{"id":"23e3dd7a1093db64","type":"text","text":"[pre2k](389,636%20-%20LDAP.md#pre2k) attack","x":1736,"y":2569,"width":171,"height":60},
+		{"id":"dfde553fa315ab29","type":"text","text":"NTLM hash","x":2775,"y":2569,"width":125,"height":60,"color":"4"},
+		{"id":"ead37afef46384f5","type":"text","text":"[GMSA](389,636%20-%20LDAP.md#GMSA) attack","x":2557,"y":2574,"width":138,"height":50},
+		{"id":"5e289bb40a3ed624","type":"text","text":"credential","x":2075,"y":2574,"width":125,"height":50,"color":"4"},
+		{"id":"7ed039cdde993868","type":"text","text":" extract [TGT](88%20-%20Kerberos.md#TGT) ","x":2303,"y":2574,"width":148,"height":50},
+		{"id":"58176e8ca9585bd5","type":"text","text":"cek credenital dengan`nxc`","x":4038,"y":2806,"width":250,"height":60},
+		{"id":"8f8559426b88e5e6","type":"text","text":"AS-REP Roastable","x":1743,"y":2347,"width":180,"height":50},
+		{
 			"id":"1f8b3b741090f8f8",
 			"type":"text",
 			"text":"# [Tools - Certipy](Tools%20-%20Certipy.md) scan vuln template menggunakan akun terakhir",
@@ -59,6 +627,17 @@
 			"y":5683,
 			"width":300,
 			"height":155
+		},
+		{
+			"id":"b13a4214275eea05",
+			"type":"text",
+			"text":"# [Windows Priviledge Escalation](Windows%20Priviledge%20Escalation.md)",
+			"styleAttributes":{"textAlign":"center","shape":"circle"},
+			"x":6209,
+			"y":4262,
+			"width":198,
+			"height":208,
+			"color":"3"
 		},
 		{
 			"id":"8ac452199f3c0698",
@@ -93,486 +672,37 @@
 			"color":"4"
 		},
 		{
-			"id":"ac63b3b1f35274a1",
+			"id":"02bdb71fcec76d68",
 			"type":"text",
-			"text":"# [[3389 - RDP]]",
-			"styleAttributes":{"textAlign":"center"},
-			"x":300,
-			"y":6420,
-			"width":240,
-			"height":220
-		},
-		{"id":"2faa6c913a97099d","type":"text","text":"`sudo nmap -n -sV --script 'ldap* and not brute' 10.10.11.42 -o nmap_ldap.txt`\n","x":2028,"y":1530,"width":252,"height":140},
-		{
-			"id":"3c6a8ce7c6afb3cd",
-			"type":"text",
-			"text":"Users",
-			"styleAttributes":{},
-			"x":2028,
-			"y":1420,
-			"width":252,
-			"height":60
-		},
-		{
-			"id":"a50020144f58bd56",
-			"type":"text",
-			"text":"# [VMBackups](139,445%20-%20SMB.md#Shares#VMBackups)",
-			"styleAttributes":{
-				"shape":null,
-				"textAlign":"center"
-			},
-			"x":2354,
-			"y":318,
-			"width":215,
-			"height":60
-		},
-		{"id":"56f0be7321afe820","type":"text","text":"`sudo vim /etc/hosts`","x":2388,"y":1573,"width":227,"height":55,"color":"4"},
-		{
-			"id":"83ca3f9ba9f042e2",
-			"type":"text",
-			"text":"RODC (Read-Only Domain Controller)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":2588,
-			"y":1400,
-			"width":172,
-			"height":100,
-			"color":"4"
-		},
-		{
-			"id":"a1ffc8c58eb75217",
-			"type":"text",
-			"text":"krbtgt_XXXX",
-			"styleAttributes":{},
-			"x":2388,
-			"y":1420,
-			"width":142,
-			"height":60
-		},
-		{
-			"id":"dbe4d9014f0fa70b",
-			"type":"text",
-			"text":"Enum",
-			"styleAttributes":{},
-			"x":1700,
-			"y":1650,
-			"width":180,
-			"height":60
-		},
-		{"id":"c6a18176ad7dc75a","type":"text","text":"Password in description File","x":2038,"y":1787,"width":242,"height":60},
-		{"id":"97db7864e46b2c19","type":"text","text":"Password Policy","x":2038,"y":1699,"width":242,"height":60},
-		{
-			"id":"b06159f02c881998",
-			"type":"text",
-			"text":"Explore",
-			"styleAttributes":{"textAlign":"center"},
-			"x":2024,
-			"y":784,
-			"width":98,
-			"height":97
-		},
-		{
-			"id":"ecc350359a72982b",
-			"type":"text",
-			"text":"# [Logs](139,445%20-%20SMB.md#Shares#Logs)",
-			"styleAttributes":{
-				"shape":null,
-				"textAlign":"center"
-			},
-			"x":2351,
-			"y":90,
-			"width":215,
-			"height":60
-		},
-		{
-			"id":"20714524229f4d64",
-			"type":"text",
-			"text":"# [Windows Shell](Windows%20Shell.md)",
-			"styleAttributes":{"shape":"circle","textAlign":"center"},
-			"x":3384,
-			"y":1020,
-			"width":180,
-			"height":174,
-			"color":"3"
-		},
-		{"id":"5ad34a5ea0cc25c8","type":"text","text":"READ, WRITE\n\nVS Code extensions share for approved .vsix packages compatible with VS Code engine 1.118.0","x":2322,"y":1020,"width":280,"height":174,"color":"4"},
-		{
-			"id":"0ce2dca5aa0ee42c",
-			"type":"text",
-			"text":"# Permission",
-			"styleAttributes":{"textAlign":"center"},
-			"x":1984,
-			"y":1033,
-			"width":179,
-			"height":147
-		},
-		{
-			"id":"9c3659f2e3e4c362",
-			"type":"text",
-			"text":"# [WSUS](139,445%20-%20SMB.md#Shares#WSUS)",
-			"styleAttributes":{
-				"shape":null,
-				"textAlign":"center"
-			},
-			"x":2354,
-			"y":580,
-			"width":215,
-			"height":60
-		},
-		{
-			"id":"077ce6d900260434",
-			"type":"text",
-			"text":"Ukuran File?",
-			"styleAttributes":{"shape":"diamond","textAlign":"center"},
-			"x":2908,
-			"y":258,
-			"width":220,
-			"height":179
-		},
-		{
-			"id":"3a9d37f2d28e01b3",
-			"type":"text",
-			"text":"# Shares",
-			"styleAttributes":{"textAlign":"center"},
-			"x":1984,
-			"y":274,
-			"width":179,
-			"height":147
-		},
-		{"id":"fd2647bbae1055ce","type":"text","text":"cek `.vmen`\ncek `.vmsn`","x":2653,"y":319,"width":131,"height":57},
-		{"id":"91c4213a4a6f4c5c","type":"text","text":"Upload [Attack - Malicious Vsix Files](Attack%20-%20Malicious%20Vsix%20Files.md)\nset ip attacker","x":2725,"y":1062,"width":260,"height":89},
-		{"id":"cc22a17ee8b5403c","type":"text","text":"[Backdoor Shell](Backdoor%20Shell.md)","x":3108,"y":1077,"width":182,"height":60,"color":"4"},
-		{
-			"id":"7537972f10a9dbb0",
-			"type":"text",
-			"text":"# [Test Credential](Tools%20-%20NXC.md#Test%20Credential)",
-			"styleAttributes":{"textAlign":"center","shape":"circle"},
-			"x":2923,
-			"y":18,
-			"width":190,
-			"height":200,
-			"color":"3"
-		},
-		{"id":"324aa5db5779ce3f","type":"text","text":"Credential","x":2684,"y":90,"width":125,"height":55,"color":"4"},
-		{"id":"d4f594804f377e75","type":"text","text":"[Null Session](139,445%20-%20SMB.md#Null%20Session)\n","x":1610,"y":921,"width":220,"height":50},
-		{"id":"5cc8ed15e49b14e0","type":"text","text":"[Login](139,445%20-%20SMB.md#Login)","x":1610,"y":705,"width":220,"height":60},
-		{
-			"id":"c9ea90d98a555d66",
-			"type":"text",
-			"text":"Ada Credential ?",
-			"styleAttributes":{"shape":"diamond","textAlign":"center"},
-			"x":1304,
-			"y":743,
-			"width":220,
-			"height":179
-		},
-		{
-			"id":"00f276278dc2132e",
-			"type":"text",
-			"text":"# [139,445 - SMB](139,445%20-%20SMB.md)",
-			"styleAttributes":{
-				"shape":null,
-				"textAlign":"center"
-			},
-			"x":940,
-			"y":758,
-			"width":256,
-			"height":150
-		},
-		{
-			"id":"795f7c131ed3d5c9",
-			"type":"text",
-			"text":"[Groups](135%20-%20RPC.md#Groups)",
-			"styleAttributes":{},
-			"x":2940,
-			"y":-360,
-			"width":140,
-			"height":60
-		},
-		{
-			"id":"e7a7b8d8cf5b3478",
-			"type":"text",
-			"text":"# [[135 - RPC]]",
-			"styleAttributes":{"textAlign":"center"},
-			"x":2560,
-			"y":-500,
-			"width":160,
-			"height":151
-		},
-		{
-			"id":"1b7ac69c97c8b048",
-			"type":"text",
-			"text":"[Users](135%20-%20RPC.md#Users)",
-			"styleAttributes":{},
-			"x":2940,
-			"y":-620,
-			"width":140,
-			"height":60
-		},
-		{
-			"id":"b21ff11f758ddbfc",
-			"type":"text",
-			"text":"kalau ada tahun di passwordnya, coba ganti 2025 ke 2026",
-			"styleAttributes":{"shape":"diamond","textAlign":"center"},
-			"x":1131,
-			"y":-476,
-			"width":250,
-			"height":194
-		},
-		{"id":"e7494d06f0ed8e54","type":"text","text":"Valid tapi accoun restriction","x":1692,"y":-409,"width":250,"height":60,"color":"1"},
-		{
-			"id":"9b60f4a77172034c",
-			"type":"text",
-			"text":"Login ?",
-			"styleAttributes":{"shape":"diamond","textAlign":"center"},
-			"x":669,
-			"y":-762,
-			"width":220,
-			"height":179
-		},
-		{
-			"id":"b1932ffdb0d9fc18",
-			"type":"text",
-			"text":"# [Test Credential](Tools%20-%20NXC.md#Test%20Credential)",
+			"text":"# [Windows Priviledge Escalation](Windows%20Priviledge%20Escalation.md)",
 			"styleAttributes":{
 				"textAlign":"center",
 				"shape":null
 			},
-			"x":270,
-			"y":-762,
-			"width":180,
-			"height":175
+			"x":6680,
+			"y":5379,
+			"width":198,
+			"height":208
 		},
 		{
-			"id":"00f52ddeb60d8238",
+			"id":"532ae231c55f3936",
 			"type":"text",
-			"text":"# [SYSVOL](139,445%20-%20SMB.md#2.%20Explore#a.%20Shares#iv.%20SYSVOL)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":2354,
-			"y":740,
-			"width":215,
-			"height":60
+			"text":"# [Tools - Bloodhound](Tools%20-%20Bloodhound.md)",
+			"styleAttributes":{"textAlign":"center","shape":"diamond"},
+			"x":7040,
+			"y":5378,
+			"width":198,
+			"height":208
 		},
 		{
-			"id":"d00907fd7b3322e1",
+			"id":"1538bc648a8179c4",
 			"type":"text",
-			"text":"downloa dan dump pake `volatility3`",
-			"styleAttributes":{"textAlign":"center"},
-			"x":3526,
-			"y":297,
-			"width":196,
-			"height":101
-		},
-		{
-			"id":"d277a0b438c5f8fd",
-			"type":"text",
-			"text":"script",
-			"styleAttributes":{"textAlign":"center"},
-			"x":2660,
-			"y":740,
-			"width":149,
-			"height":60
-		},
-		{
-			"id":"20563191ac5ed30f",
-			"type":"text",
-			"text":"# [Test Credential](Tools%20-%20NXC.md#Test%20Credential)",
-			"styleAttributes":{"textAlign":"center","shape":"circle"},
-			"x":3539,
-			"y":1859,
-			"width":179,
-			"height":134,
-			"color":"3"
-		},
-		{"id":"2eef12d7b6609e15","type":"text","text":"List Computers","x":2038,"y":1878,"width":242,"height":60},
-		{"id":"168e91b5e1ef7e98","type":"text","text":"credentials","x":3277,"y":1896,"width":125,"height":60,"color":"4"},
-		{"id":"392ea127eef436ae","type":"text","text":"Check online","x":2411,"y":1938,"width":182,"height":60},
-		{
-			"id":"17593f702ce932d6",
-			"type":"text",
-			"text":"[Cracks](Hash.md#Cracks)",
-			"styleAttributes":{"shape":"diamond","textAlign":"center"},
-			"x":2829,
-			"y":2000,
-			"width":137,
-			"height":136
-		},
-		{"id":"7ae54054e1c471c5","type":"text","text":"[Kerberoasting via LDAP](389,636%20-%20LDAP.md#3.%20Kerberoasting%20via%20LDAP)","x":1700,"y":2020,"width":180,"height":62},
-		{"id":"213395a3933a9d2b","type":"text","text":"[Hash](Hash.md)\n","x":2040,"y":2032,"width":115,"height":50},
-		{"id":"d846cc263ddfa995","type":"text","text":" Check hash [Type](Hash.md#Type)\n ","x":2411,"y":2043,"width":180,"height":50},
-		{"id":"8732d26246b880bd","type":"text","text":"Check Tools","x":2411,"y":2118,"width":180,"height":50},
-		{"id":"8f8559426b88e5e6","type":"text","text":"AS-REP Roastable","x":1700,"y":2127,"width":180,"height":50},
-		{"id":"8d60b79e637eda62","type":"text","text":"[Authenticated Session](389,636%20-%20LDAP.md#Authenticated%20Session)","x":867,"y":2152,"width":215,"height":50},
-		{
-			"id":"785ec7d21f503db6",
-			"type":"text",
-			"text":"[Kerberoasting Attack via Kerberos](88%20-%20Kerberos.md#Kerberoasting%20Attack)",
-			"styleAttributes":{"shape":"circle","textAlign":"center"},
-			"x":3541,
-			"y":2151,
-			"width":174,
-			"height":162,
-			"color":"3"
-		},
-		{
-			"id":"bd8c8b965d7d0ee5",
-			"type":"text",
-			"text":"try another hash type",
-			"styleAttributes":{"shape":"diamond","textAlign":"center"},
-			"x":3273,
-			"y":2168,
-			"width":133,
-			"height":128
-		},
-		{
-			"id":"650646ca2879343a",
-			"type":"text",
-			"text":"Ada Credential ?",
-			"styleAttributes":{"shape":"diamond","textAlign":"center"},
-			"x":580,
-			"y":2224,
-			"width":220,
-			"height":179
-		},
-		{
-			"id":"c3ac6b96de454b38",
-			"type":"text",
-			"text":"# [389,636 - LDAP](389,636%20-%20LDAP.md)",
-			"styleAttributes":{
-				"shape":null,
-				"textAlign":"center"
-			},
-			"x":274,
-			"y":2238,
-			"width":204,
-			"height":152,
-			"color":"3"
-		},
-		{"id":"f9bad5f2c913d0c3","type":"text","text":"LDIF Output","x":1229,"y":2288,"width":156,"height":50},
-		{"id":"531b3f2596f7be9d","type":"text","text":"[Download TGT](88%20-%20Kerberos.md#Download%20TGT)","x":1727,"y":-703,"width":180,"height":62},
-		{
-			"id":"d59d741173b9aa7c",
-			"type":"text",
-			"text":"WInRM",
-			"styleAttributes":{"shape":"circle","textAlign":"center"},
-			"x":2957,
-			"y":2432,
-			"width":154,
-			"height":132,
-			"color":"3"
-		},
-		{"id":"8272b09eeb5320a0","type":"text","text":"[Null Session](389,636%20-%20LDAP.md#Null%20Session)\n","x":867,"y":2452,"width":215,"height":60},
-		{"id":"dfde553fa315ab29","type":"text","text":"NTLM hash","x":2735,"y":2468,"width":125,"height":60,"color":"4"},
-		{"id":"ead37afef46384f5","type":"text","text":"[GMSA](389,636%20-%20LDAP.md#GMSA) attack","x":2517,"y":2473,"width":138,"height":50},
-		{"id":"7ed039cdde993868","type":"text","text":" extract [TGT](88%20-%20Kerberos.md#TGT) ","x":2263,"y":2473,"width":148,"height":50},
-		{"id":"5e289bb40a3ed624","type":"text","text":"credential","x":2035,"y":2473,"width":125,"height":50,"color":"4"},
-		{"id":"23e3dd7a1093db64","type":"text","text":"[pre2k](389,636%20-%20LDAP.md#pre2k) attack","x":1696,"y":2468,"width":171,"height":60},
-		{
-			"id":"19489b88b1486b80",
-			"type":"text",
-			"text":"[Login kerberos](88%20-%20Kerberos.md#Login%20kerberos)",
-			"styleAttributes":{"shape":"diamond","textAlign":"center"},
-			"x":1709,
-			"y":-1100,
-			"width":216,
-			"height":133
-		},
-		{
-			"id":"98280182db83ccc1",
-			"type":"text",
-			"text":"# [Windows Active Directory](Windows%20Active%20Directory.md)\n\n",
-			"styleAttributes":{"textAlign":"center","shape":"document"},
-			"x":-442,
-			"y":-1134,
-			"width":285,
-			"height":273,
-			"color":"#0000ff"
-		},
-		{"id":"81ea46abf12f0a8b","type":"text","text":"Valid credential","x":1172,"y":-1063,"width":168,"height":60,"color":"4"},
-		{
-			"id":"7ce152ce2f954fbd",
-			"type":"text",
-			"text":"Ada Credential ?",
-			"styleAttributes":{"shape":"diamond","textAlign":"center"},
-			"x":-409,
-			"y":-761,
-			"width":220,
-			"height":179
-		},
-		{"id":"3694047f90978559","type":"text","text":"Generic Write","x":3197,"y":2806,"width":190,"height":60,"color":"4"},
-		{"id":"4a01cc558fa44dfc","type":"text","text":"Shadow Credential Attack","x":3495,"y":2807,"width":250,"height":60,"color":"4"},
-		{"id":"58176e8ca9585bd5","type":"text","text":"cek credenital dengan`nxc`","x":4038,"y":2806,"width":250,"height":60},
-		{"id":"31773abf9450d3b7","type":"text","text":"NT hash","x":3811,"y":2807,"width":153,"height":59,"color":"4"},
-		{"id":"821cc8a727e8fec4","type":"text","text":"bloodhound-python","x":2035,"y":2840,"width":202,"height":50},
-		{
-			"id":"1adffaad6dd6b710",
-			"type":"text",
-			"text":"Outbound Object Control",
-			"styleAttributes":{"shape":"diamond","textAlign":"center"},
-			"x":2854,
-			"y":2916,
-			"width":206,
-			"height":128
-		},
-		{
-			"id":"f2e48ec594d17b65",
-			"type":"text",
-			"text":"[Tools - Bloodhound](Tools%20-%20Bloodhound.md)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":1412,
-			"y":2915,
-			"width":150,
-			"height":125
-		},
-		{
-			"id":"fe6680fd1ca2d583",
-			"type":"text",
-			"text":"# [Port Scanning](Port%20Scanning.md)\n",
-			"styleAttributes":{
-				"textAlign":"center",
-				"shape":null
-			},
-			"x":-968,
-			"y":591,
-			"width":361,
-			"height":402
-		},
-		{
-			"id":"6fa8a66d0938ec4c",
-			"type":"text",
-			"text":"Operating System",
-			"styleAttributes":{"shape":"diamond","textAlign":"center"},
-			"x":-890,
-			"y":-1463,
-			"width":205,
-			"height":178
-		},
-		{"id":"1947d8f6f216fa44","type":"text","text":"[Colect data](Tools%20-%20Bloodhound.md#Colect%20data)","x":1700,"y":2955,"width":133,"height":50},
-		{"id":"9b27f0029d6dd64b","type":"text","text":"[Mapping Serangan](Tools%20-%20Bloodhound.md#Mapping%20Serangan)","x":2477,"y":2947,"width":218,"height":65},
-		{"id":"a5d38a6f565ef19b","type":"text","text":"nxc ldap bloodhound","x":2035,"y":2953,"width":202,"height":50},
-		{"id":"38dc81dada4f76aa","type":"text","text":"bloodyad","x":2035,"y":3040,"width":202,"height":50},
-		{"id":"4abbd8afa998b5f9","type":"text","text":"[Kerberoasting Attack](88%20-%20Kerberos.md#Kerberoasting%20Attack)","x":967,"y":3221,"width":174,"height":80},
-		{
-			"id":"978d7c53cc53fd17",
-			"type":"text",
-			"text":"Ada Credential ?",
-			"styleAttributes":{"shape":"diamond","textAlign":"center"},
-			"x":604,
-			"y":3347,
-			"width":220,
-			"height":179
-		},
-		{
-			"id":"a7d2896a022f9cb7",
-			"type":"text",
-			"text":"# [88 - Kerberos](88%20-%20Kerberos.md)",
-			"styleAttributes":{
-				"shape":null,
-				"textAlign":"center"
-			},
-			"x":274,
-			"y":3362,
-			"width":162,
-			"height":148
+			"text":"# [8530,8531 - WSUS](8530,8531%20-%20WSUS.md) open?",
+			"styleAttributes":{"textAlign":"center","shape":"diamond"},
+			"x":7370,
+			"y":5640,
+			"width":260,
+			"height":240
 		},
 		{
 			"id":"1a0da00eaef5c830",
@@ -585,25 +715,10 @@
 			"height":134,
 			"color":"3"
 		},
-		{"id":"ad0403cdd7ad12df","type":"text","text":"Biasanya password akun yang di restored sama dengan akun yang melakukan restored","x":4455,"y":3412,"width":237,"height":106,"color":"4"},
-		{
-			"id":"cb369c7cc3b10cf2",
-			"type":"text",
-			"text":"[Tools - bloodyAD](Tools%20-%20bloodyAD.md)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":3178,
-			"y":3537,
-			"width":190,
-			"height":162
-		},
-		{"id":"b3e53e13b8d86e4a","type":"text","text":"AS-REP Roasting Attack","x":967,"y":3581,"width":174,"height":62},
 		{"id":"b7fb5077c1bdfb81","type":"text","text":"error","x":4740,"y":3580,"width":78,"height":50,"color":"1"},
-		{"id":"38fa2634fd10f1b3","type":"text","text":"cek nama SAM account","x":4888,"y":3575,"width":250,"height":60},
-		{"id":"3a2261164f85bfb1","type":"text","text":"[Apa yang dapat kita modifikasi](Tools%20-%20bloodyAD.md#Apa%20yang%20dapat%20kita%20modifikasi)\n\n`get writable`","x":3473,"y":3561,"width":190,"height":110},
-		{"id":"66551e8703dbe198","type":"text","text":"Deleted Object","x":3880,"y":3589,"width":154,"height":55,"color":"4"},
-		{"id":"b0038d53fefbf704","type":"text","text":"Restored Object","x":4100,"y":3591,"width":185,"height":50},
-		{"id":"7c04383e3fc4a8d4","type":"text","text":"Set new password","x":4455,"y":3613,"width":185,"height":50},
 		{"id":"d0b81773720225b2","type":"text","text":"set password succed","x":4740,"y":3725,"width":250,"height":60,"color":"4"},
+		{"id":"d99b6036ad46b9ce","type":"text","text":"`VMBackups`","x":4675,"y":4335,"width":154,"height":59},
+		{"id":"14735d13f3ee89dd","type":"text","text":"Cek `C:\\Shares\\`","x":4420,"y":4336,"width":169,"height":57},
 		{
 			"id":"151ee05c0a92eaf3",
 			"type":"text",
@@ -614,6 +729,28 @@
 			"width":179,
 			"height":134,
 			"color":"3"
+		},
+		{"id":"b870c0a0edbe945f","type":"text","text":"cek `.vmem`\ncek `.vmsn`","x":4915,"y":4335,"width":154,"height":59},
+		{"id":"7c04383e3fc4a8d4","type":"text","text":"Set new password","x":4455,"y":3613,"width":185,"height":50},
+		{
+			"id":"6ed6232beb76373e",
+			"type":"text",
+			"text":"WriteAccountRestriction",
+			"styleAttributes":{"textAlign":"center"},
+			"x":7390,
+			"y":5200,
+			"width":220,
+			"height":80
+		},
+		{
+			"id":"d0db5d8776f347a8",
+			"type":"text",
+			"text":"Upload  backdoor",
+			"styleAttributes":{"textAlign":"center"},
+			"x":4540,
+			"y":3980,
+			"width":200,
+			"height":60
 		},
 		{
 			"id":"515f7cfbf2d66ffc",
@@ -648,16 +785,8 @@
 			"height":60,
 			"color":"4"
 		},
-		{
-			"id":"d0db5d8776f347a8",
-			"type":"text",
-			"text":"Upload  backdoor",
-			"styleAttributes":{"textAlign":"center"},
-			"x":4540,
-			"y":3980,
-			"width":200,
-			"height":60
-		},
+		{"id":"3e226588100cb195","type":"text","text":"[Windows Shell](Windows%20Shell.md)","x":4187,"y":4335,"width":157,"height":59},
+		{"id":"6655bcc4e385681c","type":"text","text":"BadSucessor Attack\n","x":3895,"y":4335,"width":204,"height":58,"color":"4"},
 		{
 			"id":"8c562b2fd65d2fdc",
 			"type":"text",
@@ -669,37 +798,11 @@
 			"height":140,
 			"color":"3"
 		},
-		{"id":"acd1b6089427ebda","type":"text","text":"upload ke windows shell dan dump pake `volatility3` -> ternyata kalau pake ini windowsnya harus connect internet\n\natau `vmkatz` -> windowsnya tidak perlu connect internet","x":5128,"y":4268,"width":300,"height":192},
-		{
-			"id":"fce043c362fdaa93",
-			"type":"text",
-			"text":"# [Windows Priviledge Escalation](Windows%20Priviledge%20Escalation.md)",
-			"styleAttributes":{"textAlign":"center","shape":"circle"},
-			"x":1525,
-			"y":4314,
-			"width":198,
-			"height":208,
-			"color":"3"
-		},
+		{"id":"70ecea1453706333","type":"text","text":"jika ada code yang rentan thd DLL attack\n`grep -niE \"LoadLibrary|Assembly\\.LoadFrom|ExtractToDirectory|File\\.Copy|GetProcAddress|DownloadFile|Process\\.Start\"`","x":4267,"y":5380,"width":285,"height":203,"color":"4"},
+		{"id":"ea1049bdc91711c9","type":"text","text":"decompile with `ilsypy`","x":4010,"y":5441,"width":142,"height":82},
+		{"id":"200dffc2ee53a26c","type":"text","text":"user.txt","x":2978,"y":4987,"width":136,"height":56,"color":"4"},
+		{"id":"b95cc63b65f72db8","type":"text","text":"cari user.txt manual","x":2689,"y":4993,"width":197,"height":50},
 		{"id":"12b5e2713e70f48c","type":"text","text":"[Enum Saya](Windows%20Shell.md#Enum%20Saya)","x":2676,"y":4330,"width":141,"height":50},
-		{"id":"b870c0a0edbe945f","type":"text","text":"cek `.vmem`\ncek `.vmsn`","x":4915,"y":4335,"width":154,"height":59},
-		{"id":"ba9db084544ef3fa","type":"text","text":"`systeminfo`","x":3306,"y":4327,"width":136,"height":57},
-		{"id":"3e226588100cb195","type":"text","text":"[Windows Shell](Windows%20Shell.md)","x":4187,"y":4335,"width":157,"height":59},
-		{"id":"14735d13f3ee89dd","type":"text","text":"Cek `C:\\Shares\\`","x":4420,"y":4336,"width":169,"height":57},
-		{"id":"d99b6036ad46b9ce","type":"text","text":"`VMBackups`","x":4675,"y":4335,"width":154,"height":59},
-		{"id":"3341386072b39c71","type":"text","text":"Nt Hash","x":5615,"y":4337,"width":119,"height":58,"color":"4"},
-		{"id":"4670e964acce3a6e","type":"text","text":"Server 2025 Build 26100","x":3538,"y":4334,"width":250,"height":60},
-		{"id":"6655bcc4e385681c","type":"text","text":"BadSucessor Attack\n","x":3895,"y":4335,"width":204,"height":58,"color":"4"},
-		{"id":"736609445e0cfedf","type":"text","text":"[siapa saya?](Windows%20Shell.md#Enum%20Saya#siapa%20saya?)","x":2978,"y":4328,"width":166,"height":54},
-		{"id":"4a5368a431185910","type":"text","text":"BadSucessor Scanner","x":3890,"y":4472,"width":215,"height":50},
-		{"id":"ea2bf26f3381c530","type":"text","text":"`whoami /priv`","x":3306,"y":4472,"width":180,"height":51},
-		{"id":"76de597e3cd9dbe1","type":"text","text":"[dimana saya?](Windows%20Shell.md#Enum%20Saya#dimana%20saya?)","x":2978,"y":4656,"width":160,"height":60},
-		{"id":"cef80b9177176a4b","type":"text","text":"pivoting","x":3636,"y":4656,"width":125,"height":61},
-		{"id":"d3c14aa0f1ff003f","type":"text","text":"ligolo-ng","x":3870,"y":4657,"width":250,"height":60},
-		{"id":"34993d5f3ff88b1c","type":"text","text":"`ipconfig` ","x":3306,"y":4657,"width":250,"height":60},
-		{"id":"e20571149c7b4483","type":"text","text":"chishell","x":3870,"y":4741,"width":250,"height":60},
-		{"id":"6f59f5992a6eb635","type":"text","text":"cari user.txt atau root.txt di semua user desktop","x":5854,"y":4324,"width":228,"height":85,"color":"4"},
-		{"id":"b90c42450bae1ead","type":"text","text":"siapa saja usernya?","x":2978,"y":4856,"width":217,"height":55},
 		{
 			"id":"b64c4015ba1d137e",
 			"type":"text",
@@ -711,28 +814,32 @@
 			"height":208,
 			"color":"3"
 		},
-		{"id":"b95cc63b65f72db8","type":"text","text":"cari user.txt manual","x":2689,"y":4993,"width":197,"height":50},
-		{"id":"200dffc2ee53a26c","type":"text","text":"user.txt","x":2978,"y":4987,"width":136,"height":56,"color":"4"},
+		{"id":"ea2bf26f3381c530","type":"text","text":"`whoami /priv`","x":3306,"y":4472,"width":180,"height":51},
+		{"id":"b90c42450bae1ead","type":"text","text":"siapa saja usernya?","x":2991,"y":4800,"width":217,"height":55},
+		{"id":"76de597e3cd9dbe1","type":"text","text":"[dimana saya?](Windows%20Shell.md#Enum%20Saya#dimana%20saya?)","x":2991,"y":4635,"width":160,"height":60},
+		{"id":"34993d5f3ff88b1c","type":"text","text":"`ipconfig` ","x":3246,"y":4635,"width":120,"height":60},
 		{
-			"id":"b13a4214275eea05",
+			"id":"8d8ab833685618ce",
 			"type":"text",
-			"text":"# [Windows Priviledge Escalation](Windows%20Priviledge%20Escalation.md)",
-			"styleAttributes":{"textAlign":"center","shape":"circle"},
-			"x":6209,
-			"y":4262,
-			"width":198,
-			"height":208,
-			"color":"3"
+			"text":"RODC Computer",
+			"styleAttributes":{
+				"shape":null,
+				"textAlign":"center"
+			},
+			"x":3883,
+			"y":4630,
+			"width":216,
+			"height":70
 		},
 		{
-			"id":"f0ccb8460389516d",
+			"id":"190337a4b6beb365",
 			"type":"text",
-			"text":"Ada User.txt",
-			"styleAttributes":{"shape":"diamond","textAlign":"center"},
-			"x":1503,
-			"y":5141,
-			"width":220,
-			"height":179
+			"text":"add RODC computer to /etc/host",
+			"styleAttributes":{"textAlign":"center"},
+			"x":4245,
+			"y":4593,
+			"width":165,
+			"height":144
 		},
 		{
 			"id":"5f9cca3e2981b613",
@@ -747,6 +854,39 @@
 			"width":160,
 			"height":162
 		},
+		{
+			"id":"f0ccb8460389516d",
+			"type":"text",
+			"text":"Ada User.txt",
+			"styleAttributes":{"shape":"diamond","textAlign":"center"},
+			"x":1503,
+			"y":5141,
+			"width":220,
+			"height":179
+		},
+		{"id":"9e2e790aa543ac7a","type":"text","text":"buka isinya pake `cat` , cari nama programnya","x":3241,"y":5398,"width":185,"height":80},
+		{"id":"2294f77825bdfc49","type":"text","text":"Cek `C:\\Shares\\`","x":2691,"y":5194,"width":203,"height":55},
+		{
+			"id":"f2032ea074185aca",
+			"type":"text",
+			"text":"# Bloodyhound",
+			"styleAttributes":{"shape":"circle","textAlign":"center"},
+			"x":1400,
+			"y":5435,
+			"width":194,
+			"height":166,
+			"color":"3"
+		},
+		{
+			"id":"ac63b3b1f35274a1",
+			"type":"text",
+			"text":"# [[3389 - RDP]]",
+			"styleAttributes":{"textAlign":"center"},
+			"x":300,
+			"y":6420,
+			"width":240,
+			"height":220
+		},
 		{"id":"532ff3c000c859fb","type":"text","text":"Login hash","x":749,"y":5144,"width":140,"height":50},
 		{
 			"id":"adc386bb686d7ab4",
@@ -758,72 +898,137 @@
 			"width":171,
 			"height":180
 		},
-		{"id":"2294f77825bdfc49","type":"text","text":"Cek `C:\\Shares\\`","x":2691,"y":5194,"width":203,"height":55},
 		{"id":"368c8df9e308204d","type":"text","text":"Login Password","x":738,"y":5286,"width":163,"height":50},
+		{"id":"4670e964acce3a6e","type":"text","text":"Server 2025 Build 26100","x":3538,"y":4334,"width":250,"height":60},
+		{"id":"264f52fbfa6ed9f7","type":"text","text":"# [Windows Shell](Windows%20Shell.md)","x":4913,"y":5447,"width":216,"height":71,"color":"4"},
+		{"id":"69a9477a2ee62967","type":"text","text":"generate payload using msfvenom","x":4611,"y":5452,"width":229,"height":60},
+		{"id":"4a5368a431185910","type":"text","text":"BadSucessor Scanner","x":3890,"y":4472,"width":215,"height":50},
+		{"id":"26cce4aa86283c5b","type":"text","text":"What's running?","x":3555,"y":5452,"width":161,"height":60},
 		{"id":"eea0f9facd7374d4","type":"text","text":"Who run it?","x":3556,"y":5348,"width":160,"height":50},
-		{"id":"70ecea1453706333","type":"text","text":"jika ada code yang rentan thd DLL attack\n`grep -niE \"LoadLibrary|Assembly\\.LoadFrom|ExtractToDirectory|File\\.Copy|GetProcAddress|DownloadFile|Process\\.Start\"`","x":4267,"y":5380,"width":285,"height":203,"color":"4"},
-		{"id":"cb64906f3e8c8d4c","type":"text","text":"[Schedule Task](Windows%20Shell.md#Schedule%20Task) biasanya extensi adalah`.ps1`","x":2991,"y":5380,"width":164,"height":115},
-		{"id":"9e2e790aa543ac7a","type":"text","text":"buka isinya pake `cat` , cari nama programnya","x":3241,"y":5398,"width":185,"height":80},
-		{"id":"9ecca47b8d76633a","type":"text","text":"`ls .`","x":2689,"y":5410,"width":197,"height":50},
+		{"id":"7632215317c57ece","type":"text","text":"`.exe` file","x":3795,"y":5451,"width":117,"height":61},
 		{
-			"id":"02bdb71fcec76d68",
+			"id":"277e72c6c48222d5",
+			"type":"text",
+			"text":"# BloodyAD",
+			"styleAttributes":{"shape":"circle","textAlign":"center"},
+			"x":1632,
+			"y":5435,
+			"width":208,
+			"height":166,
+			"color":"3"
+		},
+		{"id":"9ecca47b8d76633a","type":"text","text":"`ls .`","x":2689,"y":5410,"width":197,"height":50},
+		{"id":"cb64906f3e8c8d4c","type":"text","text":"[Schedule Task](Windows%20Shell.md#Schedule%20Task) biasanya extensi adalah`.ps1`","x":2991,"y":5380,"width":164,"height":115},
+		{"id":"ba9db084544ef3fa","type":"text","text":"`systeminfo`","x":3306,"y":4327,"width":136,"height":57},
+		{"id":"ad0403cdd7ad12df","type":"text","text":"Biasanya password akun yang di restored sama dengan akun yang melakukan restored","x":4455,"y":3412,"width":237,"height":106,"color":"4"},
+		{"id":"38fa2634fd10f1b3","type":"text","text":"cek nama SAM account","x":4888,"y":3575,"width":250,"height":60},
+		{"id":"b0038d53fefbf704","type":"text","text":"Restored Object","x":4100,"y":3591,"width":185,"height":50},
+		{"id":"acd1b6089427ebda","type":"text","text":"upload ke windows shell dan dump pake `volatility3` -> ternyata kalau pake ini windowsnya harus connect internet\n\natau `vmkatz` -> windowsnya tidak perlu connect internet","x":5128,"y":4268,"width":300,"height":192},
+		{"id":"3341386072b39c71","type":"text","text":"Nt Hash","x":5615,"y":4337,"width":119,"height":58,"color":"4"},
+		{"id":"6f59f5992a6eb635","type":"text","text":"cari user.txt atau root.txt di semua user desktop","x":5854,"y":4324,"width":228,"height":85,"color":"4"},
+		{"id":"6060c0a35f837064","type":"text","text":"user.txt","x":5285,"y":5451,"width":110,"height":62,"color":"4"},
+		{
+			"id":"cef80b9177176a4b",
+			"type":"text",
+			"text":"[Pivoting](Pivoting.md)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":3663,
+			"y":4635,
+			"width":125,
+			"height":61
+		},
+		{"id":"4abbd8afa998b5f9","type":"text","text":"[Kerberoasting Attack](88%20-%20Kerberos.md#Kerberoasting%20Attack)","x":967,"y":3221,"width":174,"height":80},
+		{
+			"id":"978d7c53cc53fd17",
+			"type":"text",
+			"text":"Ada Credential ?",
+			"styleAttributes":{"shape":"diamond","textAlign":"center"},
+			"x":604,
+			"y":3347,
+			"width":220,
+			"height":179
+		},
+		{
+			"id":"a7d2896a022f9cb7",
+			"type":"text",
+			"text":"# [88 - Kerberos](88%20-%20Kerberos.md)",
+			"styleAttributes":{
+				"shape":null,
+				"textAlign":"center"
+			},
+			"x":274,
+			"y":3362,
+			"width":162,
+			"height":148
+		},
+		{"id":"b3e53e13b8d86e4a","type":"text","text":"AS-REP Roasting Attack","x":967,"y":3581,"width":174,"height":62},
+		{"id":"1947d8f6f216fa44","type":"text","text":"[Colect data](Tools%20-%20Bloodhound.md#Colect%20data)","x":1700,"y":2955,"width":133,"height":50},
+		{"id":"38dc81dada4f76aa","type":"text","text":"bloodyad","x":2035,"y":3040,"width":202,"height":50},
+		{"id":"736609445e0cfedf","type":"text","text":"[siapa saya?](Windows%20Shell.md#Enum%20Saya#siapa%20saya?)","x":2978,"y":4328,"width":166,"height":54},
+		{
+			"id":"fce043c362fdaa93",
 			"type":"text",
 			"text":"# [Windows Priviledge Escalation](Windows%20Priviledge%20Escalation.md)",
+			"styleAttributes":{"textAlign":"center","shape":"circle"},
+			"x":1514,
+			"y":4314,
+			"width":198,
+			"height":208,
+			"color":"3"
+		},
+		{
+			"id":"0da9609e149f8ec2",
+			"type":"text",
+			"text":"scan internal port",
+			"styleAttributes":{"textAlign":"center"},
+			"x":3426,
+			"y":4635,
+			"width":160,
+			"height":60
+		},
+		{
+			"id":"a8a0c1803fab371b",
+			"type":"text",
+			"text":"`hostname`",
+			"styleAttributes":{"textAlign":"center"},
+			"x":3248,
+			"y":4720,
+			"width":126,
+			"height":60
+		},
+		{
+			"id":"c311eeb850fca9b2",
+			"type":"text",
+			"text":"# [Privilege Escalation - RBCD](Privilege%20Escalation%20-%20RBCD.md)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":7690,
+			"y":5193,
+			"width":440,
+			"height":95
+		},
+		{
+			"id":"36a28456a5573f99",
+			"type":"text",
+			"text":"RODC computer shell",
 			"styleAttributes":{
 				"textAlign":"center",
 				"shape":null
 			},
-			"x":6680,
-			"y":5379,
-			"width":198,
-			"height":208
-		},
-		{"id":"ea1049bdc91711c9","type":"text","text":"decompile with `ilsypy`","x":4010,"y":5441,"width":142,"height":82},
-		{"id":"264f52fbfa6ed9f7","type":"text","text":"# [Windows Shell](Windows%20Shell.md)","x":4913,"y":5447,"width":216,"height":71,"color":"4"},
-		{"id":"69a9477a2ee62967","type":"text","text":"generate payload using msfvenom","x":4611,"y":5452,"width":229,"height":60},
-		{"id":"6060c0a35f837064","type":"text","text":"user.txt","x":5285,"y":5451,"width":110,"height":62,"color":"4"},
-		{"id":"7632215317c57ece","type":"text","text":"`.exe` file","x":3795,"y":5451,"width":117,"height":61},
-		{"id":"26cce4aa86283c5b","type":"text","text":"What's running?","x":3555,"y":5452,"width":161,"height":60},
-		{
-			"id":"532ae231c55f3936",
-			"type":"text",
-			"text":"# [Tools - Bloodhound](Tools%20-%20Bloodhound.md)",
-			"styleAttributes":{"textAlign":"center","shape":"diamond"},
-			"x":7040,
-			"y":5378,
-			"width":198,
-			"height":208
-		},
-		{
-			"id":"6ed6232beb76373e",
-			"type":"text",
-			"text":"Execute",
-			"styleAttributes":{"textAlign":"center"},
-			"x":7320,
-			"y":5260,
-			"width":180,
-			"height":60
-		},
-		{
-			"id":"1538bc648a8179c4",
-			"type":"text",
-			"text":"# [8530,8531 - WSUS](8530,8531%20-%20WSUS.md) open?",
-			"styleAttributes":{"textAlign":"center","shape":"diamond"},
-			"x":7370,
-			"y":5640,
-			"width":260,
-			"height":240
-		},
-		{
-			"id":"e2db1e9d6c8cfafb",
-			"type":"text",
-			"text":"bisa put",
-			"styleAttributes":{"textAlign":"center"},
-			"x":2860,
-			"y":740,
-			"width":158,
-			"height":60,
+			"x":8220,
+			"y":5157,
+			"width":210,
+			"height":168,
 			"color":"4"
+		},
+		{
+			"id":"ed9c84b8a8e93b0d",
+			"type":"text",
+			"text":"steal secrets using mimikatz",
+			"styleAttributes":{},
+			"x":8490,
+			"y":5210,
+			"width":260,
+			"height":60
 		}
 	],
 	"edges":[
@@ -899,8 +1104,8 @@
 		{"id":"4498f37803a3c473","fromFloating":false,"toFloating":false,"fromNode":"b0b64d36a8f4a222","fromSide":"bottom","toNode":"23f6bb0dfee583d9","toSide":"top"},
 		{"id":"1e65d7ed36097c2f","toFloating":false,"fromNode":"e8e232ed7ab7f0f9","fromSide":"top","toNode":"6223fccd861ff859","toSide":"top"},
 		{"id":"0ae46277d593b7c4","toFloating":false,"fromFloating":false,"fromNode":"29f5ff161daa560c","fromSide":"right","toNode":"e8e232ed7ab7f0f9","toSide":"top"},
-		{"id":"3e2cf7fe9f010290","fromNode":"3694047f90978559","fromSide":"right","toNode":"4a01cc558fa44dfc","toSide":"left","color":"3"},
-		{"id":"561f99d58420d2d6","fromNode":"4a01cc558fa44dfc","fromSide":"right","toNode":"31773abf9450d3b7","toSide":"left","color":"3"},
+		{"id":"3e2cf7fe9f010290","fromFloating":false,"fromNode":"3694047f90978559","fromSide":"right","toNode":"4a01cc558fa44dfc","toSide":"left"},
+		{"id":"561f99d58420d2d6","fromFloating":false,"fromNode":"4a01cc558fa44dfc","fromSide":"right","toNode":"31773abf9450d3b7","toSide":"left"},
 		{"id":"d77e1d4584c7f950","fromNode":"31773abf9450d3b7","fromSide":"right","toNode":"58176e8ca9585bd5","toSide":"left"},
 		{"id":"0951697641fe1b13","fromFloating":false,"fromNode":"cb64906f3e8c8d4c","fromSide":"right","toNode":"9e2e790aa543ac7a","toSide":"left"},
 		{"id":"9aeeaa4b948799d9","toFloating":false,"fromNode":"9e2e790aa543ac7a","fromSide":"right","toNode":"eea0f9facd7374d4","toSide":"left"},
@@ -910,9 +1115,6 @@
 		{"id":"ea13fe8f9ef2c1a3","fromFloating":false,"fromNode":"70ecea1453706333","fromSide":"right","toNode":"69a9477a2ee62967","toSide":"left"},
 		{"id":"2aff5d451d301bd2","fromFloating":false,"fromNode":"69a9477a2ee62967","fromSide":"right","toNode":"264f52fbfa6ed9f7","toSide":"left"},
 		{"id":"a8563411656f332e","fromFloating":false,"fromNode":"264f52fbfa6ed9f7","fromSide":"right","toNode":"6060c0a35f837064","toSide":"left"},
-		{"id":"6742d50cc5af7222","toFloating":false,"fromNode":"cef80b9177176a4b","fromSide":"right","toNode":"d3c14aa0f1ff003f","toSide":"left"},
-		{"id":"730a8e3cfe6a2f74","fromFloating":false,"fromNode":"cef80b9177176a4b","fromSide":"right","toNode":"e20571149c7b4483","toSide":"left"},
-		{"id":"3c2e3c6304b269ad","fromFloating":false,"fromNode":"34993d5f3ff88b1c","fromSide":"right","toNode":"cef80b9177176a4b","toSide":"left"},
 		{"id":"c889a1de74be1655","fromFloating":false,"fromNode":"b95cc63b65f72db8","fromSide":"right","toNode":"200dffc2ee53a26c","toSide":"left"},
 		{
 			"id":"ab9958e9d548b251",
@@ -1230,7 +1432,6 @@
 			"toNode":"978d7c53cc53fd17",
 			"toSide":"left"
 		},
-		{"id":"239229dfc7ef331a","toFloating":false,"fromNode":"f9bad5f2c913d0c3","fromSide":"right","toNode":"8f8559426b88e5e6","toSide":"left"},
 		{"id":"52700061e8d64c4e","toFloating":false,"fromNode":"f9bad5f2c913d0c3","fromSide":"right","toNode":"7ae54054e1c471c5","toSide":"left"},
 		{"id":"98b8e43531880f84","toFloating":false,"fromFloating":false,"fromNode":"dbe4d9014f0fa70b","fromSide":"right","toNode":"c6a18176ad7dc75a","toSide":"left"},
 		{"id":"72acdeca225ff949","toFloating":false,"fromFloating":false,"fromNode":"dbe4d9014f0fa70b","fromSide":"right","toNode":"97db7864e46b2c19","toSide":"left"},
@@ -1710,6 +1911,185 @@
 			"fromNode":"e2db1e9d6c8cfafb",
 			"fromSide":"right",
 			"toNode":"09558845849e33c1",
+			"toSide":"left"
+		},
+		{
+			"id":"53fb5e7785b75be4",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"1adffaad6dd6b710",
+			"fromSide":"top",
+			"toNode":"0373520102524e91",
+			"toSide":"left",
+			"color":"4",
+			"label":"ada"
+		},
+		{
+			"id":"14163f260e811144",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"0373520102524e91",
+			"fromSide":"right",
+			"toNode":"2fb7e3351670cc20",
+			"toSide":"left"
+		},
+		{
+			"id":"09002a5d17763fd9",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"2fb7e3351670cc20",
+			"fromSide":"right",
+			"toNode":"0de4e5fd6a02beae",
+			"toSide":"left"
+		},
+		{
+			"id":"64dc28daf29985e4",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"f0ccb8460389516d",
+			"fromSide":"bottom",
+			"toNode":"277e72c6c48222d5",
+			"toSide":"top",
+			"color":"1"
+		},
+		{
+			"id":"4889ff77b78da4ae",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"f0ccb8460389516d",
+			"fromSide":"bottom",
+			"toNode":"f2032ea074185aca",
+			"toSide":"top",
+			"color":"1"
+		},
+		{
+			"id":"f5793ea09f7366a0",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"f9bad5f2c913d0c3",
+			"fromSide":"right",
+			"toNode":"8f8559426b88e5e6",
+			"toSide":"left"
+		},
+		{
+			"id":"1022beba2070722a",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"dbe4d9014f0fa70b",
+			"fromSide":"right",
+			"toNode":"b0aa9dab0f4f9474",
+			"toSide":"left"
+		},
+		{
+			"id":"3058a2c8afdca33e",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"b0aa9dab0f4f9474",
+			"fromSide":"right",
+			"toNode":"c2a6002f4cd28b8d",
+			"toSide":"left"
+		},
+		{
+			"id":"291238e2117d4857",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"c2a6002f4cd28b8d",
+			"fromSide":"right",
+			"toNode":"861bef75f752acca",
+			"toSide":"left"
+		},
+		{
+			"id":"37137f666ed075f3",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"6ed6232beb76373e",
+			"fromSide":"right",
+			"toNode":"c311eeb850fca9b2",
+			"toSide":"left"
+		},
+		{
+			"id":"8a798475414d1699",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"83ca3f9ba9f042e2",
+			"fromSide":"bottom",
+			"toNode":"861bef75f752acca",
+			"toSide":"left"
+		},
+		{
+			"id":"d86dafd619f869bd",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"cef80b9177176a4b",
+			"fromSide":"right",
+			"toNode":"8d8ab833685618ce",
+			"toSide":"left"
+		},
+		{
+			"id":"a3bc82b811ba1d91",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"8d8ab833685618ce",
+			"fromSide":"right",
+			"toNode":"190337a4b6beb365",
+			"toSide":"left",
+			"color":"4"
+		},
+		{
+			"id":"b745268a01a092da",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"190337a4b6beb365",
+			"fromSide":"right",
+			"toNode":"c311eeb850fca9b2",
+			"toSide":"top"
+		},
+		{
+			"id":"b025b4853393d7ed",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"34993d5f3ff88b1c",
+			"fromSide":"right",
+			"toNode":"0da9609e149f8ec2",
+			"toSide":"left"
+		},
+		{
+			"id":"6ad4cb35ac53e276",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"0da9609e149f8ec2",
+			"fromSide":"right",
+			"toNode":"cef80b9177176a4b",
+			"toSide":"left"
+		},
+		{
+			"id":"a8379e12a603f564",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"76de597e3cd9dbe1",
+			"fromSide":"right",
+			"toNode":"a8a0c1803fab371b",
+			"toSide":"left"
+		},
+		{
+			"id":"eaebc44a236c0e75",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"c311eeb850fca9b2",
+			"fromSide":"right",
+			"toNode":"36a28456a5573f99",
+			"toSide":"left"
+		},
+		{
+			"id":"746ab574350821af",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"36a28456a5573f99",
+			"fromSide":"right",
+			"toNode":"ed9c84b8a8e93b0d",
 			"toSide":"left"
 		}
 	],

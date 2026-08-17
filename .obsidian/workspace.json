@@ -4,27 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "18331bdd67b8041e",
+        "id": "2d9b206f5bff773f",
         "type": "tabs",
         "children": [
           {
-            "id": "b15664af093215a2",
+            "id": "1ff7b2f3b3c707c8",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
-                "viewState": {
-                  "x": 3629.3956614079293,
-                  "y": 4953.4617879894495,
-                  "zoom": -1.0966285576095407
-                }
+                "file": "Privilege Escalation - RBCD.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA"
+              "icon": "lucide-file",
+              "title": "Privilege Escalation - RBCD"
+            }
+          },
+          {
+            "id": "65ffd90a9ba75308",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tools - Mimikatz.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tools - Mimikatz"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -159,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
+                "file": "Tools - Mimikatz.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA"
+              "title": "Outline of Tools - Mimikatz"
             }
           },
           {
@@ -208,45 +220,46 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b15664af093215a2",
+  "active": "65ffd90a9ba75308",
   "lastOpenFiles": [
+    "Attachments/Pasted image 20260814111416.png",
+    "Privilege Escalation - RBCD.md",
+    "Tools - Mimikatz.md",
+    "Attachments/Pasted image 20260814104031.png",
+    "Pivoting.md",
     "Tools - Bloodhound.md",
-    "Attachments/Pasted image 20260805132538.png",
-    "Attachments/Pasted image 20260805132420.png",
-    "Windows Active Directory.md",
-    "123 - NTP.md",
     "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
-    "139,445 - SMB.md",
-    "Attack - scriptPath Abuse.md",
-    "Attachments/Pasted image 20260804135534.png",
-    "Attachments/Pasted image 20260804135407.png",
-    "Attachments/Pasted image 20260804134727.png",
-    "Attachments/Pasted image 20260804102117.png",
-    "Attachments/Pasted image 20260804133201.png",
-    "Attachments/Pasted image 20260804133134.png",
-    "Attachments/Pasted image 20260804101828.png",
-    "Tools - bloodyAD.md",
-    "Labs.md",
-    "389,636 - LDAP.md",
-    "Port Scanning.md",
-    "ADCS.md",
-    "135 - RPC.md",
-    "Attachments/Pasted image 20260719175446.png",
-    "88 - Kerberos.md",
-    "Tools - NXC.md",
-    "3389 - RDP.md",
-    "Tools - MSFVENOM.md",
-    "Practice/Logging.md",
-    "Practice/Fries.md",
-    "Tools - Certipy.md",
-    "Attack - Shadow Credential.md",
     "Attack - Bad Sucessor.md",
+    "Tools - bloodyAD.md",
+    "Attachments/Pasted image 20260811153352.png",
+    "Labs.md",
+    "Backdoor Shell.md",
     "Windows Shell.md",
-    "Practice/Hackthebox.md",
+    "Attack - scriptPath Abuse.md",
+    "Lab - Dante.md",
+    "Attachments/Pasted image 20260811125046.png",
+    "Attachments/Pasted image 20260811124554.png",
+    "Attachments/Pasted image 20260811123750.png",
+    "Attachments/Pasted image 20260811105306.png",
+    "Attachments/Pasted image 20260811101539.png",
+    "Attachments/Pasted image 20260811101509.png",
+    "Attachments/Pasted image 20260811101452.png",
+    "Attachments/Pasted image 20260811101428.png",
+    "IP.md",
+    "RODC.md",
+    "Windows Active Directory.md",
+    "Windows Priviledge Escalation.md",
+    "Hash.md",
     "Forensics.md",
     "Extract.md",
-    "Windows Priviledge Escalation.md",
+    "CVE.md",
+    "Attack - Malicious Vsix Files.md",
+    "Attack - DLL Hijacking.md",
     "Untitled.canvas",
+    "123 - NTP.md",
+    "139,445 - SMB.md",
+    "389,636 - LDAP.md",
+    "Port Scanning.md",
     "Practice",
     "Attachments",
     "Bismillahhirrahmanirrahim.canvas",

@@ -38,12 +38,6 @@ net usern
 net localgroup administrator
 ```
 ![](Attachments/Pasted%20image%2020260625054311.png)
-
-# Pivoting
-## Ligolo-ng
-download ligolo agent
-[Releases · nicocha30/ligolo-ng](https://github.com/nicocha30/ligolo-ng/releases) 
-
 # Schedule Task
 ## Siapa yang menjalankan program UpdateChecker Agent (misal)?
 ```powershell
@@ -69,6 +63,8 @@ download "C:\Program Files\UpdateMonitor\UpdateMonitor.exe"
 # Upload
 ```powershell
 upload '/home/kali/forensic-tools/volatility3-win-exes-2.28.0/vol.exe' 'C:\Windows\Temp\vol.exe'
+
+upload '/home/kali/ligolo/ligolo-agent.exe' 'C:\Windows\Temp\ligolo-agent.exe'
 
 # Verify
 ls C:\Windows\Temp\vol.exe
