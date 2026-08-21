@@ -8,35 +8,40 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1ff7b2f3b3c707c8",
+            "id": "c7cff904d760f68e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Privilege Escalation - RBCD.md",
+                "file": "Tools - bloodyAD.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Privilege Escalation - RBCD"
-            }
-          },
-          {
-            "id": "65ffd90a9ba75308",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tools - Mimikatz.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tools - Mimikatz"
+              "title": "Tools - bloodyAD"
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "5b0cce094b403bc4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ee25730732f15039",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Labs.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Labs"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -171,13 +176,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools - Mimikatz.md",
+                "file": "Tools - bloodyAD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Tools - Mimikatz"
+              "title": "Outline of Tools - bloodyAD"
             }
           },
           {
@@ -201,7 +206,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -220,46 +225,45 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "65ffd90a9ba75308",
+  "active": "c7cff904d760f68e",
   "lastOpenFiles": [
-    "Attachments/Pasted image 20260814111416.png",
-    "Privilege Escalation - RBCD.md",
-    "Tools - Mimikatz.md",
-    "Attachments/Pasted image 20260814104031.png",
-    "Pivoting.md",
-    "Tools - Bloodhound.md",
     "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
-    "Attack - Bad Sucessor.md",
+    "Attack - Shadow Credential.md",
     "Tools - bloodyAD.md",
-    "Attachments/Pasted image 20260811153352.png",
     "Labs.md",
-    "Backdoor Shell.md",
+    "Tools - Bloodhound.md",
+    "389,636 - LDAP.md",
+    "139,445 - SMB.md",
+    "Tools - NXC.md",
+    "Port Scanning.md",
+    "Privilege Escalation - Keylist Attack.md",
+    "Attachments/Pasted image 20260820064311.png",
+    "Attachments/Pasted image 20260820064250.png",
+    "Tools - Mimikatz.md",
+    "Privilege Escalation - RBCD.md",
+    "Tools - Rubeus.md",
+    "Windows Active Directory.md",
+    "Attachments/Pasted image 20260818144854.png",
+    "Attachments/Pasted image 20260818140802.png",
+    "Attachments/Pasted image 20260818095625.png",
     "Windows Shell.md",
-    "Attack - scriptPath Abuse.md",
+    "Tools - Impacket.md",
+    "Windows Priviledge Escalation.md",
+    "Attachments/Pasted image 20260817205426.png",
+    "Attachments/Pasted image 20260817203230.png",
     "Lab - Dante.md",
-    "Attachments/Pasted image 20260811125046.png",
-    "Attachments/Pasted image 20260811124554.png",
-    "Attachments/Pasted image 20260811123750.png",
-    "Attachments/Pasted image 20260811105306.png",
-    "Attachments/Pasted image 20260811101539.png",
-    "Attachments/Pasted image 20260811101509.png",
-    "Attachments/Pasted image 20260811101452.png",
-    "Attachments/Pasted image 20260811101428.png",
+    "Pivoting.md",
+    "Attachments/Pasted image 20260814111416.png",
+    "Attachments/Pasted image 20260814104031.png",
+    "Attack - Bad Sucessor.md",
+    "Attachments/Pasted image 20260811153352.png",
+    "Backdoor Shell.md",
+    "Attack - scriptPath Abuse.md",
     "IP.md",
     "RODC.md",
-    "Windows Active Directory.md",
-    "Windows Priviledge Escalation.md",
     "Hash.md",
     "Forensics.md",
-    "Extract.md",
-    "CVE.md",
-    "Attack - Malicious Vsix Files.md",
-    "Attack - DLL Hijacking.md",
     "Untitled.canvas",
-    "123 - NTP.md",
-    "139,445 - SMB.md",
-    "389,636 - LDAP.md",
-    "Port Scanning.md",
     "Practice",
     "Attachments",
     "Bismillahhirrahmanirrahim.canvas",

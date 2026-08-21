@@ -2,7 +2,7 @@
 ```shell
 for svc in smb winrm rdp ssh ldap mssql ftp; do
   echo "===$svc==="
-  nxc $svc 10.129.7.71 -u 'j.arbuckle' -p 'Th1sD4mnC4t!@1978'
+  nxc $svc 10.129.27.241 -u 'anderson.w' -p 'R3dT3am@Acc3ss#01'
 done 
 ```
 # Account Restriction
