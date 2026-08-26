@@ -8,40 +8,91 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c7cff904d760f68e",
+            "id": "2339b059169befe9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools - bloodyAD.md",
+                "file": "Reverse Shell.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tools - bloodyAD"
+              "title": "Reverse Shell"
             }
-          }
-        ]
-      },
-      {
-        "id": "5b0cce094b403bc4",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "ee25730732f15039",
+            "id": "69bfad94ebfdaecf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Labs.md",
+                "file": "Version.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Labs"
+              "title": "Version"
+            }
+          },
+          {
+            "id": "cec1c1e13741ad93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Version.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Version"
+            }
+          },
+          {
+            "id": "e775c9377a3aa23e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Version.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Version"
+            }
+          },
+          {
+            "id": "0571199f1a2751eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Version.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Version"
+            }
+          },
+          {
+            "id": "36d0435e7dab0229",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tools - Curl.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tools - Curl"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -176,13 +227,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools - bloodyAD.md",
+                "file": "Tools - Curl.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Tools - bloodyAD"
+              "title": "Outline of Tools - Curl"
             }
           },
           {
@@ -206,7 +257,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -225,44 +276,45 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c7cff904d760f68e",
+  "active": "36d0435e7dab0229",
   "lastOpenFiles": [
-    "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
-    "Attack - Shadow Credential.md",
-    "Tools - bloodyAD.md",
+    "Version.md",
+    "Tools - Curl.md",
+    "CVE - Gitea.md",
+    "CVE - Windows Admin Center.md",
+    "CVE - SmarterMail.md",
+    "Pivoting - Chisel.md",
+    "Attachments/Pasted image 20260826154747.png",
+    "Attachments/Pasted image 20260826154655.png",
+    "Pivoting - Ligolo-ng.md",
+    "Reverse Shell.md",
+    "Windows Shell.md",
+    "Attachments/Pasted image 20260826111255.png",
+    "Attachments/Pasted image 20260826111227.png",
+    "Attachments/Pasted image 20260826103714.png",
     "Labs.md",
-    "Tools - Bloodhound.md",
-    "389,636 - LDAP.md",
-    "139,445 - SMB.md",
+    "Tools - Winpeas.md",
+    "17017 - SmarterMail.md",
+    "25,495,587 - SMTP.md",
+    "Windows Active Directory.md",
+    "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
+    "6600 - Windows Admin Center.md",
+    "Tools - Mimikatz.md",
+    "Tools - Rubeus.md",
     "Tools - NXC.md",
-    "Port Scanning.md",
-    "Privilege Escalation - Keylist Attack.md",
+    "Tools - Bloodhound.md",
+    "Tools - bloodyAD.md",
+    "Tools - Certipy.md",
+    "Tools - Impacket.md",
+    "Tools - MSFVENOM.md",
+    "Attachments/Pasted image 20260824130947.png",
+    "Windows Priviledge Escalation.md",
+    "RODC.md",
+    "Privilege Escalation - RBCD.md",
+    "Attachments/Pasted image 20260824123528.png",
+    "Attachments/Pasted image 20260824091407.png",
     "Attachments/Pasted image 20260820064311.png",
     "Attachments/Pasted image 20260820064250.png",
-    "Tools - Mimikatz.md",
-    "Privilege Escalation - RBCD.md",
-    "Tools - Rubeus.md",
-    "Windows Active Directory.md",
-    "Attachments/Pasted image 20260818144854.png",
-    "Attachments/Pasted image 20260818140802.png",
-    "Attachments/Pasted image 20260818095625.png",
-    "Windows Shell.md",
-    "Tools - Impacket.md",
-    "Windows Priviledge Escalation.md",
-    "Attachments/Pasted image 20260817205426.png",
-    "Attachments/Pasted image 20260817203230.png",
-    "Lab - Dante.md",
-    "Pivoting.md",
-    "Attachments/Pasted image 20260814111416.png",
-    "Attachments/Pasted image 20260814104031.png",
-    "Attack - Bad Sucessor.md",
-    "Attachments/Pasted image 20260811153352.png",
-    "Backdoor Shell.md",
-    "Attack - scriptPath Abuse.md",
-    "IP.md",
-    "RODC.md",
-    "Hash.md",
-    "Forensics.md",
     "Untitled.canvas",
     "Practice",
     "Attachments",

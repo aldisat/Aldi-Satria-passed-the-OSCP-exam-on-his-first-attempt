@@ -1,7 +1,7 @@
 # Scan vulnerable template
 ```shell
 # mrnggunakan credential
-certipy-ad find -u 'wallace.everette@logging.htb' -p 'Welcome2026@' -dc-ip 10.129.6.2
+certipy-ad find -u 'anderson.w@danglingtree.htb' -p 'R3dT3am@Acc3ss#01' -dc-ip 10.129.29.17 -stdout
 
 # kalau kerberos harus ada dc-host name nya
 ```

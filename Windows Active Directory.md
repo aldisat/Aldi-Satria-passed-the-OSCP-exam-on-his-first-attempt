@@ -1,3 +1,13 @@
+```plain
+urutan enum
+1. cek credential
+2. smb
+3. ldap
+4. bloodhound
+5. bloodyad
+6. http
+```
+
 # Account
 l.wilson_adm -> ini artinya admin
 # Domain Controller
@@ -18,11 +28,5 @@ rpcclient $> lookupnames administrator
 
 ```
 ![](Attachments/Pasted%20image%2020260818144854.png)
-# Chek infra
-```powershell
-sysinfo
-
-# or
-echo %PROCESSOR_ARCHITECTURE%
-```
-![](Attachments/Pasted%20image%2020260814104031.png)
+# Email_svc
+kalau ada ini akun emailsvc berarti ada email service di windows AD

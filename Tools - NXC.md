@@ -2,13 +2,12 @@
 ```shell
 for svc in smb winrm rdp ssh ldap mssql ftp; do
   echo "===$svc==="
-  nxc $svc 10.129.27.241 -u 'anderson.w' -p 'R3dT3am@Acc3ss#01'
+  nxc $svc 10.129.29.17 -u 'anderson.w' -p 'R3dT3am@Acc3ss#01'
 done 
 ```
 # Account Restriction
 Artinya akun valid tapi di restrict oleh server
 ![](Attachments/Pasted%20image%2020260703141136.png)
-
 # Signing None pada LDAP
 bisa terjangging NTLM relay attack pada LDAP
 ![](Attachments/Pasted%20image%2020260716105957.png)

