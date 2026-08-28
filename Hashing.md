@@ -24,8 +24,11 @@ hashcat --identify
 gunakan `--force` untk virtual machine
 ```shell
 hashcat -m 13100 kerberoasting_a.white_adm.txt /usr/share/wordlists/rockyou.txt --force
-
 ```
 ## Cracks successed
 ## Cracks Failed
 ![](Attachments/Pasted%20image%2020260616133245.png)
+
+# DNSSEC(NSEC3)
+SmarterMail
+![](Attachments/Pasted%20image%2020260827112424.png)
