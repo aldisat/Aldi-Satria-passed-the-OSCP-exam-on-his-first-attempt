@@ -30,3 +30,6 @@ rpcclient $> lookupnames administrator
 ![](Attachments/Pasted%20image%2020260818144854.png)
 # Email_svc
 kalau ada ini akun emailsvc berarti ada email service di windows AD
+# RODC
+RODC -> Read Only Domain Controller
+tanda kalau ada RODC environtment adalah ada akun krbtgt_8245

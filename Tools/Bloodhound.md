@@ -32,7 +32,7 @@ apa yang bisa Akun ini kontrol.
 https://sn0xs-organization.gitbook.io/sn0x-order.org/red-team-notes/ad-exploitation/information-gathering/bloodyad 
 https://www.thehacker.recipes/ad/movement/dacl/
 ### i. Generic Write
-[Attack - Shadow Credential](Attack%20-%20Shadow%20Credential.md)
+[Shadow Credential](Attack/Shadow%20Credential.md)
 ### iI. ForceChangePassword
 ```powershell
 # Change password from windows shell

