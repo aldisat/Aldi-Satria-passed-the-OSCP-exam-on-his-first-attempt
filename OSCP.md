@@ -21,6 +21,3 @@ tmux -s pirate.htb
 # resume 
 tmux attach -t pirate.htb
 ```
-
-# 2. Privilege Escalation
-https://github.com/Sp4c3Tr4v3l3r/OSCP/blob/main/Windows%20Privilege%20Escalation.md

