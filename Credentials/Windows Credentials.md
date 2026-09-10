@@ -2,7 +2,7 @@
 ```shell
 for svc in smb winrm rdp ssh ldap mssql ftp; do
   echo "===$svc==="
-  nxc $svc danglingtree.htb -u 'noah.b' -p 'RiverDragon#Storm25'
+  nxc $svc danglingtree.htb -u 'jake.h' -p 'NewPassword123'
 done 
 ```
 # Account Restriction
@@ -22,3 +22,5 @@ nxc smb garfield.htb -u 'j.arbuckle' -p 'Th1sD4mnC4t!@1978' --local-auth
 nxc smb garfield.htb -u 'j.arbuckle' -p 'Th1sD4mnC4t!@1978'
 ```
 ![](Attachments/Pasted%20image%2020260716171541.png)
+
+# [2. Enumeration](Shell/Powershell.md#2.%20Enumeration)

