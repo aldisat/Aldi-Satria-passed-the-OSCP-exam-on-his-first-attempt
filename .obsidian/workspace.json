@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Privilege Escalation/Ghost Template.md",
+                "file": "Tools/LDAPSearch.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ghost Template"
+              "title": "LDAPSearch"
             }
           }
         ]
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Privilege Escalation/Ghost Template.md",
+                "file": "Tools/LDAPSearch.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -209,12 +209,20 @@
   },
   "active": "8392175c5b2d3783",
   "lastOpenFiles": [
+    "Attachments/Pasted image 20260911131217.png",
+    "Attachments/Pasted image 20260911131113.png",
+    "Attachments/Pasted image 20260911105019.png",
+    "Attachments/Pasted image 20260911095831.png",
+    "Attachments/Pasted image 20260911095828.png",
+    "Port/389,636 - LDAP.md",
+    "Tools/LDAPSearch.md",
     "Windows Active Directory.md",
+    "Attachments/Pasted image 20260910144511.png",
+    "Practice/Labs.md",
     "Privilege Escalation/Ghost Template.md",
     "Attachments/Pasted image 20260910131816.png",
     "Attachments/Pasted image 20260910131445.png",
     "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
-    "Port/389,636 - LDAP.md",
     "Port/139,445 - SMB.md",
     "Port/135 - RPC.md",
     "Shell/Powershell.md",
@@ -227,16 +235,11 @@
     "Privilege Escalation/DPAPI Abused.md",
     "Attachments/Pasted image 20260908124621.png",
     "Attachments/Pasted image 20260908124103.png",
-    "Attachments/Pasted image 20260908122204.png",
-    "Attachments/Pasted image 20260908105929.png",
     "Credentials",
     "Privilege Escalation/Windows PrivEsc.md",
     "Privilege Escalation/Winpeas.md",
     "Privilege Escalation/PowerUp.ps1.md",
-    "Attachments/Pasted image 20260904144019.png",
     "OSCP.md",
-    "Attachments/Pasted image 20260903141409.png",
-    "Attachments/Pasted image 20260903141123.png",
     "Reverse/Reverse.md",
     "Privilege Escalation/Keylist Attack.md",
     "Privilege Escalation/RBCD.md",
@@ -245,10 +248,7 @@
     "RODC.md",
     "Port/25,495,587 - SMTP.md",
     "Network/Ligolo-ng.md",
-    "Network/Chisel.md",
-    "Attack/scriptPath Abuse.md",
     "Network",
-    "Attack/Shadow Credential.md",
     "Blue Team",
     "Practice",
     "Data Transformation",

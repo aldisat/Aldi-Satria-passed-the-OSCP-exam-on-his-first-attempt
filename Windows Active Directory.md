@@ -34,3 +34,4 @@ Blueprint sertifikat, siapa yang boleh request cert, EKUnya apa
 Menentukan tujuan sertifikat: `Client Authentication` (OID `1.3.6.1.5.5.7.3.2`) adalah kunci abuse untuk login
 ## d. PKI
 Public Key Infractructure, its implemented using Active Directory Certificate Service (ADCS)
+# 8. DN (Dis)
