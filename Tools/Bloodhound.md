@@ -8,7 +8,7 @@ dahulukan credential plaintext untuk generate bloodhound
 ## A. Colect data
 dahulukan credential plaintext untuk generate bloodhound
 ```shell
-bloodhound-python -u 'anderson.w' -p 'R3dT3am@Acc3ss#01' -dc 'DC01.danglingtree.htb' -d 'danglingtree.htb' --dns-tcp -ns 10.129.27.241 --dns-timeout 10 --zip -c All
+bloodhound-python -u 'j.harris' -p 'Harr1sHelpdesk2026!Breach' -dc 'dc.scaffold.htb' -d 'scaffold.htb' --dns-tcp -ns 10.129.246.248 --dns-timeout 10 --zip -c All
 ```
 
 kalau tidak bisa, gunakan nxc

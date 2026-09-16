@@ -9,7 +9,7 @@ Standar enkripsi kerberos
 # 4. SID
 Security Identifier, nomor unik untuk mengidentifikasi user, group dan komputer
 ```shell
-rpcclient -U 'garfield.htb/j.arbuckle%Th1sD4mnC4t!@1978' 10.129.244.207
+rpcclient -U 'danglingtree.htb/jake.h%NewPassword123' 10.129.39.55
 
 # Domain Sid
 rpcclient $> lsaquery
@@ -35,3 +35,9 @@ Menentukan tujuan sertifikat: `Client Authentication` (OID `1.3.6.1.5.5.7.3.2`) 
 ## d. PKI
 Public Key Infractructure, its implemented using Active Directory Certificate Service (ADCS)
 # 8. DN (Dis)
+# 9. OID
+Object Identifier
+# 10. LDIF
+LDAP Data Intechange Format
+# 11. DACL
+An Access Control List (ACL is a general term for a list of rules that define permissions on an object or network traffic, while a (DACL) is a specific type of ACL used in operating systems like Windows to control whether users and groups can access a specific resource.

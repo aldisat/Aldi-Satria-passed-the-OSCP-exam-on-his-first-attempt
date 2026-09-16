@@ -2,7 +2,7 @@
 ```shell
 for svc in smb winrm rdp ssh ldap mssql ftp; do
   echo "===$svc==="
-  nxc $svc danglingtree.htb -u 'jake.h' -p 'NewPassword123'
+  nxc $svc scaffold.htb -u 'j.harris' -p 'Harr1sHelpdesk2026!Breach'
 done 
 ```
 # Account Restriction

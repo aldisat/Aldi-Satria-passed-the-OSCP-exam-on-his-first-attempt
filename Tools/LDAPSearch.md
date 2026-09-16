@@ -11,6 +11,10 @@ LDAPTLS_REQCERT=never ldapsearch -x -H ldaps://danglingtree.htb \
   objectClass | grep -i '^objectClass:' | sort -u
 ```
 ![](Attachments/Pasted%20image%2020260911131217.png)
+## c. No wrap
+```shell
+-o ldif-wrap=no 
+```
 # 1. Normal search without filter
 ```shell
 # Untuk list user, group, dan yang bersifat normal, identity & access data
@@ -41,3 +45,13 @@ LDAPTLS_REQCERT=never ldapsearch -x -LLL -H ldaps://danglingtree.htb \
   "(objectClass=user)" cn 
 ```
 ![](Attachments/Pasted%20image%2020260911105019.png)
+# 4. List OID
+```shell
+LDAPTLS_REQCERT=never ldapsearch -x \
+  -H ldaps://10.129.39.163:636 \
+  -D 'jake.h@danglingtree.htb' \
+  -w 'NewPassword123' \
+  -b 'CN=OID,CN=Public Key Services,CN=Services,CN=Configuration,DC=danglingtree,DC=htb' \
+  '(objectClass=msPKI-Enterprise-Oid)' \
+  msPKI-Cert-Template-OID displayName
+```

@@ -5,3 +5,6 @@
 # 2. Tools
 - [Winpeas](Privilege%20Escalation/Winpeas.md)
 - [PowerUp.ps1](Privilege%20Escalation/PowerUp.ps1.md)
+# 3. Jalur
+## a. ADCS
+Tujuan: Bagaimana caranya saya minta CA bikinin sertifikat yang bilang saya = Administrator?
