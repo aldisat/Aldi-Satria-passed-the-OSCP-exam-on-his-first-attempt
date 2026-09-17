@@ -5,7 +5,7 @@ or bisa disebut juga orphaned template references
 ## b. Cek Template yang tidak ada dengan Certipy
 Check Sertifikate Template yang enable
 ```shell
-LDAPTLS_REQCERT=never ldapsearch -x -H ldaps://danglingtree.htb -D 'jake.h@danglingtree.htb' -w 'NewPassword123' -E pr=500/noprompt -b "CN=Configuration,DC=danglingtree,DC=htb" "(objectClass=pKIEnrollmentService)" certificateTemplates
+LDAPTLS_REQCERT=never ldapsearch -x -H ldaps://scaffold.htb -D 'j.harris@scaffold.htb' -w 'Harr1sHelpdesk2026!Breach' -E pr=500/noprompt -b "CN=Configuration,DC=scaffold,DC=htb" "(objectClass=pKIEnrollmentService)" certificateTemplates
 ```
 ![](Attachments/Pasted%20image%2020260911142825.png)
 

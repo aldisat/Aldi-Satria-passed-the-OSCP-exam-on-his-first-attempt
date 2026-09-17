@@ -3,7 +3,7 @@ https://www.hackingarticles.in/active-directory-penetration-testing-with-bloodya
 # 1. Apa object yang dapat kita modifikasi/tulis
 ```shell
 # Dengan password
-bloodyad --host 10.129.36.106 -d danglingtree.htb -u jake.h -p 'NewPassword123' get writable
+bloodyad --host 10.129.246.248 -d scaffold.htb -u j.harris -p 'Harr1sHelpdesk2026!Breach' get writable
 
 # Dengan NT hash
 bloodyad --host 10.129.245.130 -d logging.htb -u 'msa_health$' -p:603fc24ee01a9409f83c9d1d701485c5 get writable

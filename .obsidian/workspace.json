@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/Bloodhound.md",
+                "file": "Privilege Escalation/Ghost Template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bloodhound"
+              "title": "Ghost Template"
             }
           }
         ]
@@ -230,9 +230,13 @@
   },
   "active": "8392175c5b2d3783",
   "lastOpenFiles": [
+    "Tools/LDAPSearch.md",
+    "Privilege Escalation/Ghost Template.md",
+    "Tools/Certipy.md",
+    "Tools/bloodyAD.md",
+    "Tools/Bloodhound.md",
     "Network/Port Scanning.md",
     "Practice/Labs.md",
-    "Tools/Bloodhound.md",
     "Credentials/Windows Credentials.md",
     "Port/389,636 - LDAP.md",
     "Network/Firewall.md",
@@ -241,7 +245,6 @@
     "Port/139,445 - SMB.md",
     "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
     "OSCP.md",
-    "Privilege Escalation/Ghost Template.md",
     "Attachments/Pasted image 20260915163852.png",
     "Port/5985,5986 - WinRM.md",
     "Attachments/Pasted image 20260915163425.png",
@@ -252,13 +255,10 @@
     "Attachments/Pasted image 20260915161839.png",
     "Attachments/Pasted image 20260915161545.png",
     "Attachments/Pasted image 20260915160731.png",
-    "Tools/LDAPSearch.md",
     "Windows Active Directory.md",
     "Privilege Escalation/Windows PrivEsc.md",
     "Shell/Powershell.md",
     "Port/135 - RPC.md",
-    "Tools/Certipy.md",
-    "Tools/bloodyAD.md",
     "Tools/RunasCs.md",
     "Privilege Escalation/DPAPI Abused.md",
     "Credentials",

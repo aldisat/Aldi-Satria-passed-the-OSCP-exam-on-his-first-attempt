@@ -4,10 +4,10 @@ Certificate => the output
 # Scan vulnerable template
 ```shell
 # Cek semua template
-certipy-ad find -u 'jake.h@danglingtree.htb' -p 'NewPassword123' -dc-ip 10.129.36.106 -stdout
+certipy-ad find -u 'j.harris@scaffold.htb' -p 'Harr1sHelpdesk2026!Breach' -dc-ip 10.129.246.248 -stdout
 
 # cek vulnerable
-certipy-ad find -u 'jake.h@danglingtree.htb' -p 'NewPassword123' -dc-ip 10.129.36.106 -vulnerable -stdout
+certipy-ad find -u 'j.harris@scaffold.htb' -p 'Harr1sHelpdesk2026!Breach' -dc-ip 10.129.246.248 -stdout -vulnerable
 
 # kalau kerberos harus ada dc-host name nya
 ```
