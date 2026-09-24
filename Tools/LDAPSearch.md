@@ -39,13 +39,26 @@ LDAPTLS_REQCERT=never ldapsearch -x -H ldaps://danglingtree.htb \
 ```
 # 3. List User
 ```shell
-LDAPTLS_REQCERT=never ldapsearch -x -LLL -H ldaps://danglingtree.htb \
-  -D 'jake.h@danglingtree.htb' -w 'NewPassword123' \
-  -b "DC=danglingtree,DC=htb" \
-  "(objectClass=user)" cn 
+# nama Akun biasa
+LDAPTLS_REQCERT=never ldapsearch -x -LLL -H ldaps://scaffold.htb \
+  -D 'j.harris@scaffold.htb' -w 'Harr1sHelpdesk2026!Breach' \
+  -b "DC=scaffold,DC=htb" \
+  "(objectClass=user)" cn | grep 'cn:' | sed 's/cn\: //g' | tee users.txt
+ 
+# SAM account name (PAKE YANG INI!!!)
+LDAPTLS_REQCERT=never ldapsearch -x -LLL -H ldaps://scaffold.htb \
+  -D 'j.harris@scaffold.htb' -w 'Harr1sHelpdesk2026!Breach' \
+  -b "DC=scaffold,DC=htb" \
+  "(objectClass=user)" sAMAccountName | grep 'sAMAccountName:' | sed 's/sAMAccountName\: //g' | tee SAM_users.txt
 ```
 ![](Attachments/Pasted%20image%2020260911105019.png)
-# 4. List OID
+
+# 4. List Groups
+```shell
+net rpc group list -U 'j.harris%Harr1sHelpdesk2026!Breach' -S scaffold.htb
+```
+![](Attachments/Pasted%20image%2020260918103447.png)
+# 5. List OID
 ```shell
 LDAPTLS_REQCERT=never ldapsearch -x \
   -H ldaps://10.129.39.163:636 \

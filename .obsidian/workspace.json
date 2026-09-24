@@ -4,41 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "2d9b206f5bff773f",
+        "id": "2485f02219b1ad98",
         "type": "tabs",
         "children": [
           {
-            "id": "8392175c5b2d3783",
+            "id": "39b2ba658ac6d438",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Privilege Escalation/Ghost Template.md",
-                "mode": "source",
-                "source": false
+                "file": "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
+                "viewState": {
+                  "x": -5455.463211836375,
+                  "y": 1167.4159456691277,
+                  "zoom": -2.3572374588747818
+                }
               },
-              "icon": "lucide-file",
-              "title": "Ghost Template"
-            }
-          }
-        ]
-      },
-      {
-        "id": "bb32b2fe0bb7d07c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f7ea8cac0ec34355",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Practice/Labs.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Labs"
+              "icon": "lucide-layout-dashboard",
+              "title": "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA"
             }
           }
         ]
@@ -178,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/Bloodhound.md",
+                "file": "Port/9800,9801 - Microsoft Deployment Toolkit (MDT).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -206,6 +189,16 @@
               "icon": "spreadsheet",
               "title": "Advanced Tables"
             }
+          },
+          {
+            "id": "d2b87022a8a1e6e4",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo List"
+            }
           }
         ],
         "currentTab": 4
@@ -228,55 +221,55 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8392175c5b2d3783",
+  "active": "39b2ba658ac6d438",
   "lastOpenFiles": [
-    "Tools/LDAPSearch.md",
-    "Privilege Escalation/Ghost Template.md",
-    "Tools/Certipy.md",
-    "Tools/bloodyAD.md",
-    "Tools/Bloodhound.md",
-    "Network/Port Scanning.md",
-    "Practice/Labs.md",
-    "Credentials/Windows Credentials.md",
     "Port/389,636 - LDAP.md",
+    "Port/25,495,587 - SMTP.md",
+    "Network/Ligolo-ng.md",
+    "Code/Golang.md",
+    "Code/Language.md",
+    "Code/Reverse.md",
+    "Code/Untitled",
     "Network/Firewall.md",
-    "Network/IP.md",
-    "Attachments/Pasted image 20260916101123.png",
-    "Port/139,445 - SMB.md",
+    "Network/Port Scanning.md",
+    "Port/17017 - SmarterMail.md",
     "ALDI SATRIA LULUS OSCP EXAM DENGAN SATU KALI COBA.canvas",
+    "Network/Chisel.md",
+    "Terminal/Shell.md",
+    "Data Transformation/Hashing.md",
+    "Port/22 - SSH.md",
+    "Attachments/Pasted image 20260923142005.png",
+    "Database/Sqlite3.md",
+    "Attachments/Pasted image 20260923140141.png",
+    "Attachments/Pasted image 20260923140108.png",
+    "Database",
+    "Windows AD.md",
+    "Web Vuln/React2shell.md",
     "OSCP.md",
-    "Attachments/Pasted image 20260915163852.png",
-    "Port/5985,5986 - WinRM.md",
-    "Attachments/Pasted image 20260915163425.png",
-    "Attachments/Pasted image 20260915163216.png",
-    "Attachments/Pasted image 20260915162837.png",
-    "Attachments/Pasted image 20260915162544.png",
-    "Attachments/Pasted image 20260915162007.png",
-    "Attachments/Pasted image 20260915161839.png",
-    "Attachments/Pasted image 20260915161545.png",
-    "Attachments/Pasted image 20260915160731.png",
-    "Windows Active Directory.md",
-    "Privilege Escalation/Windows PrivEsc.md",
-    "Shell/Powershell.md",
-    "Port/135 - RPC.md",
-    "Tools/RunasCs.md",
-    "Privilege Escalation/DPAPI Abused.md",
+    "Web Vuln",
+    "Linux.md",
+    "Code/Python.md",
+    "Attachments/Pasted image 20260923131332.png",
+    "Practice/3. Reactor.md",
+    "Port/3000 - Next.js Website.md",
+    "Practice/2. DarkZeroReturns.md",
+    "Practice/1. Scaffold.md",
+    "Port/80,443 - HTTP.md",
+    "Attachments/Pasted image 20260921153354.png",
+    "Port/9800,9801 - Microsoft Deployment Toolkit (MDT).md",
+    "Attachments/Pasted image 20260918152623.png",
+    "Port/88 - Kerberos.md",
+    "Attachments/Pasted image 20260918103447.png",
+    "Attachments/Pasted image 20260917141552.png",
+    "Attachments/Pasted image 20260917134012.png",
+    "Attachments/Pasted image 20260917131354.png",
     "Credentials",
-    "Privilege Escalation/Winpeas.md",
-    "Privilege Escalation/PowerUp.ps1.md",
-    "Reverse/Reverse.md",
-    "Privilege Escalation/Keylist Attack.md",
-    "Privilege Escalation/RBCD.md",
-    "Windows Priviledge Escalation.md",
-    "Shell",
+    "Terminal",
     "Network",
     "Blue Team",
     "Practice",
     "Data Transformation",
-    "Reverse",
-    "Tools",
-    "CVE",
-    "Attack",
+    "Code",
     "Untitled.canvas",
     "Bismillahhirrahmanirrahim.canvas",
     "Untitled 1.canvas"
