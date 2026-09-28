@@ -12,13 +12,15 @@ sudo nmap -sS 10.129.246.248 --min-rate=1000 -p- -Pn -open | grep "\/tcp" | sed 
 
 # UDP
 ```shell
-sudo nmap -sU 10.129.246.248 --min-rate=1000 -Pn -open | grep "\/tcp" | sed 's/\/tcp.*//' | tr "\n" , | sed 's/.$//' | xargs -I {} nmap -sCV -p {} 10.129.27.241 -Pn -o alludpport.txt
+sudo nmap -sU 10.129.239.191 --min-rate=1000 -Pn -open | grep "\/tcp" | sed 's/\/tcp.*//' | tr "\n" , | sed 's/.$//' | xargs -I {} nmap -sCV -p {} 10.129.27.241 -Pn -o alludpport.txt
+
+sudo nmap -sUCV 10.129.239.191 --min-rate=1000 -Pn -open -o alludpport.txt
 ```
 
 # Rustscan
 ```shell
 # TCP
-rustscan -a 10.129.246.248 -- -sC -sV -o alltcpports.txt
+rustscan -a 10.129.239.191 -- -sC -sV -o alltcpports.txt
 
 # UDP
 rustscan --udp -a 10.129.246.248 -- -sC -sV -o alludpports.txt

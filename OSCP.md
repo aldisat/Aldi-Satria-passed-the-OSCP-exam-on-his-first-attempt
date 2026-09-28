@@ -25,7 +25,7 @@ tmux attach -t pirate.htb
 1. [ ] Nmap 
 	1. [ ] save SCV -p-
 	2. [ ] save SUV 
-2. [ ] Cek Web Service yang ada
+2. [ ] Cek Web Service
 	1. [ ] React2shell
 
 # 2. Windows Server Checklist
